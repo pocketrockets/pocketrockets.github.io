@@ -1,0 +1,82 @@
+- id: 1
+  client: "Cargill"
+  project-title: "C-JOY GROUNDBREAKING CEREMONY"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837542/PROJECTS/Cargill_C-JOY_GROUNDBREAKING_EVENT.jpg"
+
+- id: 2
+  client: "Silver Finance Inc."
+  project-title: "30TH ANNIVERSARY EVENT"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837615/PROJECTS/Silver_Finance_Inc_30TH_ANNIVERSARY.jpg"
+
+- id: 3
+  client: "Singapore Tourism Board"
+  project-title: "TRAVEL MADNESS EXPO 2016"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837601/PROJECTS/Singapore_Tourism_Board_TRAVEL_MADNESS_EXPO_2016.jpg"
+
+- id: 4
+  client: "UP Scintilla Juris Fraternity"
+  project-title: "50TH ANNIVERSARY EVENT"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837616/PROJECTS/UP_Scintilla_Juris_Fraternity_50TH_ANNIVERSARY.jpg"
+
+- id: 5
+  client: "Globe"
+  project-title: "GLOBE INDEPENDENT FILM FESTIVAL"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837534/PROJECTS/Globe_GLOBE_INDEPENDENT_FILM_FESTIVAL.jpg"
+
+- id: 6
+  client: "Lendr"
+  project-title: ""
+  cover-image: ""
+
+- id: 7
+  client: "BGC"
+  project-title: ""
+  cover-image: "":
+
+- id: 8
+  client: "Sassa"
+  project-title: "#COLORUPSUMMER BRAND CAMPAIGN:"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837576/PROJECTS/Sassa__COLORUPSUMMER_BRAND_CAMPAIGN.jpg"
+
+- id: 9
+  client: "PayMaya"
+  project-title: ""
+  cover-image: ""
+
+- id: 10
+  client: "FS Features & Shades"
+  project-title: "LOVE YOUR BEAUTY CAMPAIGN"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837525/PROJECTS/FS_Features___Shades_LOVE_YOUR_BEAUTY_CAMPAIGN.jpg"
+
+- id: 11
+  client: "Philips"
+  project-title: "Philips BRAND CAMPAIGN 2016"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837569/PROJECTS/Philips_BRAND_CAMPAIGN_2016.jpg"
+
+- id: 12
+  client: "Hong Kong Tourism Board"
+  project-title: "PTAA TRAVEL EXPO_2017"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837562/PROJECTS/Hong_Kong_Tourism_Board_PTAA_TRAVEL_EXPO_2017.jpg"
+
+- id: 13
+  client: "The Medical City"
+  project-title: "49TH ANNIVERSARY EVENT"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837589/PROJECTS/The_Medical_City_49TH_ANNIVERSARY.jpg"
+
+- id: 14
+  client: "Bayer"
+  project-title: ""
+  cover-image: ""
+
+
+- id: 15
+  client: "Philam Life"
+  project-title: "LIVE BETTER MEDIA LAUNCH"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837592/PROJECTS/Philam_Life_LIVE_BETTER_MEDIA_LAUNCH.jpg"
+
+- id: 16
+  client: "Microsoft"
+  project-title: "MICROSOFT CIO SUMMIT 2017"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837570/PROJECTS/Microsoft_MICROSOFT_CIO_SUMMIT_2017.jpg"
+
+
