@@ -1,0 +1,21 @@
+- id: 1
+  title: Creative
+  effect: slideInLeft
+  bg-image: "slider1.jpg"
+
+- id: 2
+  title: Strategic
+  effect: slideInLeft
+  bg-image: "slider2.jpg"
+
+- id: 3
+  title: Snappy
+  effect: slideInLeft
+  bg-image: "slider3.jpg"
+
+- id: 4
+  title:
+  effect: fadeIn
+  logo: "/img/rocket-logo.png"
+  description: "Pocket Rocket is a full-service advertising <br/> agency in Manila. Helping you create <br/> impactful customer experiences."
+  bg-image: "slider4.jpg"
