@@ -15,10 +15,11 @@
   <!--<meta property="og:title" content="SNAP-RES">-->
 
   <title>{{ site.title}} </title>
-  <!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
-  <!--<link rel="icon" href="/favicon.ico" type="image/x-icon">-->
+
   {% if page.url == "/" %}
+  <link rel="stylesheet" href="/css/animate.min.css">
   <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="/css/bootstrap-touch-slider.css">
   {% else %}
   <link rel="stylesheet" href="/css/{{ layout.css }}">
   {% endif %}
@@ -39,6 +40,13 @@
 {{ layout.javascript }}
 
 {% if page.url == "/" %}
+<script type="text/javascript" src="/js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap-touch-slider-min.js"></script>
+
+<script type="text/javascript">
+    $('#bootstrap-touch-slider').bsTouchSlider();
+</script>
+
 <script type="text/javascript">
     $(document).ready(function () {
         $('.menu-scroll').on('click', function(e){e.preventDefault();
@@ -50,6 +58,8 @@
 
     });
 </script>
+
+
 {% endif %}
 
 </body>

@@ -1,19 +1,51 @@
-<div id="image-slider"></div>
-<div id="bg-overlay"></div>
-<div class="container section-container">
-    <div class="section-content">
-        <div class="intro-top">
-            <h2 class="rotating-text">We help you reduce your <br> carbon footprint.</h2>
+<div class="container-fluid no-gutter">
+    <!--
+         If you want to change #bootstrap-touch-slider id then you have to change Carousel-indicators and Carousel-Control  #bootstrap-touch-slider slide as well
+         Slide effect: slide, fade
+         Text Align: slide_style_center, slide_style_left, slide_style_right
+         Add animation in text: https://daneden.github.io/animate.css/
 
 
-        </div>
-        <div class="intro-middle">
-            <h2 class="intro-header">All you need is your recent power bill to get started. We can provide a free assessment to help you decide on the energy plan that best suits you.</h2>
-        </div>
+         -->
+    <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
 
-        <div class="intro-bottom">
-            <a href="/retail-electricity/" class="intro-link-left" target="_blank">How do I switch?</a>
-            <a href="/our-energy/" class="intro-link-right" target="_blank">Explore our energy plans</a>
-        </div>
-    </div>
+        <!-- Indicators -->
+        <ol class="carousel-indicators hidden">
+            <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+            <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+            <li data-target="#bootstrap-touch-slider" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper For Slides -->
+        <div class="carousel-inner" role="listbox">
+
+            {% for slider in site.data.homeSlider %}
+            <div {% if slider.id == 1 %} class="item active" {% else %} class="item" {% endif %}>
+
+                <!-- Slide Background -->
+                <img src="/img/slider/{{ slider.bg-image }}" alt="Bootstrap Touch Slider" class="slide-image"/>
+
+                <!-- Slide Text Layer -->
+                <div class="slide-text slide_style_center">
+                    {% if slider.title != null %}
+                    <h1 data-animation="animated {{ slider.effect }}" class="slide-header">{{ slider.title }}</h1>
+                    {% endif %}
+                    {% if slider.logo != null %}
+                    <img data-animation="animated {{ slider.effect }}" class="slide-image" src="{{ slider.logo }}"/>
+                    {% endif %}
+                    {% if slider.description != null %}
+                    <p data-animation="animated {{ slider.effect }}" class="slide-description">{{ slider.description }}</p>
+                    {% endif %}
+                </div>
+
+            </div>
+            {% endfor %}
+            <!-- End of Slide -->
+        </div><!-- End of Wrapper For Slides -->
+
+        <!-- Left Control -->
+
+    </div> <!-- End  bootstrap-touch-slider Slider -->
+
 </div>
