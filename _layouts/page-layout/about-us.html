@@ -1,0 +1,77 @@
+---
+layout: default
+css: about-us.css
+title: about
+javascript: >
+    <script type="text/javascript" src="/js/aos.js"></script>
+    <script type="text/javascript" src="/js/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            AOS.init();
+
+            var html;
+            var total = $(".js-Content .js-Content-text").length;
+
+            $(document).on('click', '.js-ProgressBar-caption', function(e){
+                $.scrollTo( "#" + $(this).data('scroll'),{ duration : 1000} );
+                e.preventDefault();
+            })
+
+
+            $(".js-Content-title").each(function(i){
+                console.log(i);
+                html  = '<div class="ProgressBar-bar js-ProgressBar-bar">';
+                html += '<a href="#" data-scroll="' + $(this).data('id') + '" class="ProgressBar-caption js-ProgressBar-caption">' + $(this).text() + '</a>';
+                html += '<span class="ProgressBar-avancement js-ProgressBar-avancement"></span>';
+                html += '</div>';
+
+                $('.js-ProgressBar-wrapper').append(html);
+            })
+
+            $(window).scroll(function (){
+
+                var wrapper_height = $(".js-ProgressBar-bar").outerHeight();
+                var top = $(this).scrollTop() + 140;
+                var bottom = top + $(window).height();
+
+                if( $('.js-Content').offset().top - top <= 10){
+                    $('.js-ProgressBar').css({position : 'fixed', top : '140px'})
+                }else{
+                    $('.js-ProgressBar').css({position : 'fixed', top : '140px'})
+                }
+
+                $(".js-Content .js-Content-text").each(function(i){
+                    var this_top = $(this).offset().top;
+                    var height = $(this).outerHeight();
+                    var this_bottom = this_top + height;
+                    var percent = 0;
+
+                    if (top >= this_top && top <= this_bottom){
+                        percent = ( (top - this_top) / (height - wrapper_height) ) * 100;
+                    }else if (top > this_bottom) {
+                        percent = 100;
+                        $(".js-ProgressBar-bar:eq("+i+") .js-ProgressBar-avancement").css("height", percent + "%");
+                    }
+                    console.log(this_bottom)
+                    console.log(bottom)
+                    if( i == total - 1 && Math.round(this_bottom) <= Math.round(bottom) ){ percent = 100; }
+
+                    $(".js-ProgressBar-bar:eq("+i+") .js-ProgressBar-avancement").css("height", percent + "%");
+
+                    if( percent > 0){
+                        $(".js-ProgressBar-bar:eq("+i+") .js-ProgressBar-avancement").addClass('ProgressBar-avancement--active');
+                        $(".js-ProgressBar-bar:eq("+i+") .js-ProgressBar-caption").addClass('ProgressBar-caption--active');
+                    }else{
+                        $(".js-ProgressBar-bar:eq("+i+") .js-ProgressBar-avancement").removeClass('ProgressBar-avancement--active');
+                        $(".js-ProgressBar-bar:eq("+i+") .js-ProgressBar-caption").removeClass('ProgressBar-caption--active');
+                    }
+
+                })
+
+            })
+
+        })
+    </script>
+---
+
+{{ content }}

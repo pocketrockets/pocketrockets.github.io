@@ -1,0 +1,30 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" id="icon-transition" class="navbar-toggle toggle-menu menu-right" data-toggle="collapse" data-target="#navbar-right-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img class="brand-logo center-block" alt="brand logo" src="/img/brand-logo.png"/>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-right-collapse">
+            <ul class="nav navbar-nav navbar-right clearfix">
+                {% for menu in site.data.navbar %}
+                <li class="navbar-list">
+                    <a {% if page.url == menu.slugID %} class="navbar-link active" {% else %} class="navbar-link" {% endif %} href="{{ menu.slugID }}">{{ menu.title }}</a>
+                </li>
+                {% endfor %}
+                <li class="navbar-list">
+                    <a {% if page.url == menu.slugID %} class="navbar-link last-link active" {% else %} class="navbar-link last-link" {% endif %} href="{{ menu.slugID }}">Contact Us</a>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+

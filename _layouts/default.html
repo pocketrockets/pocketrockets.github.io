@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.title }}">
+  <meta name="keywords" content="retail electricity supplier, philippines, RES Philippines, electricity provider, snap-res">
+
+  <!--<meta property="og:image" content="https://www.snap-res.com/img/brand-logo.svg">-->
+  <!--<meta property="og:description" content="SNAP-RES provides innovative energy solutions that complement unique requirements through our simple, fair and transparent contractual products.">-->
+  <!--<meta property="og:url" content="https://www.snap-res.com/">-->
+  <!--<meta property="og:title" content="SNAP-RES">-->
+
+  <title>{{ site.title}} </title>
+  <!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
+  <!--<link rel="icon" href="/favicon.ico" type="image/x-icon">-->
+  {% if page.url == "/" %}
+  <link rel="stylesheet" href="/css/home.css">
+  {% else %}
+  <link rel="stylesheet" href="/css/{{ layout.css }}">
+  {% endif %}
+
+</head>
+<body>
+
+{% include navbar.html %}
+{{ content }}
+{% include footer.html %}
+
+<script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/js/modernizr.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+{{ layout.javascript }}
+
+{% if page.url == "/" %}
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.menu-scroll').on('click', function(e){e.preventDefault();
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 75
+            }, 1500, 'easeInOutExpo');
+        });
+
+    });
+</script>
+{% endif %}
+
+</body>
+</html>
