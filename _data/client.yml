@@ -1,0 +1,184 @@
+- id: 16
+  client: "Cargill"
+  project-title: "C-JOY GROUNDBREAKING CEREMONY"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837542/PROJECTS/Cargill_C-JOY_GROUNDBREAKING_EVENT.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840216/CLIENT-LOGO/cargill-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838332/PROJECT-MODAL/Cargill-Gallery.jpg"
+  project-duration: "2016 – 2017 Client: Cargill"
+  project-list:
+    - project-name: "C-JOY GROUNDBREAKING CEREMONY"
+
+- id: 15
+  client: "Silver Finance Inc."
+  project-title: "30TH ANNIVERSARY EVENT"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1506009055/PROJECTS/Silver_Finance_Inc_30TH_ANNIVERSARY.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840297/CLIENT-LOGO/silver-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838502/PROJECT-MODAL/Silver-Gallery.jpg"
+  project-duration: "2015 – 2017 Client: Silver Finance Inc."
+  project-list:
+    - project-name: "30 TH ANNIVERSARY EVENT"
+
+- id: 14
+  client: "Singapore Tourism Board"
+  project-title: "TRAVEL MADNESS EXPO 2016"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837601/PROJECTS/Singapore_Tourism_Board_TRAVEL_MADNESS_EXPO_2016.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840301/CLIENT-LOGO/SGTB-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838500/PROJECT-MODAL/SGTB-Gallery.jpg"
+  project-duration: "2015 – 2017 Client: Singapore Tourism Board"
+  project-list:
+    - project-name: "PRINT ADS (Series of 3) for Forbes Magazine and Esquire Magazine"
+    - project-name: "STB PAVILLION at The Travel Madness Expo 2016"
+
+- id: 13
+  client: "UP Scintilla Juris Fraternity"
+  project-title: "50TH ANNIVERSARY EVENT"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837616/PROJECTS/UP_Scintilla_Juris_Fraternity_50TH_ANNIVERSARY.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840318/CLIENT-LOGO/UPSJ-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838528/PROJECT-MODAL/UP-Gallery.jpg"
+  project-duration: "2015 – 2017 Client: UP Scintilla Juris Fraternity"
+  project-list:
+    - project-name: "50 TH ANNIVERSARY EVENT"
+
+- id: 12
+  client: "Globe"
+  project-title: "GLOBE INDEPENDENT FILM FESTIVAL"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837534/PROJECTS/Globe_GLOBE_INDEPENDENT_FILM_FESTIVAL.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840247/CLIENT-LOGO/globe-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838350/PROJECT-MODAL/Globe-Gallery.jpg"
+  project-duration: "2015 – 2017 Client: Globe"
+  project-list:
+    - project-name: "GLOBE INDEPENDENT FILM FESTIVAL LAUNCH EVENT"
+    - project-name: "EASY ROAM 149 ACTIVATION at Travel Sale Fair 2016"
+    - project-name: "ROAM SURF ACTIVATION at Travel Tour Expo 2016"
+    - project-name: "GEN3 STORE OPENING at Ayala Center Cebu and Greenbelt"
+
+- id: 11
+  client: "Lendr"
+  project-title: "PNB SMART SALARY LOAN LAUNCH EVENT"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1506009059/PROJECTS/Lendr_PNB_SMART_SALARY_LOAN_LAUNCH_EVENT.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840266/CLIENT-LOGO/lendr-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838356/PROJECT-MODAL/Lendr-Gallery.jpg"
+  project-duration: "2016 – 2017 Client: Lendr"
+  project-list:
+    - project-name: "PNB SMART SALARY LOAN LAUNCH EVENT"
+
+- id: 10
+  client: "BGC"
+  project-title: "SUMMER ON THE STREET 2016"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505979359/PROJECTS/BGC_Summer_On_The_Street_2016.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505839610/CLIENT-LOGO/bgc-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838225/PROJECT-MODAL/BGC-Gallery.jpg"
+  project-duration: "2015 – 2016 Client: BGC"
+  project-list:
+    - project-name: "SUMMER ON THE STREET 2016"
+    - project-name: "BGC PASSIONFEST 2015"
+    - project-name: "BGC HOLIDAY 2015"
+
+- id: 9
+  client: "Sassa"
+  project-title: "#COLORUPSUMMER BRAND CAMPAIGN"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837576/PROJECTS/Sassa__COLORUPSUMMER_BRAND_CAMPAIGN.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840292/CLIENT-LOGO/SASSA-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838438/PROJECT-MODAL/Sassa-Gallery.jpg"
+  project-duration: "2016 – 2017 Client: Sassa"
+  project-list:
+    - project-name: "#COLORUPSUMMER BRAND CAMPAIGN: Key Visuals and Social Media Management"
+
+- id: 8
+  client: "PayMaya"
+  project-title: "BEYOND THE SELFIE MEDIA LAUNCH"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505979367/PROJECTS/PayMaya_BEYOND_THE_SELFIE_MEDIA_LAUNCH.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840278/CLIENT-LOGO/Paymaya-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838402/PROJECT-MODAL/Paymaya-Gallery.jpg"
+  project-duration: "2015 – 2017 Client: PayMaya"
+  project-list:
+    - project-name: "“BEYOND THE SELFIE” MEDIA LAUNCH 2017"
+    - project-name: "“NOW NATION” MEDIA LAUNCH 2016"
+
+- id: 7
+  client: "FS Features & Shades"
+  project-title: "LOVE YOUR BEAUTY BRAND CAMPAIGN"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837525/PROJECTS/FS_Features___Shades_LOVE_YOUR_BEAUTY_CAMPAIGN.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840235/CLIENT-LOGO/fs-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838329/PROJECT-MODAL/FS-Gallery.jpg"
+  project-duration: "2015 – 2017 Client: FS Features & Shades"
+  project-list:
+    - project-name: "“LOVE YOUR BEAUTY” BRAND CAMPAIGN: Key Visuals, Events and Social Media Management"
+
+- id: 6
+  client: "Philips"
+  project-title: "GIVING YOU THE POWER TO LIVE HEALTHY BRAND CAMPAIGN"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837569/PROJECTS/Philips_BRAND_CAMPAIGN_2016.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840287/CLIENT-LOGO/philips-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838462/PROJECT-MODAL/Philips-Gallery.jpg"
+  project-duration: "2015 – 2016 Client: Philips"
+  project-list:
+    - project-name: "PHILIPS “GIVING YOU THE POWER TO LIVE HEALTHY” 2016 BRAND CAMPAIGN"
+    - project-name: "PHILIPS SALES RALLY 2016: Domestic Appliances, Personal Care, Mother and Child Care"
+    - project-name: "PHILIPS LED “MALIWANAGAN!” 2015 BRAND CAMPAIGN"
+    - project-name: "PHILIPS LED “MAY MAGAGAWA KA” 2015 BRAND CAMPAIGN, LAUNCH AND ACTIVATION"
+
+- id: 5
+  client: "Hong Kong Tourism Board"
+  project-title: "PTAA TRAVEL EXPO_2017"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837562/PROJECTS/Hong_Kong_Tourism_Board_PTAA_TRAVEL_EXPO_2017.jpg"
+  client-logo: "http://res.cloudinary.com/pocketrocket/image/upload/v1505840253/CLIENT-LOGO/hktb-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838381/PROJECT-MODAL/HKTB-Gallery.jpg"
+  project-duration: "2017 Client: Hong Kong Tourism Board"
+  project-list:
+    - project-name: "SHOWCASE BOOTH at The PTAA Travel Tour Expo 2017"
+
+- id: 4
+  client: "The Medical City"
+  project-title: "49TH ANNIVERSARY EVENT"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837589/PROJECTS/The_Medical_City_49TH_ANNIVERSARY.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840308/CLIENT-LOGO/TMC-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838493/PROJECT-MODAL/TMC-Gallery.jpg"
+  project-duration: "2015 – 2017 Client: The Medical City"
+  project-list:
+    - project-name: "49TH ANNIVERSARY EVENT"
+    - project-name: "48TH ANNIVERSARY EVENT"
+
+
+- id: 3
+  client: "Bayer"
+  project-title: "BAYER DISTRIBUTORS SUMMIT"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505979360/PROJECTS/Bayer_Distributors_Summit.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505839601/CLIENT-LOGO/bayer-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1506006188/PROJECT-MODAL/Bayer_Event_Gallery.jpg"
+  project-duration: "2015 – 2017 Client: Bayer"
+  project-list:
+    - project-name: "BAYER DISTRIBUTORS SUMMIT"
+    - project-name: "BAYER DEALERS SUMMIT"
+    - project-name: "NOMINEE 20th ANNIVERSARY EVENT"
+    - project-name: "BRAND CAMPAIGNS (Key Visuals, Launch Events and Activations): Nativo, Biologicals, Arize HaBilis Plus"
+
+
+- id: 2
+  client: "Philam Life"
+  project-title: "LIVE BETTER MEDIA LAUNCH"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837592/PROJECTS/Philam_Life_LIVE_BETTER_MEDIA_LAUNCH.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840283/CLIENT-LOGO/Philam-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838459/PROJECT-MODAL/Philam-Gallery.jpg"
+  project-duration: "2015 – 2017 Client: Philam Life"
+  project-list:
+    - project-name: "#LIVE BETTER MALL ACTIVATION"
+    - project-name: "#LIVE BETTER MEDIA LAUNCH"
+    - project-name: "##LIVE BETTER EMPLOYEE LAUNCH"
+
+- id: 1
+  client: "Microsoft"
+  project-title: "MICROSOFT CIO SUMMIT 2017"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837570/PROJECTS/Microsoft_MICROSOFT_CIO_SUMMIT_2017.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840273/CLIENT-LOGO/Microsoft-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838380/PROJECT-MODAL/Microsoft-Gallery.jpg"
+  project-duration: "2015 – 2017 Client: Microsoft"
+  project-list:
+    - project-name: "MICROSOFT CIO SUMMIT 2015, 2016 and 2017"
+    - project-name: "OFFICE 365 ACTIVATION"
+    - project-name: "LAUNCH EVENTS: WINDOWS SERVER 2016, SQL SERVER 2016"
+    - project-name: "BIG TOP CLOUD FESTIVAL"
+  
+
+
+

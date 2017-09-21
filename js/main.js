@@ -5,18 +5,7 @@ $('#icon-transition').on('click', function () {
 
 $(window).on("load", function(){
     $('.loader').fadeOut();
-
     $('#bootstrap-touch-slider').bsTouchSlider();
-
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 4,
-        paginationClickable: true,
-        spaceBetween: 1,
-        // Disable preloading of all images
-        preloadImages: false,
-        lazyLoading: true,
-        loop: true
-    });
 });
 
 
@@ -28,5 +17,25 @@ $(document).ready(function () {
         }, 1500, 'easeInOutExpo');
     });
 
+    var swiper1 = new Swiper('#swiper-container1', {
+        slidesPerView: 4,
+        paginationClickable: false,
+        spaceBetween: 1,
+        // Disable preloading of all images
+        preloadImages: false,
+        lazyLoading: true,
+        loop: true,
+        autoplay: 8000
+    });
 
+    var swiper2 = new Swiper('#swiper-container2', {
+        slidesPerView: 3,
+        paginationClickable: false,
+        spaceBetween: 10,
+        slidesPerColumn: 2,
+        // Disable preloading of all images
+        preloadImages: false,
+        lazyLoading: true,
+        loop: true
+    });
 });

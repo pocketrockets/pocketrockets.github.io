@@ -3,11 +3,11 @@
         <h1 class="header text-center">Our Latest Projects</h1>
     </div>
 
-    <div class="swiper-container">
+    <div id="swiper-container1" class="swiper-container">
         <div class="swiper-wrapper">
             {% for project in site.data.latestProject reversed %}
             <div class="swiper-slide">
-                <img data-src="{{ project.cover-image }}" class="swiper-lazy swiper-image img-responsive center-block"/>
+                <img data-src="{{ project.cover-image }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="swiper-lazy  img-responsive center-block"/>
                 <!-- Preloader image -->
                 <div class="preloader swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                 <div class="swiper-bg"></div>
