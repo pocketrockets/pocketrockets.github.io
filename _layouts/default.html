@@ -45,6 +45,9 @@
 <script type="text/javascript" src="/js/jquery.touchSwipe.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap-touch-slider-min.js"></script>
 <script type="text/javascript" src="/js/swiper.jquery.js"></script>
+<script type="text/javascript">
+    $('#bootstrap-touch-slider').bsTouchSlider();
+</script>
 
 <script type="text/javascript">
     $(document).ready(function () {
@@ -55,7 +58,7 @@
             }, 1500, 'easeInOutExpo');
         });
 
-        $('#bootstrap-touch-slider').bsTouchSlider();
+
 
         var swiper = new Swiper('.swiper-container', {
             slidesPerView: 4,
