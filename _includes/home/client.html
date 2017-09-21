@@ -1,11 +1,13 @@
-<div id="client-container-fluid" class="container">
+<div id="client-container-fluid" class="container no-gutter">
     <div id="swiper-container2" class="swiper-container">
         <div class="swiper-wrapper">
-            {% for client in site.data.client %}
+            {% assign sorted-client = site.data.client | sort: "id" %}
+            {% for client in sorted-client %}
             <div class="swiper-slide">
-                <img src="{{ client.cover-image }}" class=" swiper-image img-responsive center-block"/>
+                <img class="swiper-lazy swiper-image" data-src="{{ client.cover-image }}" data-srcset="{{ client.cover-image }}" data-id="slug-{{ client.id }}" />
                 <!-- Preloader image -->
-                <!--<div class="preloader swiper-lazy-preloader swiper-lazy-preloader-black"></div>-->
+                <div class="preloader swiper-lazy-preloader swiper-lazy-preloader-black"></div>
+
                 <!--<div class="swiper-bg"></div>-->
                 <!--<div class="caption">-->
                     <!--<span class="swiper-client">{{ client.client }}</span>-->
@@ -13,25 +15,11 @@
                 <!--</div>-->
             </div>
             {% endfor %}
+
         </div>
     </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
 
 </div>
 
-<!--
-<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 placeholder">
-    <a class="image-link  add-after" data-toggle="modal" data-target="#engagement1" target="_blank">
-        <img class="content-image b-lazy img-responsive center-block b-loaded" src="https://drive.google.com/uc?export=view&amp;id=0B5k0-3AGRBIfYk9xcTBtZ0RtUUU">
-    </a>
-    <div class="modal fade" id="engagement1" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                <div class="modal-body">
-                    <img class="content-image lazy img-responsive center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://drive.google.com/uc?export=view&amp;id=0B5k0-3AGRBIfYk9xcTBtZ0RtUUU">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
--->
