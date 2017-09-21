@@ -6,7 +6,7 @@
 - id: 2
   client: "Silver Finance Inc."
   project-title: "30TH ANNIVERSARY EVENT"
-  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837615/PROJECTS/Silver_Finance_Inc_30TH_ANNIVERSARY.jpg"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505983269/PROJECTS/Silver-Finance-Inc_30TH-ANNIVERSARY.jpg"
 
 - id: 3
   client: "Singapore Tourism Board"
@@ -25,32 +25,32 @@
 
 - id: 6
   client: "Lendr"
-  project-title: ""
-  cover-image: ""
+  project-title: "PNB SMART SALARY LOAN LAUNCH EVENT"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505983187/PROJECTS/Lendr_PNB-SMART-SALARY-LOAN-LAUNCH-EVENT.jpg"
 
 - id: 7
   client: "BGC"
-  project-title: ""
-  cover-image: "":
+  project-title: "SUMMER ON THE STREET 2016"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505979359/PROJECTS/BGC_Summer_On_The_Street_2016.jpg"
 
 - id: 8
   client: "Sassa"
-  project-title: "#COLORUPSUMMER BRAND CAMPAIGN:"
+  project-title: "#COLORUPSUMMER BRAND CAMPAIGN"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837576/PROJECTS/Sassa__COLORUPSUMMER_BRAND_CAMPAIGN.jpg"
 
 - id: 9
   client: "PayMaya"
-  project-title: ""
-  cover-image: ""
+  project-title: "BEYOND THE SELFIE MEDIA LAUNCH"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505979367/PROJECTS/PayMaya_BEYOND_THE_SELFIE_MEDIA_LAUNCH.jpg"
 
 - id: 10
   client: "FS Features & Shades"
-  project-title: "LOVE YOUR BEAUTY CAMPAIGN"
+  project-title: "LOVE YOUR BEAUTY BRAND CAMPAIGN"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837525/PROJECTS/FS_Features___Shades_LOVE_YOUR_BEAUTY_CAMPAIGN.jpg"
 
 - id: 11
   client: "Philips"
-  project-title: "Philips BRAND CAMPAIGN 2016"
+  project-title: "GIVING YOU THE POWER TO LIVE HEALTHY BRAND CAMPAIGN"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837569/PROJECTS/Philips_BRAND_CAMPAIGN_2016.jpg"
 
 - id: 12
@@ -65,8 +65,8 @@
 
 - id: 14
   client: "Bayer"
-  project-title: ""
-  cover-image: ""
+  project-title: "BAYER DISTRIBUTORS SUMMIT"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505979360/PROJECTS/Bayer_Distributors_Summit.jpg"
 
 
 - id: 15

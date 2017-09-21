@@ -1,70 +1,132 @@
-
-
 #cover
   position: relative
-  height: 600px
-  #bootstrap-touch-slider
-    height: 600px
-    .carousel-inner
+  height: 500px
+  .container-fluid
+    height: inherit
+    #bootstrap-touch-slider
       height: inherit
-      .item
+      .carousel-inner
         height: inherit
-        .slide-image
+        .item
           height: inherit
-          object-fit: cover
-          object-position: bottom
-        .slide-text
-          left: 0
-          top: 50%
-          transform: translateY(-50%)
-          -webkit-transform: translateY(-50%)
-          -moz-transform: translateY(-50%)
-          -o-transform: translateY(-50%)
-          -ms-transform: translateY(-50%)
-          right: 0
-          margin: auto
-          padding: 0
-          position: absolute
-          text-align: left
-          .slide-header
-            padding: 0
-            color: #ffffff
-            font-size: 120px
-            text-transform: uppercase
-            letter-spacing: 1px
-            display: inline-block
-            -webkit-animation-delay: 0.7s
-            animation-delay: 0.7s
-            -ms-animation-delay: 0.7s
-            -o-animation-delay: 0.7s
-            font-family: "Gotham-Medium"
-            margin-top: 0
-            margin-bottom: 0
-
           .slide-image
+            height: inherit
+            object-fit: cover
+            object-position: bottom
+          .slide-text
+            left: 0
+            top: 50%
+            transform: translateY(-50%)
+            -webkit-transform: translateY(-50%)
+            -moz-transform: translateY(-50%)
+            -o-transform: translateY(-50%)
+            -ms-transform: translateY(-50%)
+            right: 0
+            margin: auto
             padding: 0
-            display: block
-            margin-left: auto
-            margin-right: auto
-            -webkit-animation-delay: 0.7s
-            animation-delay: 0.7s
-            -ms-animation-delay: 0.7s
-            -o-animation-delay: 0.7s
+            position: absolute
+            text-align: left
+            .slide-header
+              padding: 0
+              color: #ffffff
+              font-size: 120px
+              text-transform: uppercase
+              letter-spacing: 1px
+              display: inline-block
+              -webkit-animation-delay: 0.7s
+              animation-delay: 0.7s
+              -ms-animation-delay: 0.7s
+              -o-animation-delay: 0.7s
+              font-family: "Gotham-Medium"
+              margin-top: 0
+              margin-bottom: 0
 
-          .slide-description
-            font-family: "Gotham-Medium"
-            padding: 0
-            color: #ffffff
-            margin-top: 50px
-            font-size: 24px
-            font-style: normal
-            line-height: 30px
-            margin-bottom: 30px
-            letter-spacing: 1px
-            display: block
-            -webkit-animation-delay: 1.2s
-            animation-delay: 1.2s
-            -webkit-transition: background 0.3s ease-in-out, color 0.3s ease-in-out
-            transition: background 0.3s ease-in-out, color 0.3s ease-in-out
+            .slide-image
+              padding: 0
+              display: block
+              margin-left: auto
+              margin-right: auto
+              -webkit-animation-delay: 0.7s
+              animation-delay: 0.7s
+              -ms-animation-delay: 0.7s
+              -o-animation-delay: 0.7s
+
+            .slide-description
+              font-family: "Gotham-Medium"
+              padding: 0
+              color: #ffffff
+              margin-top: 50px
+              font-size: 24px
+              font-style: normal
+              line-height: 30px
+              margin-bottom: 30px
+              letter-spacing: 1px
+              display: block
+              -webkit-animation-delay: 1.2s
+              animation-delay: 1.2s
+              -webkit-transition: background 0.3s ease-in-out, color 0.3s ease-in-out
+              transition: background 0.3s ease-in-out, color 0.3s ease-in-out
+
+#project
+  position: relative
+  #project-container-fluid
+    max-width: 1600px
+    margin-left: auto
+    margin-right: auto
+    .header-section
+      padding-top: 80px
+      .header
+        margin: 0
+        font-family: "Gotham-Book"
+        text-transform: uppercase
+        font-size: 38px
+        letter-spacing: 4px
+    .swiper-container
+      position: relative
+      margin-top: 50px
+      margin-bottom: 80px
+      .swiper-wrapper
+        width: 100%
+        height: 260px
+        .swiper-slide
+          position: relative
+          .swiper-image
+            z-index: 1
+          .swiper-bg
+            z-index: 2
+            position: absolute
+            width: 100%
+            height: 100%
+            background-color: #727272
+            top: 0
+            opacity: .4
+          .preloader
+            z-index: 5
+          .caption
+            position: absolute
+            z-index: 3
+            bottom: 20px
+            right: 30px
+            color: white
+            .swiper-client
+              display: block
+              font-family: "Gotham-Black"
+              text-transform: uppercase
+              text-align: right
+              letter-spacing: 1px
+              font-size: 18px
+              max-width: 220px
+              margin-left: auto
+              margin-right: 0
+            .swiper-project
+              display: block
+              font-family: "Gotham-Book"
+              text-transform: uppercase
+              letter-spacing: 1px
+              font-size: 20px
+              max-width: 84%
+              text-align: right
+              float: right
+
 
 

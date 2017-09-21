@@ -7,7 +7,7 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <meta name="description" content="{{ site.description }}">
   <meta name="author" content="{{ site.title }}">
-  <meta name="keywords" content="retail electricity supplier, philippines, RES Philippines, electricity provider, snap-res">
+  <meta name="keywords" content="pocket rocket, advertising, advertising agency, events, activations, promotions, merchandising, video production, tv, print, radio, out of home, digital, social media,">
 
   <!--<meta property="og:image" content="https://www.snap-res.com/img/brand-logo.svg">-->
   <!--<meta property="og:description" content="SNAP-RES provides innovative energy solutions that complement unique requirements through our simple, fair and transparent contractual products.">-->
@@ -15,9 +15,11 @@
   <!--<meta property="og:title" content="SNAP-RES">-->
 
   <title>{{ site.title}} </title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
   {% if page.url == "/" %}
   <link rel="stylesheet" href="/css/animate.min.css">
+  <link rel="stylesheet" href="/css/swiper.min.css">
   <link rel="stylesheet" href="/css/home.css">
   <link rel="stylesheet" href="/css/bootstrap-touch-slider.css">
   {% else %}
@@ -29,7 +31,7 @@
 
 {% include navbar.html %}
 {{ content }}
-{% include footer.html %}
+<!--{% include footer.html %}-->
 
 <script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
@@ -42,10 +44,7 @@
 {% if page.url == "/" %}
 <script type="text/javascript" src="/js/jquery.touchSwipe.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap-touch-slider-min.js"></script>
-
-<script type="text/javascript">
-    $('#bootstrap-touch-slider').bsTouchSlider();
-</script>
+<script type="text/javascript" src="/js/swiper.jquery.js"></script>
 
 <script type="text/javascript">
     $(document).ready(function () {
@@ -56,6 +55,17 @@
             }, 1500, 'easeInOutExpo');
         });
 
+        $('#bootstrap-touch-slider').bsTouchSlider();
+
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 4,
+            paginationClickable: true,
+            spaceBetween: 1,
+            // Disable preloading of all images
+            preloadImages: false,
+            lazyLoading: true,
+            loop: true
+        });
     });
 </script>
 
