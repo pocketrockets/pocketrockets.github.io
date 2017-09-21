@@ -41,47 +41,13 @@
 <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/js/modernizr.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/js/main.js"></script>
 
-{{ layout.javascript }}
-
-{% if page.url == "/" %}
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap-touch-slider-min.js"></script>
 <script type="text/javascript" src="/js/swiper.jquery.js"></script>
 
-<script type="text/javascript">
-    $(window).on("load", function(){
-        $('.loader').fadeOut();
+<script type="text/javascript" src="/js/main.js"></script>
 
-        $('#bootstrap-touch-slider').bsTouchSlider();
-
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 4,
-            paginationClickable: true,
-            spaceBetween: 1,
-            // Disable preloading of all images
-            preloadImages: false,
-            lazyLoading: true,
-            loop: true
-        });
-    });
-
-
-    $(document).ready(function () {
-        $('.menu-scroll').on('click', function(e){e.preventDefault();
-            var $anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top - 75
-            }, 1500, 'easeInOutExpo');
-        });
-
-
-    });
-</script>
-
-
-{% endif %}
 
 </body>
 </html>
