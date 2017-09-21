@@ -17,48 +17,44 @@
   <title>{{ site.title}} </title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
-  {% if page.url == "/" %}
-  <link rel="stylesheet" href="/css/animate.min.css">
-  <link rel="stylesheet" href="/css/swiper.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="/css/home.css">
   <link rel="stylesheet" href="/css/bootstrap-touch-slider.css">
-  {% else %}
-  <link rel="stylesheet" href="/css/{{ layout.css }}">
-  {% endif %}
+  <link rel="stylesheet" href="/css/swiper.min.css">
+
+
 
 </head>
 <body>
-
+<div class="loader">
+  <div class="loader-container">
+  <img src="/img/page-loader.gif" class="loader-image"/>
+    <h2 class="loader-text">PAGE IS LOADING</h2>
+  </div>
+</div>
 {% include navbar.html %}
 {{ content }}
 <!--{% include footer.html %}-->
 
-<script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/js/modernizr.min.js"></script>
-<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
 
 {{ layout.javascript }}
 
 {% if page.url == "/" %}
-<script type="text/javascript" src="/js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap-touch-slider-min.js"></script>
 <script type="text/javascript" src="/js/swiper.jquery.js"></script>
-<script type="text/javascript">
-    $('#bootstrap-touch-slider').bsTouchSlider();
-</script>
 
 <script type="text/javascript">
-    $(document).ready(function () {
-        $('.menu-scroll').on('click', function(e){e.preventDefault();
-            var $anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top - 75
-            }, 1500, 'easeInOutExpo');
-        });
+    $(window).on("load", function(){
+        $('.loader').fadeOut();
 
-
+        $('#bootstrap-touch-slider').bsTouchSlider();
 
         var swiper = new Swiper('.swiper-container', {
             slidesPerView: 4,
@@ -69,6 +65,18 @@
             lazyLoading: true,
             loop: true
         });
+    });
+
+
+    $(document).ready(function () {
+        $('.menu-scroll').on('click', function(e){e.preventDefault();
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 75
+            }, 1500, 'easeInOutExpo');
+        });
+
+
     });
 </script>
 
