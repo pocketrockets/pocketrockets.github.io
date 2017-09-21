@@ -39,9 +39,7 @@ $(window).on("load", function(){
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         watchSlidesVisibility: true,
-        grabCursor: true,
-        loop: true
-
+        grabCursor: true
 
     });
 });
