@@ -25,7 +25,8 @@ $(window).on("load", function(){
         preloadImages: false,
         lazyLoading: true,
         loop: true,
-        autoplay: 8000
+        autoplay: 8000,
+        grabCursor: true
     });
 
     var swiper2 = new Swiper('#swiper-container2', {
@@ -37,7 +38,9 @@ $(window).on("load", function(){
         lazyLoading: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
-        watchSlidesVisibility: true
+        watchSlidesVisibility: true,
+        grabCursor: true,
+        loop: true
 
 
     });
