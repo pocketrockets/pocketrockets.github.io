@@ -1,4 +1,5 @@
 - id: 16
+  logo-type: "big-logo"
   client: "Cargill"
   project-title: "C-JOY GROUNDBREAKING CEREMONY"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837542/PROJECTS/Cargill_C-JOY_GROUNDBREAKING_EVENT.jpg"
@@ -9,6 +10,7 @@
     - project-name: "C-JOY GROUNDBREAKING CEREMONY"
 
 - id: 15
+  logo-type: "horizontal-logo"
   client: "Silver Finance Inc."
   project-title: "30TH ANNIVERSARY EVENT"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1506009055/PROJECTS/Silver_Finance_Inc_30TH_ANNIVERSARY.jpg"
@@ -19,6 +21,7 @@
     - project-name: "30 TH ANNIVERSARY EVENT"
 
 - id: 14
+  logo-type: "horizontal-logo"
   client: "Singapore Tourism Board"
   project-title: "TRAVEL MADNESS EXPO 2016"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837601/PROJECTS/Singapore_Tourism_Board_TRAVEL_MADNESS_EXPO_2016.jpg"
@@ -30,6 +33,7 @@
     - project-name: "STB PAVILLION at The Travel Madness Expo 2016"
 
 - id: 13
+  logo-type: "big-logo"
   client: "UP Scintilla Juris Fraternity"
   project-title: "50TH ANNIVERSARY EVENT"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837616/PROJECTS/UP_Scintilla_Juris_Fraternity_50TH_ANNIVERSARY.jpg"
@@ -40,6 +44,7 @@
     - project-name: "50 TH ANNIVERSARY EVENT"
 
 - id: 12
+  logo-type: "horizontal-logo"
   client: "Globe"
   project-title: "GLOBE INDEPENDENT FILM FESTIVAL"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837534/PROJECTS/Globe_GLOBE_INDEPENDENT_FILM_FESTIVAL.jpg"
@@ -53,6 +58,7 @@
     - project-name: "GEN3 STORE OPENING at Ayala Center Cebu and Greenbelt"
 
 - id: 11
+  logo-type: "horizontal-logo"
   client: "Lendr"
   project-title: "PNB SMART SALARY LOAN LAUNCH EVENT"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1506009059/PROJECTS/Lendr_PNB_SMART_SALARY_LOAN_LAUNCH_EVENT.jpg"
@@ -63,6 +69,7 @@
     - project-name: "PNB SMART SALARY LOAN LAUNCH EVENT"
 
 - id: 10
+  logo-type: "big-logo"
   client: "BGC"
   project-title: "SUMMER ON THE STREET 2016"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505979359/PROJECTS/BGC_Summer_On_The_Street_2016.jpg"
@@ -75,6 +82,7 @@
     - project-name: "BGC HOLIDAY 2015"
 
 - id: 9
+  logo-type: "big-logo"
   client: "Sassa"
   project-title: "#COLORUPSUMMER BRAND CAMPAIGN"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837576/PROJECTS/Sassa__COLORUPSUMMER_BRAND_CAMPAIGN.jpg"
@@ -85,6 +93,7 @@
     - project-name: "#COLORUPSUMMER BRAND CAMPAIGN: Key Visuals and Social Media Management"
 
 - id: 8
+  logo-type: "horizontal-logo"
   client: "PayMaya"
   project-title: "BEYOND THE SELFIE MEDIA LAUNCH"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505979367/PROJECTS/PayMaya_BEYOND_THE_SELFIE_MEDIA_LAUNCH.jpg"
@@ -96,6 +105,7 @@
     - project-name: "“NOW NATION” MEDIA LAUNCH 2016"
 
 - id: 7
+  logo-type: "horizontal-logo"
   client: "FS Features & Shades"
   project-title: "LOVE YOUR BEAUTY BRAND CAMPAIGN"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837525/PROJECTS/FS_Features___Shades_LOVE_YOUR_BEAUTY_CAMPAIGN.jpg"
@@ -106,6 +116,7 @@
     - project-name: "“LOVE YOUR BEAUTY” BRAND CAMPAIGN: Key Visuals, Events and Social Media Management"
 
 - id: 6
+  logo-type: "big-logo"
   client: "Philips"
   project-title: "GIVING YOU THE POWER TO LIVE HEALTHY BRAND CAMPAIGN"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837569/PROJECTS/Philips_BRAND_CAMPAIGN_2016.jpg"
@@ -119,6 +130,7 @@
     - project-name: "PHILIPS LED “MAY MAGAGAWA KA” 2015 BRAND CAMPAIGN, LAUNCH AND ACTIVATION"
 
 - id: 5
+  logo-type: "horizontal-logo"
   client: "Hong Kong Tourism Board"
   project-title: "PTAA TRAVEL EXPO_2017"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837562/PROJECTS/Hong_Kong_Tourism_Board_PTAA_TRAVEL_EXPO_2017.jpg"
@@ -129,6 +141,7 @@
     - project-name: "SHOWCASE BOOTH at The PTAA Travel Tour Expo 2017"
 
 - id: 4
+  logo-type: "horizontal-logo"
   client: "The Medical City"
   project-title: "49TH ANNIVERSARY EVENT"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837589/PROJECTS/The_Medical_City_49TH_ANNIVERSARY.jpg"
@@ -141,6 +154,7 @@
 
 
 - id: 3
+  logo-type: "big-logo"
   client: "Bayer"
   project-title: "BAYER DISTRIBUTORS SUMMIT"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505979360/PROJECTS/Bayer_Distributors_Summit.jpg"
@@ -155,6 +169,7 @@
 
 
 - id: 2
+  logo-type: "horizontal-logo"
   client: "Philam Life"
   project-title: "LIVE BETTER MEDIA LAUNCH"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837592/PROJECTS/Philam_Life_LIVE_BETTER_MEDIA_LAUNCH.jpg"
@@ -167,6 +182,7 @@
     - project-name: "##LIVE BETTER EMPLOYEE LAUNCH"
 
 - id: 1
+  logo-type: "horizontal-logo"
   client: "Microsoft"
   project-title: "MICROSOFT CIO SUMMIT 2017"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837570/PROJECTS/Microsoft_MICROSOFT_CIO_SUMMIT_2017.jpg"

@@ -58,12 +58,11 @@ $(window).on("load", function(){
     });
 
     $(".swiper-link").on("click",function () {
-
-        var imageSrcValue =  $(this).parentsUntil("#swiper-container2").find(".modal ").attr("data-src");
         // modal id
         var swiperContainer  = $("#swiper-container2");
         var modalTarget = $(this).attr("data-target").substring(1);
         // var modalProjectTitle = $(this).attr("data-project-title");
+        var modalLogoType = $(this).attr("data-logo-type");
         var modalClientLogo = $(this).attr("data-client-logo");
         var modalProjectDuration = $(this).attr("data-client-duration");
         var modalProjectList = $(this).attr("data-project-list");
@@ -71,7 +70,7 @@ $(window).on("load", function(){
 
         $(this).parents().parents().find(".modal.fade").attr("id",modalTarget);
         $(this).parents().parents().find(".modal.fade").attr("aria-labelledby",modalTarget);
-        $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-client-logo").attr("src",modalClientLogo);
+        $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-client-logo").attr({ src: modalClientLogo, class: modalLogoType + " modal-client-logo"});
         $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-list-container").html(modalProjectList);
         $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-gallery").attr("src",modalGallery);
         $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-project-duration").text(modalProjectDuration);
