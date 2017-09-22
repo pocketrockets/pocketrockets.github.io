@@ -66,8 +66,9 @@
       display: block
       margin-left: auto
       margin-right: auto
-      height: 80px
+      height: 120px
     .loader-text
+      font-size: 16px
       text-align: center
       font-family: "Gotham-Book"
 
@@ -286,9 +287,87 @@ footer
           background-color: white
           margin-top: 10px
           min-height: 319px
+          display: -webkit-box
+          display: -ms-flexbox
+          display: -webkit-flex
+          display: flex
+          -webkit-box-pack: center
+          -ms-flex-pack: center
+          -webkit-justify-content: center
+          justify-content: center
+          -webkit-box-align: center
+          -ms-flex-align: center
+          -webkit-align-items: center
+          align-items: center
+          outline: none
           .swiper-image
             display: block
-            max-width: 100%
+            max-width: 70%
+            min-width: 70%
             margin-left: auto
             margin-right: auto
+
+
+.modal.fade
+  .modal-dialog
+    max-width: 80%
+    margin: 0 auto
+    position: absolute
+    -webkit-transition: all 0.3s ease
+    -moz-transition: all 0.3s ease
+    -o-transition: all 0.3s ease
+    transition: all 0.3s ease
+    width: fit-content
+    top: 50%
+    left: 0
+    right: 0
+    opacity: 1
+    -webkit-transform: translateY(-50%)
+    -ms-transform: translateY(-50%)
+    -o-transform: translateY(-50%)
+    transform: translateY(-50%)
+    .content-image
+      max-height: 768px
+  &.in
+    .modal-dialog
+      margin-top: 0
+      margin-bottom: 0
+      top: 50%
+      left: 0
+      right: 0
+      opacity: 1
+      -webkit-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      -o-transform: translateY(-50%)
+      transform: translateY(-50%)
+      .content-image
+        max-height: 768px
+
+/* DIALOG CONTENT
+.modal-content
+  border: none
+  border-radius: 2px
+  -webkit-box-shadow: none
+  -moz-box-shadow: none
+  box-shadow: none
+  padding: 0
+  background-color: white
+  .close
+    position: absolute
+    opacity: 1
+    z-index: 999
+    right: -5px
+    top: -5px
+    border: none
+    outline: none
+    box-shadow: none
+    text-shadow: none
+    .close-button
+      display: inline-block
+    &:focus
+      outline: none
+    &:hover
+      opacity: 1
+      color: #ffffff
+
 

@@ -42,6 +42,44 @@ $(window).on("load", function(){
         grabCursor: true
 
     });
+
+    // $(".swiper-image").on("mouseover", function () {
+    //     $(this).attr('src', $(this).data("hover"));
+    // });
+    // $(".swiper-image").on("mouseout", function () {
+    //     $(this).attr('src', $(this).data("original"));
+    // });
+
+    var bLazy = new Blazy({
+        selector: '.b-lazy',
+        success: function(ele){
+            $(".b-lazy.b-loaded").parent().addClass("add-after");
+        }
+    });
+
+    $(".swiper-link").on("click",function () {
+
+        // var imageSrcValue =  $(this).parentsUntil("#swiper-container2").find(".modal ").attr("data-src");
+        // modal id
+        var swiperContainer  = $("#swiper-container2");
+        var modalTarget = $(this).attr("data-target").substring(1);
+        var modalProjectTitle = $(this).attr("data-project-title");
+        var modalClientLogo = $(this).attr("data-client-logo");
+        var modalProjectDuration = $(this).attr("data-client-duration");
+        var modalProjectList = $(this).attr("data-project-list");
+        var modalGallery = $(this).attr("data-gallery");
+
+        $(this).parents().parents().find(".modal.fade").attr("id",modalTarget);
+        $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-client-logo").attr("src",modalClientLogo);
+        $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-project-list").html(modalProjectList);
+        $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-gallery").attr("src",modalGallery);
+        $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-project-duration").text(modalProjectDuration);
+
+
+
+    });
+
+
 });
 
 

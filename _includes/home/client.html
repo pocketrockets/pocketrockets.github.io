@@ -7,23 +7,33 @@
         <div class="swiper-wrapper">
             {% assign sorted-client = site.data.client | sort: "id" %}
             {% for client in sorted-client %}
-            <div class="swiper-slide">
-                <img class="swiper-lazy swiper-image" data-src="{{ client.cover-image }}" data-srcset="{{ client.cover-image }}" data-id="slug-{{ client.id }}" />
+            <a class="swiper-link swiper-slide"  data-toggle="modal" data-target="#modal-{{ client.id }}" data-client-logo="{{ client.client-logo }}" data-client-duration="{{ client.project-duration }}" data-project-list="{% for list in client.project-list %} {{ list.project-name }} <br/> {% endfor %}" data-gallery="{{ client.project-gallery }}">
+                <img class="swiper-lazy swiper-image" data-hover="{{ client.cover-image }}"  data-original="{{ client.client-logo }}" data-src="{{ client.client-logo }}" data-id="slug-{{ client.id }}" />
                 <!-- Preloader image -->
                 <div class="preloader swiper-lazy-preloader swiper-lazy-preloader-black"></div>
+            </a>
 
-                <!--<div class="swiper-bg"></div>-->
-                <!--<div class="caption">-->
-                    <!--<span class="swiper-client">{{ client.client }}</span>-->
-                    <!--<span class="swiper-client">{{ client.client-title }}</span>-->
-                <!--</div>-->
-            </div>
             {% endfor %}
-
         </div>
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
+
+    <div class="modal fade" id="" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="/img/close.png" class="close-button"/>
+                </button>
+                <div class="modal-body">
+                    <img class="modal-client-logo img-responsive center-block" src=""/>
+                    <span class="modal-project-list"></span>
+                    <img class="modal-gallery lazy img-responsive center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+                    <span class="modal-project-duration"></span>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </div>
 
