@@ -7,10 +7,17 @@
         <div class="swiper-wrapper">
             {% assign sorted-client = site.data.client | sort: "id" %}
             {% for client in sorted-client %}
-            <a class="swiper-link swiper-slide"  data-toggle="modal" data-target="#modal-{{ client.id }}" data-logo-type="{{ client.logo-type }}" data-client-logo="{{ client.client-logo }}" data-client-duration="{{ client.project-duration }}" data-project-list="{% for list in client.project-list %} <span class='project-list'> {{ list.project-name }} </span> {% endfor %}" data-gallery="{{ client.project-gallery }}">
-                <img class="swiper-lazy swiper-image {{ client.logo-type }}" data-hover="{{ client.cover-image }}"  data-original="{{ client.client-logo }}" data-src="{{ client.client-logo }}" data-id="slug-{{ client.id }}" />
+            <a class="swiper-link swiper-slide"  data-toggle="modal" data-target="#modal-{{ client.id }}" data-logo-type="{{ client.logo-type }}" data-client-logo="{{ client.client-logo }}" data-client-duration="{{ client.project-duration }}" data-project-list="{% for list in client.project-list %} <span class='project-list'> {{ list.project-name }} </span> {% endfor %}" data-gallery="{{ client.project-gallery }}" data-hover="{{ client.cover-image }}">
+                <img class="swiper-lazy swiper-image {{ client.logo-type }}" data-src="{{ client.client-logo }}" data-id="slug-{{ client.id }}" />
                 <!-- Preloader image -->
                 <div class="preloader swiper-lazy-preloader swiper-lazy-preloader-black"></div>
+                <div class="caption">
+                    <div class="bg-overlay"></div>
+                    <img src="" class="caption-image"/>
+                    <span class="client-name">{{ client.client }}</span>
+                    <span class="client-name">{{ client.project-title }}</span>
+                    <span class="read-text">+ read more</span>
+                </div>
             </a>
 
             {% endfor %}
