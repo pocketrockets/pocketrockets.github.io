@@ -1,0 +1,15 @@
+- id: 1
+  isPositionOpen: true
+  title: Account Executive
+
+- id: 2
+  isPositionOpen: true
+  title: Junior Copywriter
+
+- id: 3
+  isPositionOpen: true
+  title: Production Manager
+
+- id: 4
+  isPositionOpen: true
+  title: Office Admin
