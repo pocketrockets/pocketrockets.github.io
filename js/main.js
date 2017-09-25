@@ -32,15 +32,23 @@ $(document).ready(function () {
 
     });
 
-
-    $(".swiper-link").on("mouseover",function () {
+    swiperItemContainer.on("mouseover",function () {
         var imageHover = $(this).attr("data-hover");
         $(this).find(".caption .caption-image").attr("src",imageHover);
         $(this).find(".caption").css("opacity","1");
     });
 
-    $(".swiper-link").on("mouseout",function () {
+    swiperItemContainer.on("mouseout",function () {
         $(this).find(".caption").css("opacity","0");
+    });
+
+
+    $(".service-list").on("mouseover", function () {
+       $(this).css("border","5px solid rgba(224, 224, 224, 1)");
+    });
+
+    $(".service-list").on("mouseout", function () {
+       $(this).css("border","5px solid rgba(224, 224, 224, 0.0)");
     });
 
 });

@@ -1,0 +1,19 @@
+<div class="container no-gutter">
+    <div class="header-section">
+        <h2 class="header">What We Do</h2>
+    </div>
+    <div class="content-container">
+        {% for service in site.data.service %}
+        <div class="col-md-4 service-list">
+            <img src="{{ service.icon }}" class="caption-image center-block"/>
+            <div class="caption">
+                <span class="caption-header">{{ service.service-name }}</span>
+                <span class="caption-service">{{ service.services }}</span>
+                {% if forloop.first %}
+                <span class="caption-text">(What we do best!)</span>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
