@@ -58,7 +58,16 @@ $(window).on("load", function(){
         lazyLoading: true,
         loop: true,
         autoplay: 8000,
-        grabCursor: true
+        grabCursor: true,
+        breakpoints: {
+            2000: {
+                slidesPerView: 6
+
+            },
+            1500: {
+                slidesPerView: 4
+            }
+        }
     });
 
     var swiper2 = new Swiper('#swiper-container2', {
