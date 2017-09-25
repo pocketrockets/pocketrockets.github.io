@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="section-header">
+        <h2 class="header">Follow Us</h2>
+    </div>
+    <div class="social-media-container">
+        {% for media in site.data.socialMedia %}
+        <a href="{{ media.link }}" class="media-link" target="_blank">
+            <img src="{{ media.icon }}" class="media-image img-responsive center-block"/>
+        </a>
+        {% endfor %}
+    </div>
+</div>
