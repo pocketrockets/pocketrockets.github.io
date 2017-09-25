@@ -282,6 +282,7 @@ footer
       .swiper-wrapper
         width: 100%
         .swiper-slide
+          position: relative
           background-color: white
           margin-top: 10px
           min-height: 319px
@@ -315,22 +316,51 @@ footer
             position: absolute
             height: 100%
             width: 100%
-            transition: all 700ms ease-in-out
-            -webkit-transition: all 700ms ease-in-out
-            -ms-transition: all 700ms ease-in-out
-            -o-transition: all 700ms ease-in-out
-            -moz-transition: all 700ms ease-in-out
-
+            transition: all 300ms ease-in-out
+            -webkit-transition: all 300ms ease-in-out
+            -ms-transition: all 300ms ease-in-out
+            -o-transition: all 300ms ease-in-out
+            -moz-transition: all 300ms ease-in-out
             .bg-overlay
               position: absolute
               height: 100%
               width: 100%
-              background-color: #c6186f
               opacity: 0.5
+              background-color: #c6186f
+              z-index: 2
             .caption-image
               max-width: 100%
               height: auto
               display: block
+              z-index: 1
+              position: absolute
+            .caption-text-container
+              z-index: 3
+              position: relative
+              top: 50%
+              transform: translateY(-50%)
+              -webkit-transform: translateY(-50%)
+              -moz-transform: translateY(-50%)
+              -o-transform: translateY(-50%)
+              -ms-transform: translateY(-50%)
+              color: white
+              text-transform: uppercase
+              text-align: center
+              margin-left: 10px
+              margin-right: 10px
+              .client-name
+                display: block
+                font-family: "Gotham-Black"
+                font-size: 18px
+                margin-bottom: 5px
+              .project-title
+                font-family: "Gotham-Book"
+                display: block
+                font-size: 18px
+                margin-bottom: 20px
+              .read-text
+                font-family: "Gotham-Black"
+                display: block
 
 
 .modal-content

@@ -36,7 +36,13 @@ $(document).ready(function () {
     $(".swiper-link").on("mouseover",function () {
         var imageHover = $(this).attr("data-hover");
         $(this).find(".caption .caption-image").attr("src",imageHover);
+        $(this).find(".caption").css("opacity","1");
     });
+
+    $(".swiper-link").on("mouseout",function () {
+        $(this).find(".caption").css("opacity","0");
+    });
+
 });
 
 $(window).on("load", function(){
