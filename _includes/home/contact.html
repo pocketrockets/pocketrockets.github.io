@@ -1,16 +1,45 @@
 <div class="container">
     <div class="left-section col-md-6">
-        <div class="header-section">
-            <h2 class="header">Contact Us</h2>
-            <span class="sub-text">We'd love to hear from you.</span>
-        </div>
-        <div class="contact-section">
-            <div class="contact-list">
-                <span></span>
+        <div class="contact-detail">
+            <div class="header-section">
+                <h2 class="header">Contact Us</h2>
+                <span class="sub-text">We'd love to hear from you.</span>
             </div>
-            <div class="contact-list"></div>
-            <div class="contact-list"></div>
+            <div class="contact-section">
+                <div class="contact-list">
+                    <img class="contact-icon" src="/img/home-icon.png">
+                    <span class="contact-text">Pocket Rocket Advertising, Inc. <br> Mezzanine flr, Automax Bldg., <br> 3637 Bautista St., <br>Brgy. Palanan, Makati City <br>Metro Manila, Philippines, 1235</span>
+                </div>
+                <div class="contact-list">
+                    <img class="contact-icon" src="/img/envelope-icon.png">
+                    <span class="contact-text">info@pocketrocketinc.com</span>
+                </div>
+
+                <div class="contact-list">
+                    <img class="contact-icon" src="/img/phone-icon.png">
+                    <span class="contact-text">+632-225-2292 <br>+632-556-4380</span>
+                </div>
+
+            </div>
         </div>
     </div>
-    <div class="right-section col-md-6"></div>
+    <div class="right-section col-md-6">
+        <form class="form" action="https://formspree.io/your@email.com" method="POST">
+            <div class="form-item-list">
+                <input class="form-control form-item" type="text" name="name" placeholder="Name">
+            </div>
+            <div class="form-item-list">
+                <input class="form-control form-item" type="email" name="_replyto" placeholder="Email">
+            </div>
+            <div class="form-item-list">
+                <input class="form-control form-item" type="text" name="subject" placeholder="Subject">
+            </div>
+            <div class="form-item-list">
+                <textarea class="text-area form-control" placeholder="Message" name="description" required="" type="text" value="" rows="10"></textarea>
+            </div>
+            <div class="form-button clearfix">
+                <button data-toggle="modal-message" type="submit" id="ss-submit" class="input-lg form-control submit-button">SUBMIT</button>
+            </div>
+        </form>
+    </div>
 </div>
