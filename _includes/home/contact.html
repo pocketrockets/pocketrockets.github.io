@@ -24,22 +24,28 @@
         </div>
     </div>
     <div class="right-section col-md-6">
-        <form class="form" action="https://formspree.io/your@email.com" method="POST">
+        <form id="form-content" class="form" action="https://formspree.io/ayapocketrocketcloud@gmail.com" target="_blank" method="POST">
             <div class="form-item-list">
-                <input class="form-control form-item" type="text" name="name" placeholder="Name">
+                <input class="form-control form-item" type="text" name="name" placeholder="Name" required>
             </div>
             <div class="form-item-list">
-                <input class="form-control form-item" type="email" name="_replyto" placeholder="Email">
+                <input class="form-control form-item" type="email" name="_replyto" placeholder="Email" required>
             </div>
             <div class="form-item-list">
-                <input class="form-control form-item" type="text" name="subject" placeholder="Subject">
+                <input class="form-control form-item" type="text" name="subject" placeholder="Subject" required>
             </div>
             <div class="form-item-list">
-                <textarea class="text-area form-control" placeholder="Message" name="description" required="" type="text" value="" rows="10"></textarea>
+                <textarea class="text-area form-control" placeholder="Message" name="description" required type="text" value="" rows="10"></textarea>
+            </div>
+            <div class="form-item-list">
+                <input type="hidden" name="_subject" value="New submission!">
+                <input type="hidden" name="_next" value="">
+                <input type="text" name="_gotcha" style="display:none">
             </div>
             <div class="form-button clearfix">
                 <button data-toggle="modal-message" type="submit" id="ss-submit" class="input-lg form-control submit-button">SUBMIT</button>
             </div>
         </form>
+
     </div>
 </div>

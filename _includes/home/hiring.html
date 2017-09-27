@@ -3,12 +3,14 @@
         <h2 class="header">We're Hiring</h2>
     </div>
     <div class="content-section clearfix">
-        {% for hiring in site.data.hiring %}
-        {% if hiring.isPositionOpen == true %}
-        <div class="col-md-3 position-list">
-            <a href="#" class="position-link">{{ hiring.title }}</a>
-        </div>
-        {% endif %}
-        {% endfor %}
+        <ul class="clearfix">
+            {% for hiring in site.data.hiring %}
+            {% if hiring.isPositionOpen == true %}
+            <li class="position-list">
+                <a href="#" class="position-link">{{ hiring.title }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
     </div>
 </div>
