@@ -5,21 +5,26 @@ layout: default
     {% include home/cover.html %}
 </section>
 
-<section id="project">
-    {% include home/project.html %}
-</section>
 
-<section id="client">
-    {% include home/client.html %}
-</section>
+<div id="work-container">
+    <section id="project">
+        {% include home/project.html %}
+    </section>
 
-<section id="about">
-    {% include home/about.html %}
-</section>
+    <section id="client">
+        {% include home/client.html %}
+    </section>
+</div>
 
-<section id="tagline">
-    {% include home/tagline.html %}
-</section>
+<div id="about-container">
+    <section id="about">
+        {% include home/about.html %}
+    </section>
+
+    <section id="tagline">
+        {% include home/tagline.html %}
+    </section>
+</div>
 
 <section id="service">
     {% include home/service.html %}

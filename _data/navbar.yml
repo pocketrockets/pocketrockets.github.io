@@ -1,9 +1,9 @@
 - title: "Work"
-  slugID:
+  slugID: "work-container"
 
 - title: "About"
-  slugID:
+  slugID: "about-container"
 
 - title: "Services"
-  slugID:
+  slugID: "service"
 

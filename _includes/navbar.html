@@ -17,11 +17,11 @@
             <ul class="nav navbar-nav navbar-right clearfix">
                 {% for menu in site.data.navbar %}
                 <li class="navbar-list">
-                    <a {% if page.url == menu.slugID %} class="navbar-link active" {% else %} class="navbar-link" {% endif %} href="{{ menu.slugID }}">{{ menu.title }}</a>
+                    <a {% if page.url == menu.slugID %} class="navbar-link active" {% else %} class="navbar-link" {% endif %} href="#{{ menu.slugID }}">{{ menu.title }}</a>
                 </li>
                 {% endfor %}
                 <li class="navbar-list">
-                    <a {% if page.url == menu.slugID %} class="navbar-link last-link active" {% else %} class="navbar-link last-link" {% endif %} href="{{ menu.slugID }}">Contact Us</a>
+                    <a {% if page.url == menu.slugID %} class="navbar-link last-link active" {% else %} class="navbar-link last-link" {% endif %} href="#contact">Contact Us</a>
                 </li>
             </ul>
         </div><!-- /.navbar-collapse -->
