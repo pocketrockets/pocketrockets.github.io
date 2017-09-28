@@ -104,10 +104,11 @@ nav
           padding: 50px 30px 30px
           //transition: all 300ms ease-in-out
           font-size: 16px
-          &.active
+          &:hover
             background-color: #e00076
             color: white
-          &:hover
+        &.active
+          .navbar-link
             background-color: #e00076
             color: white
 
@@ -744,6 +745,10 @@ footer
       .bs-slider
         max-height: 650px
 
+  #tagline
+    .header
+      padding: 150px 0
+
 @media (max-width: 1400px)
   #cover
     .container-fluid
@@ -767,6 +772,17 @@ footer
       .caption-image
         max-width: 40%
         min-width: 40%
+
+@media (max-width: 1200px)
+  #project
+    #project-container-fluid
+      .swiper-container
+        .swiper-wrapper
+          min-height: 240px
+          .swiper-slide
+            .caption
+              .swiper-project
+                font-size: 16px
 
 
 
