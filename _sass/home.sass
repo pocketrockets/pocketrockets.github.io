@@ -886,6 +886,72 @@ footer
           .position-link
             font-size: 18px
 
+@media (max-width: 991px)
+  body
+    margin-top: 70px
+      //#e00076
+  nav
+    position: relative
+    margin-bottom: 0
+
+    &.navbar-default
+      .container
+        width: 100%
+        .navbar-header
+          margin-left: 0
+          margin-right: 0
+          float: none
+          .navbar-brand
+            margin-left: 30px
+            margin-top: 20px
+            margin-bottom: 20px
+            .brand-logo
+              height: 30px
+        .navbar-right
+          margin: 15px auto
+          float: none !important
+          display: block !important
+          padding-left: 0
+          .navbar-list
+            width: 100%
+            margin: 0 auto
+            transform: none
+            float: none
+            .navbar-link
+              text-align: center
+              font-size: 14px
+              padding-top: 20px
+              padding-bottom: 20px
+
+    .navbar-toggle
+      display: block
+      background-color: #e00076
+      border-color: #e00076 !important
+      position: absolute
+      right: 0
+      top: 0
+      margin: 18px 30px
+
+      &:hover, &:focus
+        background-color: #e00076 !important
+      .icon-bar
+        background-color: white !important
+    .navbar-collapse
+      box-shadow: none
+      -webkit-box-shadow: none
+      background-color: #c6e835
+      border: 1px solid #b3d235 !important
+      margin-top: 15px
+      max-height: none !important
+    .navbar-collapse.collapse
+      border: 1px solid #b3d235 !important
+      display: none !important
+    .collapse.in
+      border: 1px solid #b3d235 !important
+      display: block !important
+      overflow-x: hidden !important
+
+
 
 
 
