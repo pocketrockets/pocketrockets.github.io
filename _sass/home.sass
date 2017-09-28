@@ -774,8 +774,30 @@ footer
         min-width: 40%
 
 @media (max-width: 1200px)
+  nav
+    &.navbar-default
+      .navbar-header
+        .navbar-brand
+          margin-top: 40px
+          .brand-logo
+            height: 30px
+
+  #cover
+    height: 480px
+    .container-fluid
+      #bootstrap-touch-slider
+        .carousel-inner
+          .item
+            .slide-text
+              .slide-header
+                font-size: 90px
+
   #project
     #project-container-fluid
+      .header-section
+        padding-top: 50px
+        .header
+          font-size: 38px
       .swiper-container
         .swiper-wrapper
           min-height: 240px
@@ -783,6 +805,85 @@ footer
             .caption
               .swiper-project
                 font-size: 16px
+
+  #client
+    #client-container-fluid
+      .header-section
+        .header
+          font-size: 32px
+      .swiper-container
+        max-width: 750px
+        .swiper-wrapper
+          .swiper-slide
+            min-height: 280px
+
+      .modal-content
+        .modal-body
+          .modal-logo-container
+            width: 310px
+            margin-top: 20px
+            margin-bottom: 40px
+            .modal-client-logo
+              &.big-logo
+                max-width: 55%
+          .modal-gallery-container
+            margin-bottom: 40px
+            .modal-gallery
+              min-height: 0
+          .modal-list-container
+            margin-bottom: 40px
+
+
+  #about
+    .left-section
+      .header
+        padding-top: 110px
+        font-size: 44px
+
+  #tagline
+    .header
+      font-size: 38px
+      padding: 100px 0
+      line-height: 50px
+
+  #service
+    padding-top: 60px
+    padding-bottom: 60px
+    .header-section
+      padding-bottom: 20px
+      .header
+        font-size: 44px
+
+  #contact
+    padding: 60px 0 50px
+    .left-section
+      .contact-detail
+        .header-section
+          .header
+            font-size: 38px
+          .sub-text
+            font-size: 22px
+
+  #social-media
+    .section-header
+      .header
+        font-size: 44px
+    .social-media-container
+      .media-link
+        margin-left: 15px
+        margin-right: 15px
+        .media-image
+          max-width: 70%
+          min-width: 70%
+
+  #hiring
+    .content-section
+      ul
+        .position-list
+          .position-link
+            font-size: 18px
+
+
 
 
 
