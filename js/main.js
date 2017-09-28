@@ -4,13 +4,7 @@ $('#icon-transition').on('click', function () {
 });
 
 $(document).ready(function () {
-    // $('.menu-scroll').on('click', function(e){e.preventDefault();
-    //     var $anchor = $(this);
-    //     $('html, body').stop().animate({
-    //         scrollTop: $($anchor.attr('href')).offset().top - 70
-    //     }, 1500, 'easeInOutExpo');
-    //
-    // });
+    $(document).on("scroll", onScroll);
 
     $('.navbar-link[href^="#"]').on('click', function (e) {
         e.preventDefault();
@@ -31,21 +25,8 @@ $(document).ready(function () {
             $(document).on("scroll", onScroll);
         });
     });
-    $(document).on("scroll", onScroll);
-    function onScroll(event){
-        var scrollPos = $(document).scrollTop();
-        $('.navbar-link').each(function () {
-            var currLink = $(this);
-            var refElement = $(currLink.attr("href"));
-            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-                $('.navbar-link').removeClass("active");
-                currLink.addClass("active");
-            }
-            else{
-                currLink.removeClass("active");
-            }
-        });
-    }
+
+
 
     var swiperItemContainer = $(".swiper-link")
     swiperItemContainer.on("click",function () {
@@ -92,19 +73,6 @@ $(document).ready(function () {
         $("#modal-message").modal('show');
         $("#form-content")[0].reset();
     });
-
-
-    $('.navbar-link').on('click', function(e){
-        e.preventDefault();
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - 75
-        }, 1500, 'easeInOutExpo');
-    });
-
-
-
-
 
 });
 
@@ -155,5 +123,20 @@ $(window).on("load", function(){
     });
 
 });
+
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('.navbar-right .navbar-link').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('.navbar-right .navbar-link').removeClass("active");
+            currLink.addClass("active");
+        }
+        else{
+            currLink.removeClass("active");
+        }
+    });
+}
 
 
