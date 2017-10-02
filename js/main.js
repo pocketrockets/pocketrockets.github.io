@@ -68,6 +68,9 @@ $(window).on("load", function(){
             },
             1500: {
                 slidesPerView: 4
+            },
+            992: {
+                slidesPerView: 3
             }
         }
     });
@@ -82,7 +85,12 @@ $(window).on("load", function(){
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         watchSlidesVisibility: true,
-        grabCursor: true
+        grabCursor: true,
+        breakpoints: {
+            992: {
+                slidesPerView: 2
+            }
+        }
 
     });
 
