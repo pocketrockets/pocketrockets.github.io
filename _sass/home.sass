@@ -938,7 +938,7 @@ footer
         background-color: #e00076 !important
       .icon-bar
         background-color: white !important
-        height: 3px
+        height: 2px
         width: 25px
     .navbar-collapse
       box-shadow: none
@@ -955,6 +955,8 @@ footer
       display: block !important
       overflow-x: hidden !important
 
+
+
   #project
     #project-container-fluid
       .header-section
@@ -966,6 +968,14 @@ footer
 
   #client
     #client-container-fluid
+      .modal-content
+        .close-modal
+          height: 65px
+          width: 65px
+          .lr
+            height: 55px
+            .rl
+              height: 55px
       .header-section
         padding-top: 40px
         padding-bottom: 40px
@@ -976,7 +986,11 @@ footer
         margin-bottom: 120px
         .swiper-wrapper
           min-height: 260px
+          .swiper-slide
+            .caption
+              display: none
       #swiper-button-container
+        position: relative
         width: 100%
         bottom: 0
         top: auto
@@ -996,6 +1010,9 @@ footer
           top: auto!important
           left: 25%!important
           //left: 230px!important
+
+
+
 
   #about
     .container
@@ -1059,9 +1076,10 @@ footer
           .header-section
             .header
               font-size: 32px
+          .contact-section
+            margin-left: 30px
       .right-section
         margin-bottom: 30px
-
 
   #social-media
     padding-top: 40px
@@ -1091,6 +1109,7 @@ footer
             display: none
 
 @media (max-width: 767px)
+
   #cover
     height: 380px
     .container-fluid
@@ -1130,6 +1149,25 @@ footer
     #client-container-fluid
       padding-left: 30px
       padding-right: 30px
+      .modal-content
+        .modal-body
+          .modal-logo-container
+            .modal-client-logo
+              &.big-logo
+                max-width: 45%
+
+          .modal-list-container
+            .project-list
+              font-size: 16px
+          .close-modal
+            height: 45px
+            width: 45px
+            .lr
+              margin-left: 22px
+              height: 45px
+              .rl
+                height: 45px
+
       .header-section
         padding-left: 30px
         padding-right: 30px
@@ -1164,7 +1202,7 @@ footer
   #tagline
     .header
       font-size: 28px
-      padding: 70px
+      padding: 70px 0
 
   #service
     .container
@@ -1182,8 +1220,7 @@ footer
             .sub-text
               margin-bottom: 30px
               font-size: 20px
-        .contact-section
-          margin-left: 30px
+
 
   #social-media
     .section-header
@@ -1199,6 +1236,183 @@ footer
     .content-container
       .section-copyright
         font-size: 16px
+
+@media (max-width: 568px)
+  body
+    margin-top: 65px
+  nav
+    &.navbar-default
+      .container
+        .navbar-header
+          .navbar-brand
+            margin-left: 15px
+            .brand-logo
+              height: 25px
+    .navbar-toggle
+      margin-right: 15px
+      padding: 5px 6px
+      margin-top: 20px
+      margin-bottom: 20px
+      .icon-bar
+        width: 22px
+        height: 2px
+
+  #cover
+    height: 220px
+    .container-fluid
+      #bootstrap-touch-slider
+        .carousel-inner
+          .item
+            .slide-text
+              .slide-header
+                font-size: 44px
+
+  #project
+    #project-container-fluid
+      .header-section
+        .header
+          font-size: 16px
+      .swiper-container
+        .swiper-wrapper
+          height: 160px
+          .swiper-slide
+            .caption
+              right: 10px
+
+  #client
+    #client-container-fluid
+      padding-left: 15px
+      padding-right: 15px
+      .header-section
+        padding-left: 0
+        padding-right: 0
+        .header
+          font-size: 16px
+      .swiper-container
+        margin-left: 0
+        margin-right: 0
+        margin-bottom: 90px
+        .swiper-wrapper
+          .swiper-slide
+            min-height: 160px
+      #swiper-button-container
+        .swiper-button-next
+          height: 35px !important
+          width: 35px !important
+          bottom: 30px !important
+        .swiper-button-prev
+          height: 35px !important
+          width: 35px !important
+          bottom: 30px !important
+  #about
+    .container
+      padding-left: 15px
+      padding-right: 15px
+      .left-section
+        .header
+          font-size: 24px
+      .right-section
+        .header
+          padding-top: 20px
+          font-size: 18px
+        .description
+          font-size: 14px
+
+  #tagline
+    .header
+      font-size: 22px
+      padding: 50px 0
+      line-height: 34px
+
+  #service
+    .container
+      .header-section
+        .header
+          font-size: 24px
+      .service-list
+        max-width: 280px
+        margin-bottom: 15px
+        padding-top: 15px
+        padding-bottom: 15px
+
+        .caption-image
+          max-width: 40%
+          min-width: 40%
+        .caption
+          margin-top: 30px
+          .caption-header
+            font-size: 18px
+          .caption-service
+            font-size: 14px
+          .caption-text
+            font-size: 14px
+
+  #contact
+    .container
+      padding-left: 15px
+      padding-right: 15px
+      .left-section
+        .contact-detail
+          .header-section
+            .header
+              font-size: 24px
+              margin-top: 0
+              margin-bottom: 20px
+            .sub-text
+              font-size: 16px
+          .contact-section
+            margin-left: 0
+            .contact-list
+              .contact-icon
+                height: 25px
+              .contact-text
+                font-size: 16px
+                margin-left: 45px
+      .right-section
+        padding-left: 0
+        padding-right: 0
+        margin-bottom: 0
+
+  #social-media
+    .section-header
+      padding-bottom: 15px
+      .header
+        font-size: 24px
+    .social-media-container
+      .media-link
+        margin-left: 0
+        margin-right: 0
+        .media-image
+          max-width: 50%
+          min-width: 50%
+
+  #hiring
+    .section-header
+      .header
+        font-size: 24px
+    .content-section
+      ul
+        .position-list
+          .position-link
+            font-size: 16px
+
+  footer
+    max-width: 80%
+    min-width: 80%
+    margin-right: auto
+    margin-left: auto
+    .content-container
+      .section-copyright
+        font-size: 14px
+
+@media (max-width: 320px)
+  footer
+    max-width: 93%
+    min-width: 93%
+
+
+
+
 
 
 

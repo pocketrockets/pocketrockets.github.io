@@ -71,6 +71,9 @@ $(window).on("load", function(){
             },
             992: {
                 slidesPerView: 3
+            },
+            568: {
+                slidesPerView: 2
             }
         }
     });
