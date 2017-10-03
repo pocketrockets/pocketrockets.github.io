@@ -7,6 +7,7 @@
         <div class="swiper-wrapper">
             {% assign sorted-client = site.data.client | sort: "id" %}
             {% for client in sorted-client %}
+            {% if client.published == 'true' %}
             <a class="swiper-link swiper-slide"  data-toggle="modal" data-target="#modal-{{ client.id }}" data-logo-type="{{ client.logo-type }}" data-client-logo="{{ client.client-logo }}" data-client-duration="{{ client.project-duration }}" data-project-list="{% for list in client.project-list %} <span class='project-list'> {{ list.project-name }} </span> {% endfor %}" data-gallery="{{ client.project-gallery }}" data-hover="{{ client.cover-image }}">
                 <img class="swiper-lazy swiper-image {{ client.logo-type }}" data-src="{{ client.client-logo }}" data-id="slug-{{ client.id }}" />
                 <!-- Preloader image -->
@@ -21,7 +22,7 @@
                     </div>
                 </div>
             </a>
-
+            {% endif %}
             {% endfor %}
         </div>
     </div>

@@ -6,6 +6,7 @@
     <div id="swiper-container1" class="swiper-container">
         <div class="swiper-wrapper">
             {% for project in site.data.latestProject reversed %}
+            {% if project.published == 'true' %}
             <div class="swiper-slide">
                 <img data-src="{{ project.cover-image }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="swiper-lazy img-responsive center-block"/>
                 <!-- Preloader image -->
@@ -16,6 +17,7 @@
                     <span class="swiper-project">{{ project.project-title }}</span>
                 </div>
             </div>
+            {% endif %}
             {% endfor %}
         </div>
     </div>
