@@ -26,7 +26,7 @@ prose:
           element: 'hidden'
           value: true
 
-      - name: "id"
+      - name: "- id"
         field:
           element: "text"
           label: "id"
@@ -45,6 +45,7 @@ prose:
         field:
           element: "text"
           label: "cover-image"
+          alterable: true
 
 
 
