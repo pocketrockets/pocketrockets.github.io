@@ -26,3 +26,8 @@ prose:
           element: 'hidden'
           value: true
 
+      - name: "id"
+        field:
+          element: "text"
+          label: "title"
+
