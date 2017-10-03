@@ -26,8 +26,9 @@ prose:
           element: 'hidden'
           value: true
 
-      - name: "id"
+      - name: "title"
         field:
           element: "text"
           label: "title"
+
 
