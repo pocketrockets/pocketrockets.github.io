@@ -12,3 +12,17 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+sass:
+  style: compressed
+
+prose:
+  rooturl: ""
+  siteurl: "https://pocketrocketinc.github.io/"
+  metadata:
+    _data:
+      - name: "published"
+        field:
+          element: 'hidden'
+          value: true
+
