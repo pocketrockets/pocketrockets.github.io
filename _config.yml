@@ -21,31 +21,30 @@ prose:
   siteurl: "https://pocketrocketinc.github.io/"
   metadata:
     _data:
-      latestProject:
-        - name: "published"
-          field:
-            element: 'hidden'
-            value: true
+      - name: "published"
+        field:
+          element: 'hidden'
+          value: true
 
-        - name: "id"
-          field:
-            element: "text"
-            label: "id"
+      - name: "id"
+        field:
+          element: "text"
+          label: "id"
 
-        - name: "client"
-          field:
-            element: "text"
-            label: "client"
+      - name: "client"
+        field:
+          element: "text"
+          label: "client"
 
-        - name: "project-title"
-          field:
-            element: "text"
-            label: "project-title"
+      - name: "project-title"
+        field:
+          element: "text"
+          label: "project-title"
 
-        - name: "cover-image"
-          field:
-            element: "text"
-            label: "cover-image"
+      - name: "cover-image"
+        field:
+          element: "text"
+          label: "cover-image"
 
 
 
