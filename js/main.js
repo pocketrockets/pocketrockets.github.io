@@ -59,7 +59,7 @@ $(window).on("load", function(){
         preloadImages: false,
         lazyLoading: true,
         loop: true,
-        autoplay: 8000,
+        autoplay: 4000,
         grabCursor: true,
         breakpoints: {
             2000: {
@@ -90,6 +90,7 @@ $(window).on("load", function(){
         prevButton: '.swiper-button-prev',
         watchSlidesVisibility: true,
         grabCursor: true,
+        loop: true,
         breakpoints: {
             992: {
                 slidesPerView: 2
