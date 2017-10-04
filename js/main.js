@@ -89,10 +89,12 @@ $(window).on("load", function(){
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         watchSlidesVisibility: true,
+        slidesPerColumnFill: 'column',
         grabCursor: true,
         breakpoints: {
             992: {
-                slidesPerView: 2
+                slidesPerView: 2,
+                slidesPerGroup: 2
             }
         }
 
