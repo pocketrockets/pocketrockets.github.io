@@ -81,6 +81,7 @@ $(window).on("load", function(){
     var swiper2 = new Swiper('#swiper-container2', {
         slidesPerView: 3,
         slidesPerColumn: 2,
+        slidesPerGroup: 3,
         paginationClickable: false,
         spaceBetween: 10,
         preloadImages: false,
