@@ -90,7 +90,6 @@ $(window).on("load", function(){
         prevButton: '.swiper-button-prev',
         watchSlidesVisibility: true,
         grabCursor: true,
-        loop: true,
         breakpoints: {
             992: {
                 slidesPerView: 2
