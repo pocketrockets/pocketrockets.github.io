@@ -10,24 +10,21 @@
   project-list:
     - project-name: ""
     
-    
- - id: 17
+- id: 17
   published: "true"
   logo-type: "big-logo"
-  client: "Test Client"
+  client: "Test"
   project-title: "Test Title"
-  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505979360/PROJECTS/Bayer_Distributors_Summit.jpg"
-  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840297/CLIENT-LOGO/silver-logo.png"
-  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838502/PROJECT-MODAL/Silver-Gallery.jpg"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837616/PROJECTS/UP_Scintilla_Juris_Fraternity_50TH_ANNIVERSARY.jpg"
+  client-logo: " https://res.cloudinary.com/pocketrocket/image/upload/v1505840224/CLIENT-LOGO/cisco-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838329/PROJECT-MODAL/FS-Gallery.jpg"
   project-duration: "2016 - 2017 Client: Test"
   project-list:
-    - project-name: "project name 1"
-    - project-name: "project name 2"
-    - project-name: "project name 3"
-    - project-name: "project name 4"
-    - project-name: "project name 5"
-   
-
+    - project-name: "Project 1"
+    - project-name: "Project 2"
+    - project-name: "Project 3"
+    - project-name: "Project 4"
+  
 
 - id: 16
   published: "true"
