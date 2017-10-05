@@ -9,6 +9,24 @@
   project-duration: ""
   project-list:
     - project-name: ""
+    
+    
+ - id: 17
+  published: "true"
+  logo-type: "big-logo"
+  client: "Test Client"
+  project-title: "Test Title"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505979360/PROJECTS/Bayer_Distributors_Summit.jpg"
+  client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840297/CLIENT-LOGO/silver-logo.png"
+  project-gallery: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838502/PROJECT-MODAL/Silver-Gallery.jpg"
+  project-duration: "2016 - 2017 Client: Test"
+  project-list:
+    - project-name: "project name 1"
+    - project-name: "project name 2"
+    - project-name: "project name 3"
+    - project-name: "project name 4"
+    - project-name: "project name 5"
+   
 
 
 - id: 16
@@ -223,7 +241,3 @@
     - project-name: "OFFICE 365 ACTIVATION"
     - project-name: "LAUNCH EVENTS: WINDOWS SERVER 2016, SQL SERVER 2016"
     - project-name: "BIG TOP CLOUD FESTIVAL"
-  
-
-
-
