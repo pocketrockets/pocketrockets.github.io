@@ -95,10 +95,16 @@
   project-title: "MICROSOFT CIO SUMMIT 2017"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837570/PROJECTS/Microsoft_MICROSOFT_CIO_SUMMIT_2017.jpg"
 
+- id: 17
+  published: "true"
+  client: "Test"
+  project-title: "Test Title"
+  cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505979360/PROJECTS/Bayer_Distributors_Summit.jpg"
+  
+  
+
 - id:
   published: "false"
   client: ""
   project-title: ""
-  cover-image: ""
-
-
+  cover-image: ""  
