@@ -38,13 +38,6 @@ $(document).ready(function () {
        $(this).css("border","5px solid rgba(224, 224, 224, 0.0)");
     });
 
-
-    $("#form-content").on("submit",function(){
-        $(".modal-backdrop.in").css("opacity","0.5!important");
-        $("#modal-message").modal('show');
-        $("#form-content")[0].reset();
-    });
-
 });
 
 $(window).on("load", function(){
