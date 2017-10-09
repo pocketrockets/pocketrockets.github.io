@@ -14,9 +14,8 @@ $(document).ready(function () {
         $(this).parents().parents().find(".modal.fade").attr("aria-labelledby",modalTarget);
         $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-client-logo").attr({ src: modalClientLogo, class: modalLogoType + " modal-client-logo"});
         $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-list-container").html(modalProjectList);
-        $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-gallery").attr("src",modalGallery);
+        $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-gallery-container").html(modalGallery);
         $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-project-duration").text(modalProjectDuration);
-
     });
 
     swiperItemContainer.on("mouseover",function () {
