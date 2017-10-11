@@ -1,7 +1,7 @@
 - id: 1
   icon: "https://res.cloudinary.com/pocketrocket/image/upload/v1506343134/misc/store.png"
   service-name: Below the line
-  services: "Events. Activations"
+  services: "Events. Activations."
 
 - id: 2
   icon: "https://res.cloudinary.com/pocketrocket/image/upload/v1506343134/misc/monitor.png"
