@@ -217,11 +217,11 @@
   client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840308/CLIENT-LOGO/TMC-logo.png"
   project-gallery:
     - gallery-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1508997411/PROJECT-MODAL/TMC-Gallery.jpg"
+    - gallery-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1508999755/PROJECT-MODAL/TMC-Gallery2.jpg"
   project-duration: ""
   project-list:
-    - project-name: "50TH ANNIVERSARY EVENT"
-    - project-name: "49TH ANNIVERSARY EVENT"
-    - project-name: "48TH ANNIVERSARY EVENT"
+    - project-name: "50TH, 49TH AND 48TH ANNIVERSARY EVENT"
+    - project-name: "30TH ANNUAL AWARDS NIGHT"
 
 
 - id: 3
