@@ -244,16 +244,17 @@
   published: "true"
   logo-type: "horizontal-logo"
   client: "Philam Life"
-  project-title: "LIVE BETTER MEDIA LAUNCH"
+  project-title: "#LIVEBETTER EXPO"
   cover-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505837592/PROJECTS/Philam_Life_LIVE_BETTER_MEDIA_LAUNCH.jpg"
   client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840283/CLIENT-LOGO/Philam-logo.png"
   project-gallery:
-    - gallery-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838459/PROJECT-MODAL/Philam-Gallery.jpg"
+    - gallery-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1509004777/PROJECT-MODAL/Philam-Gallery2.jpg"
+    - gallery-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1509004771/PROJECT-MODAL/Philam-Gallery.jpg"
   project-duration: ""
   project-list:
-    - project-name: "#LIVE BETTER MALL ACTIVATION"
-    - project-name: "#LIVE BETTER MEDIA LAUNCH"
-    - project-name: "#LIVE BETTER EMPLOYEE LAUNCH"
+    - project-name: "PHILAM #LIVEBETTER EXPO at Glorietta and SM City Davao"
+    - project-name: "PHILAM #LIVEBETTER MEDIA LAUNCH"
+    - project-name: "PHILAM 70TH ANNIVERSARY"
 
 - id: 1
   published: "true"
