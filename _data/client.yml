@@ -37,7 +37,7 @@
     - gallery-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838502/PROJECT-MODAL/Silver-Gallery.jpg"
   project-duration: "2015 – 2017 Client: Silver Finance Inc."
   project-list:
-    - project-name: "30 TH ANNIVERSARY EVENT"
+    - project-name: "30TH ANNIVERSARY EVENT"
 
 - id: 14
   published: "true"
@@ -224,7 +224,7 @@
   project-list:
     - project-name: "#LIVE BETTER MALL ACTIVATION"
     - project-name: "#LIVE BETTER MEDIA LAUNCH"
-    - project-name: "##LIVE BETTER EMPLOYEE LAUNCH"
+    - project-name: "#LIVE BETTER EMPLOYEE LAUNCH"
 
 - id: 1
   published: "true"
