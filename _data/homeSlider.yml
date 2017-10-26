@@ -4,7 +4,7 @@
   bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1506007014/misc/slider1.jpg"
 
 - id: 2
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1507283722/misc/creative2.jpg"
+  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1509004580/misc/creative-2-1.jpg"
 
 - id: 3
   title: Strategic
@@ -12,7 +12,7 @@
   bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1506007029/misc/slider2.jpg"
 
 - id: 4
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1507283728/misc/strategic2.jpg"
+  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1509004569/misc/strategic-2-1.jpg"
 
 - id: 5
   title: Snappy
@@ -20,7 +20,7 @@
   bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1506007011/misc/slider3.jpg"
 
 - id: 6
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1507283729/misc/snappy2.jpg"
+  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1509004611/misc/snappy-2-1.jpg"
 
 - id: 7
   title:
@@ -30,4 +30,4 @@
   bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1506007038/misc/slider4.jpg"
 
 - id: 8
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1507283725/misc/pocket-last.jpg"
+  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1509004566/misc/pocket-rocket-is-2-1.jpg"
