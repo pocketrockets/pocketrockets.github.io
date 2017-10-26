@@ -104,12 +104,11 @@
   project-duration: ""
   project-list:
     - project-name: "GLOBE INDEPENDENT FILM FESTIVAL LAUNCH EVENT"
-    - project-name: "EASY ROAM 149 ACTIVATION at Travel Sale Fair 2016"
-    - project-name: "ROAM SURF ACTIVATION at Travel Tour Expo 2016"
+    - project-name: "EASY ROAM 149 ACTIVATION"
+    - project-name: "GLOBE ROAM SURF TRAVEL EXPO"
     - project-name: "GEN3 STORE OPENING at Ayala Center Cebu and Greenbelt"
     - project-name: "GLOBE PLATINUM GOURMAND"
     - project-name: "GLOBE REWARDS RED CARPET SALE"
-    - project-name: "GLOBE ROAM SURF TRAVEL EXPO"
 
 - id: 11
   published: "true"
