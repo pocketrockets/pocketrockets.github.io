@@ -6,7 +6,7 @@
 - id: 2
   icon: "https://res.cloudinary.com/pocketrocket/image/upload/v1506343134/misc/monitor.png"
   service-name: Above the line
-  services: "Tv. Print. Radio. Out Of Home."
+  services: "TV. Print. Radio. Out Of Home."
 
 - id: 3
   icon: "https://res.cloudinary.com/pocketrocket/image/upload/v1506343134/misc/digital.png"
