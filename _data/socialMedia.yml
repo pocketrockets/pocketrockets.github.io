@@ -1,7 +1,7 @@
-#- id: 1
-#  name: facebook
-#  icon: "https://res.cloudinary.com/pocketrocket/image/upload/v1506349418/misc/facebook.png"
-#  link: ""
+- id: 1
+name: facebook
+icon: "https://res.cloudinary.com/pocketrocket/image/upload/v1506349418/misc/facebook.png"
+link: "https://www.facebook.com/pocketrocketinc/"
 
 - id: 2
   name: instagram
