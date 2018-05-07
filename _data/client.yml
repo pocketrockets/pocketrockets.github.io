@@ -47,9 +47,11 @@
   client-logo: "https://res.cloudinary.com/pocketrocket/image/upload/v1505840216/CLIENT-LOGO/cargill-logo.png"
   project-gallery:
     - gallery-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1505838332/PROJECT-MODAL/Cargill-Gallery.jpg"
+     - gallery-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1525660930/PROJECT-MODAL/cargill_cjoy_grand_opening_corporate_event_pocketrocket_msyj3j.jpg"
   project-duration: ""
   project-list:
     - project-name: "C-JOY GROUNDBREAKING CEREMONY"
+    - project-name: "C-JOY GRAND OPENING EVENT"
 
 - id: 15
   published: "true"
