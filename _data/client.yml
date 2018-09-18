@@ -1,17 +1,4 @@
 ---
-- id: 
-  published: false
-  logo-type: ''
-  client: ''
-  project-title: ''
-  cover-image: ''
-  client-logo: ''
-  project-gallery:
-  - gallery-image: ''
-  - gallery-image: ''
-  project-duration: ''
-  project-list:
-  - project-name: ''
 - id: 18
   published: true
   logo-type: big-logo
