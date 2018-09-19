@@ -36,35 +36,24 @@
   project-list:
   - project-name: "#COLORUPSUMMER BRAND CAMPAIGN: Key Visuals and Social Media Management"
 
-- id: 16
-
+- id: 18
   published: true
-
-  logo-type: big-logo
-
-  client: Cargill
-
-  project-title: C-JOY GRAND OPENING EVENT
-
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1525661696/PROJECTS/CARGILL_CJOY_GRAND
-
-    OPENING_EVENT.jpg
-
-  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840216/CLIENT-LOGO/cargill-logo.png
-
+  logo-type: horizontal-logo
+  client: Globe
+  project-title: GLOBE INDEPENDENT FILM FESTIVAL
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837534/PROJECTS/Globe_GLOBE_INDEPENDENT_FILM_FESTIVAL.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840247/CLIENT-LOGO/globe-logo.png
   project-gallery:
-
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838332/PROJECT-MODAL/Cargill-Gallery.jpg
-
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1525660930/PROJECT-MODAL/cargill_cjoy_grand_opening_corporate_event_pocketrocket_msyj3j.jpg
-
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838350/PROJECT-MODAL/Globe-Gallery.jpg
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508996856/PROJECT-MODAL/Globe-Gallery_2.jpg
   project-duration: ''
-
   project-list:
-
-  - project-name: C-JOY GROUNDBREAKING CEREMONY
-
-  - project-name: C-JOY GRAND OPENING EVENT
+  - project-name: GLOBE INDEPENDENT FILM FESTIVAL LAUNCH EVENT
+  - project-name: EASY ROAM 149 ACTIVATION
+  - project-name: GLOBE ROAM SURF TRAVEL EXPO
+  - project-name: GEN3 STORE OPENING at Ayala Center Cebu and Greenbelt
+  - project-name: GLOBE PLATINUM GOURMAND
+  - project-name: GLOBE REWARDS RED CARPET SALE
 
 - id: 15
   published: true
