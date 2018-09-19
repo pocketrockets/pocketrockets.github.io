@@ -320,36 +320,18 @@
   - project-name: "#LOVEYOURBEAUTY DAY at SM Makati and SM Mall of Asia"
 
 - id: 6
-
   published: true
-
-  logo-type: big-logo
-
-  client: Philips
-
-  project-title: GIVING YOU THE POWER TO LIVE HEALTHY BRAND CAMPAIGN
-
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837569/PROJECTS/Philips_BRAND_CAMPAIGN_2016.jpg
-
-  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840287/CLIENT-LOGO/philips-logo.png
-
+  logo-type: horizontal-logo
+  client: Provimi
+  project-title: "PROVIMI DIGITAL NUTRITION LAUNCH"
+  cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537331065/PROJECTS/7_Provimi.jpg
+  client-logo: http://res.cloudinary.com/pocketrocket/image/upload/v1537330815/CLIENT-LOGO/Provimi_Logo.png
   project-gallery:
-
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838462/PROJECT-MODAL/Philips-Gallery.jpg
-
+  - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537330984/PROJECT-MODAL/9_Provimi.jpg
+  - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537329236/PROJECT-MODAL/10_Provimi.jpg
   project-duration: ''
-
   project-list:
-
-  - project-name: PHILIPS “GIVING YOU THE POWER TO LIVE HEALTHY” 2016 BRAND CAMPAIGN
-
-  - project-name: 'PHILIPS SALES RALLY 2016: Domestic Appliances, Personal Care, Mother
-
-      and Child Care'
-
-  - project-name: PHILIPS LED “MALIWANAGAN!” 2015 BRAND CAMPAIGN
-
-  - project-name: PHILIPS LED “MAY MAGAGAWA KA” 2015 BRAND CAMPAIGN, LAUNCH AND ACTIVATION
+  - project-name: 'PROVIMI DIGITAL NUTRITION LAUNCH'
 
 - id: 5
   published: true
