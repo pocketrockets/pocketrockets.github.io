@@ -24,28 +24,17 @@
   - project-name: DATA CENTER LAUNCH
 
 - id: 17
-
   published: true
-
   logo-type: big-logo
-
-  client: Singapore Airlines
-
-  project-title: 2016 SHOWCASE & TRAVEL FAIR
-
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508993710/PROJECTS/Singapore_Airlines_2016_Showcase___Travel_Fair.jpg
-
-  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1508994063/CLIENT-LOGO/Singapore_Airline-logo.png
-
+  client: Sassa
+  project-title: "#COLORUPSUMMER BRAND CAMPAIGN"
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837576/PROJECTS/Sassa__COLORUPSUMMER_BRAND_CAMPAIGN.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840292/CLIENT-LOGO/SASSA-logo.png
   project-gallery:
-
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508993614/PROJECT-MODAL/SIA-Gallery.jpg
-
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838438/PROJECT-MODAL/Sassa-Gallery.jpg
   project-duration: ''
-
   project-list:
-
-  - project-name: 2016 SHOWCASE & TRAVEL FAIR
+  - project-name: "#COLORUPSUMMER BRAND CAMPAIGN: Key Visuals and Social Media Management"
 
 - id: 16
 
