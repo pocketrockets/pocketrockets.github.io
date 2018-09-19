@@ -292,32 +292,21 @@
   - project-name: "“NOW NATION” MEDIA LAUNCH 2016"
 
 - id: 7
-
   published: true
-
-  logo-type: horizontal-logo
-
-  client: FS Features & Shades
-
-  project-title: LOVE YOUR BEAUTY BRAND CAMPAIGN
-
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837525/PROJECTS/FS_Features___Shades_LOVE_YOUR_BEAUTY_CAMPAIGN.jpg
-
-  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840235/CLIENT-LOGO/fs-logo.png
-
+  logo-type: big-logo
+  client: Bayer
+  project-title: BAYER DISTRIBUTORS SUMMIT
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505979360/PROJECTS/Bayer_Distributors_Summit.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505839601/CLIENT-LOGO/bayer-logo.png
   project-gallery:
-
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838329/PROJECT-MODAL/FS-Gallery.jpg
-
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1506006188/PROJECT-MODAL/Bayer_Event_Gallery.jpg
   project-duration: ''
-
   project-list:
-
-  - project-name: "“LOVE YOUR BEAUTY” BRAND CAMPAIGN: Key Visuals and Social Media
-
-      Management"
-
-  - project-name: "#LOVEYOURBEAUTY DAY at SM Makati and SM Mall of Asia"
+  - project-name: BAYER DISTRIBUTORS SUMMIT
+  - project-name: BAYER DEALERS SUMMIT
+  - project-name: NOMINEE 20th ANNIVERSARY EVENT
+  - project-name: 'BRAND CAMPAIGNS (Key Visuals, Launch Events and Activations): Nativo,
+      Biologicals, Arize HaBilis Plus'
 
 - id: 6
   published: true
@@ -332,6 +321,7 @@
   project-duration: ''
   project-list:
   - project-name: 'PROVIMI DIGITAL NUTRITION LAUNCH'
+  - project-name: 'PROVIMI PHILIPPINES SOCIAL MEDIA MANAGEMENT'
 
 - id: 5
   published: true
