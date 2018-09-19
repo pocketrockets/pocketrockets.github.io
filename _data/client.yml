@@ -205,32 +205,19 @@
   - project-name: BIG TOP CLOUD FESTIVAL
 
 - id: 10
-
   published: true
-
-  logo-type: big-logo
-
-  client: BGC
-
-  project-title: SUMMER ON THE STREET 2016
-
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505979359/PROJECTS/BGC_Summer_On_The_Street_2016.jpg
-
-  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505839610/CLIENT-LOGO/bgc-logo.png
-
+  logo-type: horizontal-logo
+  client: FS Features & Shades
+  project-title: LOVE YOUR BEAUTY BRAND CAMPAIGN
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837525/PROJECTS/FS_Features___Shades_LOVE_YOUR_BEAUTY_CAMPAIGN.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840235/CLIENT-LOGO/fs-logo.png
   project-gallery:
-
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838225/PROJECT-MODAL/BGC-Gallery.jpg
-
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838329/PROJECT-MODAL/FS-Gallery.jpg
   project-duration: ''
-
   project-list:
-
-  - project-name: SUMMER ON THE STREET 2016
-
-  - project-name: BGC PASSIONFEST 2015
-
-  - project-name: BGC HOLIDAY 2015
+  - project-name: "ìLOVE YOUR BEAUTYî BRAND CAMPAIGN: Key Visuals and Social Media
+      Management"
+  - project-name: "#LOVEYOURBEAUTY DAY at SM Makati and SM Mall of Asia"
 
 - id: 9
 
