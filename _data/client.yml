@@ -234,10 +234,10 @@
   logo-type: horizontal-logo
   client: Philam Life
   project-title: "PHILAM MID-YEAR SALES RALLY 2018"
-  cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537330075/PROJECTS/1_Philam.jpg
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537330075/PROJECTS/1_Philam.jpg
   client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840283/CLIENT-LOGO/Philam-logo.png
   project-gallery:
-  - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537329223/PROJECT-MODAL/1_Philam.jpg
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537329223/PROJECT-MODAL/1_Philam.jpg
   - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1509004777/PROJECT-MODAL/Philam-Gallery2.jpg
   - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1509004771/PROJECT-MODAL/Philam-Gallery.jpg
   project-duration: ''
