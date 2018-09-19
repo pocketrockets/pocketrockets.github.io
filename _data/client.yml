@@ -366,32 +366,18 @@
   - project-name: 'BPI-PHILAM ANNUAL AWARDS 2018'
 
 - id: 4
-
   published: true
-
   logo-type: horizontal-logo
-
-  client: The Medical City
-
-  project-title: 50TH ANNIVERSARY EVENT
-
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508997657/PROJECTS/The_Medical_City_50TH_ANNIVERSARY.jpg
-
-  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840308/CLIENT-LOGO/TMC-logo.png
-
+  client: Accenture
+  project-title: "ACCENTURE TOP ACT 2018"
+  cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537330740/PROJECTS/5.jpg
+  client-logo: http://res.cloudinary.com/pocketrocket/image/upload/v1537326063/CLIENT-LOGO/Accenture_Logo.png
   project-gallery:
-
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508997411/PROJECT-MODAL/TMC-Gallery.jpg
-
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508999755/PROJECT-MODAL/TMC-Gallery2.jpg
-
+  - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322133/PROJECT-MODAL/7_Accenture.jpg
   project-duration: ''
-
   project-list:
-
-  - project-name: 50TH, 49TH AND 48TH ANNIVERSARY EVENT
-
-  - project-name: 30TH ANNUAL AWARDS NIGHT
+  - project-name: 'ACCENTURE TOP ACT 2018'
+  - project-name: 'ACCENTURE AMBASSADOR SEARCH'
 
 - id: 3
   published: true
