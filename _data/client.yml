@@ -1,4 +1,113 @@
 ---
+- id: 26
+  published: true
+  logo-type: horizontal-logo
+  client: Hong Kong Tourism Board
+  project-title: PTAA TRAVEL EXPO 2017
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837562/PROJECTS/Hong_Kong_Tourism_Board_PTAA_TRAVEL_EXPO_2017.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840253/CLIENT-LOGO/hktb-logo.png
+  project-gallery:
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838381/PROJECT-MODAL/HKTB-Gallery.jpg
+  project-duration: ''
+  project-list:
+  - project-name: SHOWCASE BOOTH at The PTAA Travel Tour Expo 2017
+
+- id: 25
+  published: true
+  logo-type: big-logo
+  client: Singapore Airlines
+  project-title: 2016 SHOWCASE & TRAVEL FAIR
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508993710/PROJECTS/Singapore_Airlines_2016_Showcase___Travel_Fair.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1508994063/CLIENT-LOGO/Singapore_Airline-logo.png
+  project-gallery:
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508993614/PROJECT-MODAL/SIA-Gallery.jpg
+  project-duration: ''
+  project-list:
+  - project-name: 2016 SHOWCASE & TRAVEL FAIR
+
+- id: 24
+  published: true
+  logo-type: horizontal-logo
+  client: Singapore Tourism Board
+  project-title: TRAVEL MADNESS EXPO 2016
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837601/PROJECTS/Singapore_Tourism_Board_TRAVEL_MADNESS_EXPO_2016.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840301/CLIENT-LOGO/SGTB-logo.png
+  project-gallery:
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838500/PROJECT-MODAL/SGTB-Gallery.jpg
+  project-duration: ''
+  project-list:
+  - project-name: PRINT ADS (Series of 3) for Forbes Magazine and Esquire Magazine
+  - project-name: STB PAVILLION at The Travel Madness Expo 2016
+
+- id: 23
+  published: true
+  logo-type: big-logo
+  client: Cisco
+  project-title: DATA CENTER LAUNCH
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508996409/PROJECTS/Cisco_Data_Center_Launch.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840224/CLIENT-LOGO/cisco-logo.png
+  project-gallery:
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508996200/PROJECT-MODAL/Cisco-Gallery.jpg
+  project-duration: ''
+  project-list:
+  - project-name: DATA CENTER LAUNCH
+
+- id: 22
+  published: true
+  logo-type: big-logo
+  client: Philips
+  project-title: GIVING YOU THE POWER TO LIVE HEALTHY BRAND CAMPAIGN
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837569/PROJECTS/Philips_BRAND_CAMPAIGN_2016.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840287/CLIENT-LOGO/philips-logo.png
+  project-gallery:
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838462/PROJECT-MODAL/Philips-Gallery.jpg
+  project-duration: ''
+  project-list:
+  - project-name: PHILIPS ìGIVING YOU THE POWER TO LIVE HEALTHYî 2016 BRAND CAMPAIGN
+  - project-name: 'PHILIPS SALES RALLY 2016: Domestic Appliances, Personal Care, Mother
+      and Child Care'
+  - project-name: PHILIPS LED ìMALIWANAGAN!î 2015 BRAND CAMPAIGN
+  - project-name: PHILIPS LED ìMAY MAGAGAWA KAî 2015 BRAND CAMPAIGN, LAUNCH AND ACTIVATION
+
+- id: 21
+  published: true
+  logo-type: horizontal-logo
+  client: Lendr
+  project-title: PNB SMART SALARY LOAN LAUNCH EVENT
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1506009059/PROJECTS/Lendr_PNB_SMART_SALARY_LOAN_LAUNCH_EVENT.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840266/CLIENT-LOGO/lendr-logo.png
+  project-gallery:
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838356/PROJECT-MODAL/Lendr-Gallery.jpg
+  project-duration: ''
+  project-list:
+  - project-name: PNB SMART SALARY LOAN LAUNCH EVENT
+
+- id: 20
+  published: true
+  logo-type: horizontal-logo
+  client: Silver Finance Inc.
+  project-title: 30TH ANNIVERSARY EVENT
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1506009055/PROJECTS/Silver_Finance_Inc_30TH_ANNIVERSARY.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840297/CLIENT-LOGO/silver-logo.png
+  project-gallery:
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838502/PROJECT-MODAL/Silver-Gallery.jpg
+  project-duration: ''
+  project-list:
+  - project-name: 30TH ANNIVERSARY EVENT
+
+- id: 19
+  published: true
+  logo-type: big-logo
+  client: UP Scintilla Juris Fraternity
+  project-title: 50TH ANNIVERSARY EVENT
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837616/PROJECTS/UP_Scintilla_Juris_Fraternity_50TH_ANNIVERSARY.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840318/CLIENT-LOGO/UPSJ-logo.png
+  project-gallery:
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838528/PROJECT-MODAL/UP-Gallery.jpg
+  project-duration: ''
+  project-list:
+  - project-name: 50TH ANNIVERSARY EVENT
+
 - id: 18
   published: true
   logo-type: horizontal-logo
