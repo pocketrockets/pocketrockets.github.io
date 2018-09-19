@@ -201,11 +201,12 @@
   project-list:
   - project-name: 50TH, 49TH AND 48TH ANNIVERSARY EVENT
   - project-name: 30TH ANNUAL AWARDS NIGHT
+
 - id: 3
   published: true
   logo-type: horizontal-logo
-  client: Google Cloud
-  project-title: "GOOGLE CLOUD WORKSHOP"
+  client: Google
+  project-title: "GOOGLE CLOUD WORKSHOP 2018"
   cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322358/PROJECTS/3.jpg
   client-logo: http://res.cloudinary.com/pocketrocket/image/upload/v1537326064/CLIENT-LOGO/Google_CLoud_Logo.png
   project-gallery:
@@ -246,4 +247,4 @@
   - project-name: PHILAM CS LEGACY AWARDS 2018
   - project-name: PHILAM CHINESE NEW YEAR CELEBRATION, NATIONAL MUSEUM EVENT, AND TOWNHALL 2018
   - project-name: 'PHILAM #LIVEBETTER EXPO and #LIVEBETTER MEDIA LAUNCH'
-  - project-name: PHILAM 70TH ANNIVERSARY
+  - project-name: 'PHILAM 70TH ANNIVERSARY'
