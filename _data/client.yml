@@ -202,40 +202,17 @@
   - project-name: C-JOY GRAND OPENING EVENT
 
 - id: 12
-
   published: true
-
   logo-type: horizontal-logo
-
-  client: Globe
-
-  project-title: GLOBE INDEPENDENT FILM FESTIVAL
-
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837534/PROJECTS/Globe_GLOBE_INDEPENDENT_FILM_FESTIVAL.jpg
-
-  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840247/CLIENT-LOGO/globe-logo.png
-
+  client: BCMAP
+  project-title: "BUSINESS UNINTERRUPTED: THE 1ST BUSINESS CONTINUITY SUMMIT"
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537322357/PROJECTS/6.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1537347043/CLIENT-LOGO/Bcmap_logo_500x.png
   project-gallery:
-
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838350/PROJECT-MODAL/Globe-Gallery.jpg
-
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508996856/PROJECT-MODAL/Globe-Gallery_2.jpg
-
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537322134/PROJECT-MODAL/8_BCMAP.jpg
   project-duration: ''
-
   project-list:
-
-  - project-name: GLOBE INDEPENDENT FILM FESTIVAL LAUNCH EVENT
-
-  - project-name: EASY ROAM 149 ACTIVATION
-
-  - project-name: GLOBE ROAM SURF TRAVEL EXPO
-
-  - project-name: GEN3 STORE OPENING at Ayala Center Cebu and Greenbelt
-
-  - project-name: GLOBE PLATINUM GOURMAND
-
-  - project-name: GLOBE REWARDS RED CARPET SALE
+  - project-name: 'BUSINESS UNINTERRUPTED: THE 1ST BUSINESS CONTINUITY SUMMIT'
 
 - id: 11
   published: true
