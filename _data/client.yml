@@ -408,34 +408,18 @@
   - project-name: 'GOOGLE CLOUD BOOTH NICT'
 
 - id: 2
-
   published: true
-
-  logo-type: horizontal-logo
-
-  client: Philam Life
-
-  project-title: "#LIVEBETTER MEDIA LAUNCH"
-
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837592/PROJECTS/Philam_Life_LIVE_BETTER_MEDIA_LAUNCH.jpg
-
-  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840283/CLIENT-LOGO/Philam-logo.png
-
+  logo-type: big-logo
+  client: Ericsson
+  project-title: "ERICSSON PHILIPPINES 30TH ANNIVERSARY"
+  cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322357/PROJECTS/4.jpg
+  client-logo: http://res.cloudinary.com/pocketrocket/image/upload/v1537326063/CLIENT-LOGO/Ericsson_Logo.png
   project-gallery:
-
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1509004777/PROJECT-MODAL/Philam-Gallery2.jpg
-
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1509004771/PROJECT-MODAL/Philam-Gallery.jpg
-
+  - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322132/PROJECT-MODAL/5_Ericsson.jpg
+  - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322131/PROJECT-MODAL/6_Ericsson.jpg
   project-duration: ''
-
   project-list:
-
-  - project-name: 'PHILAM #LIVEBETTER EXPO at Glorietta and SM City Davao'
-
-  - project-name: 'PHILAM #LIVEBETTER MEDIA LAUNCH'
-
-  - project-name: PHILAM 70TH ANNIVERSARY
+  - project-name: 'ERICSSON PHILIPPINES 30TH ANNIVERSARY'
 
 - id: 1
   published: true
@@ -453,5 +437,5 @@
   - project-name: PHILAM MID-YEAR SALES RALLY 2018
   - project-name: PHILAM CS LEGACY AWARDS 2018
   - project-name: PHILAM CHINESE NEW YEAR CELEBRATION, NATIONAL MUSUEM EVENT, AND TOWNHALL 2018
-  - project-name: PHILAM #LIVEBETTER EXPO AND MEDIA LAUNCH
+  - project-name: 'PHILAM #LIVEBETTER EXPO AND MEDIA LAUNCH'
   - project-name: PHILAM 70TH ANNIVERSARY
