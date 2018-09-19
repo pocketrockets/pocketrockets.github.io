@@ -128,28 +128,20 @@
   - project-name: STB PAVILLION at The Travel Madness Expo 2016
 
 - id: 13
-
   published: true
-
   logo-type: big-logo
-
-  client: UP Scintilla Juris Fraternity
-
-  project-title: 50TH ANNIVERSARY EVENT
-
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837616/PROJECTS/UP_Scintilla_Juris_Fraternity_50TH_ANNIVERSARY.jpg
-
-  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840318/CLIENT-LOGO/UPSJ-logo.png
-
+  client: Cargill
+  project-title: C-JOY GRAND OPENING EVENT
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1525661696/PROJECTS/CARGILL_CJOY_GRAND
+    OPENING_EVENT.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840216/CLIENT-LOGO/cargill-logo.png
   project-gallery:
-
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838528/PROJECT-MODAL/UP-Gallery.jpg
-
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838332/PROJECT-MODAL/Cargill-Gallery.jpg
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1525660930/PROJECT-MODAL/cargill_cjoy_grand_opening_corporate_event_pocketrocket_msyj3j.jpg
   project-duration: ''
-
   project-list:
-
-  - project-name: 50TH ANNIVERSARY EVENT
+  - project-name: C-JOY GROUNDBREAKING CEREMONY
+  - project-name: C-JOY GRAND OPENING EVENT
 
 - id: 12
 
