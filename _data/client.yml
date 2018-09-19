@@ -235,16 +235,21 @@
 - id: 1
   published: true
   logo-type: horizontal-logo
-  client: Microsoft
-  project-title: MICROSOFT CIO SUMMIT PUBLIC SECTOR
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837570/PROJECTS/Microsoft_MICROSOFT_CIO_SUMMIT_2017.jpg
-  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840273/CLIENT-LOGO/Microsoft-logo.png
+  client: Philam Life
+  project-title: "PHILAM MID-YEAR SALES RALLY 2018"
+  cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537330075/PROJECTS/1_Philam.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840283/CLIENT-LOGO/Philam-logo.png
   project-gallery:
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838380/PROJECT-MODAL/Microsoft-Gallery.jpg
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1509004777/PROJECT-MODAL/Philam-Gallery2.jpg
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1509004771/PROJECT-MODAL/Philam-Gallery.jpg
+  - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537329223/PROJECT-MODAL/1_Philam.jpg
   project-duration: ''
   project-list:
-  - project-name: MICROSOFT CIO SUMMIT 2015, 2016
-  - project-name: MICROSOFT CIO SUMMIT PUBLIC SECTOR YEAR 2
-  - project-name: OFFICE 365 ACTIVATION
-  - project-name: 'LAUNCH EVENTS: WINDOWS SERVER 2016, SQL SERVER 2016'
-  - project-name: BIG TOP CLOUD FESTIVAL
+  - project-name: PHILAM MID-YEAR SALES RALLY 2018
+  - project-name: PHILAM CS LEGACY AWARDS 2018
+  - project-name: PHILAM TOWNHALL 2018
+  - project-name: PHILAM - NATIONAL MUSEUM EVENT
+  - project-name: PHILAM CHINESE NEW YEAR CELEBRATION 2018
+  - project-name: 'PHILAM #LIVEBETTER EXPO at Glorietta and SM City Davao'
+  - project-name: 'PHILAM #LIVEBETTER MEDIA LAUNCH'
+  - project-name: PHILAM 70TH ANNIVERSARY
