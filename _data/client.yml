@@ -214,7 +214,6 @@
   project-list:
   - project-name: GOOGLE CLOUD WORKSHOP
  - project-name: GOOGLE CLOUD BOOTH NICT
- 
 - id: 2
   published: true
   logo-type: horizontal-logo
@@ -228,7 +227,6 @@
   project-duration: ''
   project-list:
   - project-name: BPI-PHILAM ANNUAL AWARDS 2018
-  
 - id: 1
   published: true
   logo-type: horizontal-logo
