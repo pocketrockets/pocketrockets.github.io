@@ -270,28 +270,17 @@
   - project-name: "#LOVEYOURBEAUTY DAY at SM Makati and SM Mall of Asia"
 
 - id: 9
-
   published: true
-
   logo-type: big-logo
-
-  client: Sassa
-
-  project-title: "#COLORUPSUMMER BRAND CAMPAIGN"
-
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837576/PROJECTS/Sassa__COLORUPSUMMER_BRAND_CAMPAIGN.jpg
-
-  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840292/CLIENT-LOGO/SASSA-logo.png
-
+  client: Dell
+  project-title: "COMICCON ASIA 2018"
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537343931/PROJECTS/8_Dell.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1537344514/CLIENT-LOGO/Dell_Logo.png
   project-gallery:
-
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838438/PROJECT-MODAL/Sassa-Gallery.jpg
-
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537343917/PROJECT-MODAL/11_Dell.jpg
   project-duration: ''
-
   project-list:
-
-  - project-name: "#COLORUPSUMMER BRAND CAMPAIGN: Key Visuals and Social Media Management"
+  - project-name: 'COMICCON ASIA 2018'
 
 - id: 8
 
