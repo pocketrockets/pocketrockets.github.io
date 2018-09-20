@@ -1,84 +1,45 @@
 ---
+
 - id: 1
   published: true
-  client: Cargill
-  project-title: C-JOY GROUNDBREAKING CEREMONY
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837542/PROJECTS/Cargill_C-JOY_GROUNDBREAKING_EVENT.jpg
+  client: Dell
+  project-title: COMICCON ASIA 2018
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505979367/PROJECTS/PayMaya_BEYOND_THE_SELFIE_MEDIA_LAUNCH.jpg
 - id: 2
   published: true
-  client: Silver Finance Inc.
-  project-title: 30TH ANNIVERSARY EVENT
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1506009055/PROJECTS/Silver_Finance_Inc_30TH_ANNIVERSARY.jpg
+  client: Bayer
+  project-title: AGRIHEROES DISTRIBUTORS AND DEALERS SUMMIT
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837525/PROJECTS/FS_Features___Shades_LOVE_YOUR_BEAUTY_CAMPAIGN.jpg
 - id: 3
   published: true
-  client: Singapore Tourism Board
-  project-title: TRAVEL MADNESS EXPO 2016
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837601/PROJECTS/Singapore_Tourism_Board_TRAVEL_MADNESS_EXPO_2016.jpg
+  client: Provimi
+  project-title: PROVIMI DIGITAL NUTRITION LAUNCH
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837569/PROJECTS/Philips_BRAND_CAMPAIGN_2016.jpg
 - id: 4
   published: true
-  client: UP Scintilla Juris Fraternity
-  project-title: 50TH ANNIVERSARY EVENT
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837616/PROJECTS/UP_Scintilla_Juris_Fraternity_50TH_ANNIVERSARY.jpg
+  client: Accenture
+  project-title: ACCENTURE TOP ACT 2018
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837562/PROJECTS/Hong_Kong_Tourism_Board_PTAA_TRAVEL_EXPO_2017.jpg
 - id: 5
   published: true
-  client: Globe
-  project-title: GLOBE INDEPENDENT FILM FESTIVAL
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837534/PROJECTS/Globe_GLOBE_INDEPENDENT_FILM_FESTIVAL.jpg
+  client: ERICSSON
+  project-title: ERICSSON PHILIPPINES 30TH ANNIVERSARY EVENT
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508997657/PROJECTS/The_Medical_City_50TH_ANNIVERSARY.jpg
 - id: 6
   published: true
-  client: Lendr
-  project-title: PNB SMART SALARY LOAN LAUNCH EVENT
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1506009059/PROJECTS/Lendr_PNB_SMART_SALARY_LOAN_LAUNCH_EVENT.jpg
+  client: BPI-Philam
+  project-title: ANNUAL AWARDS 2018
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505979360/PROJECTS/Bayer_Distributors_Summit.jpg
 - id: 7
   published: true
-  client: PAYMAYA
-  project-title: BOOTH ACTIVATIONS 2018
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537321134/PROJECTS/PayMaya_BOOTH_ACTIVATION.jpg
+  client: Google Cloud
+  project-title: "GOOGLE CLOUD WORKSHOP"
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537329280/1_Philam_gdwusj.jpg
 - id: 8
-  published: true
-  client: Sassa
-  project-title: "#COLORUPSUMMER BRAND CAMPAIGN"
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837576/PROJECTS/Sassa__COLORUPSUMMER_BRAND_CAMPAIGN.jpg
-- id: 9
-  published: true
-  client: PayMaya
-  project-title: BEYOND THE SELFIE MEDIA LAUNCH
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505979367/PROJECTS/PayMaya_BEYOND_THE_SELFIE_MEDIA_LAUNCH.jpg
-- id: 10
-  published: true
-  client: FS Features & Shades
-  project-title: LOVE YOUR BEAUTY BRAND CAMPAIGN
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837525/PROJECTS/FS_Features___Shades_LOVE_YOUR_BEAUTY_CAMPAIGN.jpg
-- id: 11
-  published: true
-  client: Philips
-  project-title: GIVING YOU THE POWER TO LIVE HEALTHY BRAND CAMPAIGN
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837569/PROJECTS/Philips_BRAND_CAMPAIGN_2016.jpg
-- id: 12
-  published: true
-  client: Hong Kong Tourism Board
-  project-title: PTAA TRAVEL EXPO 2017
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837562/PROJECTS/Hong_Kong_Tourism_Board_PTAA_TRAVEL_EXPO_2017.jpg
-- id: 13
-  published: true
-  client: The Medical City
-  project-title: 50TH ANNIVERSARY EVENT
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508997657/PROJECTS/The_Medical_City_50TH_ANNIVERSARY.jpg
-- id: 14
-  published: true
-  client: Bayer
-  project-title: BAYER DISTRIBUTORS SUMMIT
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505979360/PROJECTS/Bayer_Distributors_Summit.jpg
-- id: 15
   published: true
   client: Philam Life
   project-title: "MID-YEAR SALES RALLY 2018"
   cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537329280/1_Philam_gdwusj.jpg
-- id: 16
-  published: true
-  client: Microsoft
-  project-title: MICROSOFT CIO SUMMIT PUBLIC SECTOR
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505837570/PROJECTS/Microsoft_MICROSOFT_CIO_SUMMIT_2017.jpg
 - id: ''
   published: false
   client: ''
