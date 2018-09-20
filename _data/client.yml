@@ -158,17 +158,15 @@
 - id: 15
   published: true
   logo-type: horizontal-logo
-  client: The Medical City
-  project-title: 50TH ANNIVERSARY EVENT
+  client: The Divine Tribe
+  project-title: SOCIAL MEDIA MANAGEMENT
   cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508997657/PROJECTS/The_Medical_City_50TH_ANNIVERSARY.jpg
-  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840308/CLIENT-LOGO/TMC-logo.png
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1537415282/CLIENT-LOGO/The_Divine_Tribe_Logo.png
   project-gallery:
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508997411/PROJECT-MODAL/TMC-Gallery.jpg
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1508999755/PROJECT-MODAL/TMC-Gallery2.jpg
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537331100/PROJECT-MODAL/The_Divine_Tribe_Gallery.jpg
   project-duration: ''
   project-list:
-  - project-name: 50TH, 49TH AND 48TH ANNIVERSARY EVENT
-  - project-name: 30TH ANNUAL AWARDS NIGHT
+  - project-name: SOCIAL MEDIA MANAGEMENT
 
 - id: 14
   published: true
@@ -392,8 +390,7 @@
   - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1509004771/PROJECT-MODAL/Philam-Gallery.jpg
   project-duration: ''
   project-list:
-  - project-name: PHILAM MID-YEAR SALES RALLY 2018
-  - project-name: PHILAM CS LEGACY AWARDS 2018
+  - project-name: PHILAM MID-YEAR SALES RALLY, AND CS LEGACY AWARDS 2018
   - project-name: PHILAM CHINESE NEW YEAR CELEBRATION, NATIONAL MUSUEM EVENT, AND TOWNHALL 2018
   - project-name: 'PHILAM #LIVEBETTER EXPO AND MEDIA LAUNCH'
   - project-name: PHILAM 70TH ANNIVERSARY
