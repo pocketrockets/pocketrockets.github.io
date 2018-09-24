@@ -1,7 +1,7 @@
 - id: 1
   title: Creative
   effect: slideInLeft
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1506007014/misc/slider1.jpg"
+  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1537767549/misc/PHOTO4.jpg"
 
 - id: 2
   bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1509004580/misc/creative-2-1.jpg"
@@ -12,12 +12,12 @@
   bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1506007029/misc/slider2.jpg"
 
 - id: 4
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1509004569/misc/strategic-2-1.jpg"
+  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1537767530/misc/PHOTO3.jpg"
 
 - id: 5
   title: Snappy
   effect: slideInLeft
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1506007011/misc/slider3.jpg"
+  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1537767539/misc/PHOTO2.jpg"
 
 - id: 6
   bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1509004611/misc/snappy-2-1.jpg"
@@ -27,7 +27,7 @@
   effect: fadeIn
   logo: "/img/rocket-logo.png"
   description: "Pocket Rocket is a full-service advertising <br/> agency in Manila, Philippines. Helping you create <br/> impactful customer experiences."
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1506007038/misc/slider4.jpg"
+  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1537767541/misc/PHOTO1.jpg"
 
 - id: 8
   bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1509004566/misc/pocket-rocket-is-2-1.jpg"
