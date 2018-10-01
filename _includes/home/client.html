@@ -43,18 +43,20 @@
                 </div>
                 <div class="modal-list-container"></div>
                 <div id="modalWithVideo" class="modal-gallery-container">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class=""><a href="#tab1" role="tab" data-toggle="tab">Photos</a></li>
-                        <li role="presentation"><a href="#tab2" role="tab" data-toggle="tab">Video</a></li>
-                    </ul>
+                    <div class="nav nav-tabs" role="tablist">
+                        <button data-toggle="tab" data-target="#tab1" class="btn btn-default btn-sm">Photo</button>
+                        <button data-toggle="tab" data-target="#tab2" class="btn btn-default btn-sm">Video</button>
+                        <!--<li role="presentation"><a href="#tab1" role="tab" data-toggle="tab">Photos</a></li>-->
+                        <!--<li role="presentation"><a href="#tab2" role="tab" data-toggle="tab">Video</a></li>-->
+                    </div>
                     <!-- Tab panes -->
                     <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade active" id="tab1">
+                        <div role="tabpanel" class="tab-pane active fade in" id="tab1">
                             <div class="modal-gallery-list"></div>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="tab2">
                             <div class="modal-video-container">
-                                <iframe id="modal-video" src="" frameborder="0" width="100%" height="100%"></iframe>
+                                <iframe class="modal-video" src="" frameBorder="0" allowFullScreen="allowFullScreen" ></iframe>
 
                             </div>
                         </div>
