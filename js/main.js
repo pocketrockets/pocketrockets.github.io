@@ -8,14 +8,28 @@ $(document).ready(function () {
         var modalProjectDuration = $(this).attr("data-client-duration");
         var modalProjectList = $(this).attr("data-project-list");
         var modalGallery = $(this).attr("data-gallery");
+        var modalVideo = $(this).attr("data-video");
+        console.log(modalVideo);
 
         //For modal
         $(this).parents().parents().find(".modal.fade").attr("id",modalTarget);
         $(this).parents().parents().find(".modal.fade").attr("aria-labelledby",modalTarget);
         $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-client-logo").attr({ src: modalClientLogo, class: modalLogoType + " modal-client-logo"});
         $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-list-container").html(modalProjectList);
-        $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-gallery-container").html(modalGallery);
         $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-project-duration").text(modalProjectDuration);
+
+        if(modalVideo != ''){
+            $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-gallery-list").html(modalGallery);
+            $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithVideo .modal-video-container #modal-video").attr({ src: 'https://www.youtube.com/embed/' + modalVideo + '?autoplay=0&fs=0&rel=0&showinfo=0' });
+            $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithVideo").css("display","block");
+            $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithoutVideo").css("display","none");
+        }
+        else{
+            $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-gallery-list").html(modalGallery);
+            $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithVideo").css("display","none");
+            $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithoutVideo").css("display","block");
+        }
+
     });
 
     swiperItemContainer.on("mouseover",function () {
