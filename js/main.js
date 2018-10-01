@@ -9,8 +9,7 @@ $(document).ready(function () {
         var modalProjectList = $(this).attr("data-project-list");
         var modalGallery = $(this).attr("data-gallery");
         var modalVideo = $(this).attr("data-video");
-        console.log(modalVideo);
-
+        // console.log(modalVideo);
         //For modal
         $(this).parents().parents().find(".modal.fade").attr("id",modalTarget);
         $(this).parents().parents().find(".modal.fade").attr("aria-labelledby",modalTarget);
@@ -20,7 +19,7 @@ $(document).ready(function () {
 
         if(modalVideo != ''){
             $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-gallery-list").html(modalGallery);
-            $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithVideo .modal-video-container #modal-video").attr({ src: 'https://www.youtube.com/embed/' + modalVideo + '?autoplay=0&fs=0&rel=0&showinfo=0' });
+            $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithVideo .modal-video-container .modal-video").attr({ src: 'https://www.youtube.com/embed/' + modalVideo + '?autoplay=0&rel=0&showinfo=0' });
             $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithVideo").css("display","block");
             $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithoutVideo").css("display","none");
         }
@@ -30,6 +29,10 @@ $(document).ready(function () {
             $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithoutVideo").css("display","block");
         }
 
+    });
+    //Disable modal video on close
+    $(".modal").on('hidden.bs.modal', function (e) {
+        $(this).find(".modal-content .modal-body #modalWithVideo .modal-video-container .modal-video").removeAttr('src');
     });
 
     swiperItemContainer.on("mouseover",function () {
