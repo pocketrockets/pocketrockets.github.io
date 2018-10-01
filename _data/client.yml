@@ -11,6 +11,7 @@
   project-duration: ''
   project-list:
   - project-name: SHOWCASE BOOTH at The PTAA Travel Tour Expo 2017
+  project-video-link:
 
 - id: 25
   published: true
@@ -24,6 +25,7 @@
   project-duration: ''
   project-list:
   - project-name: 2016 SHOWCASE & TRAVEL FAIR
+  project-video-link:
 
 - id: 24
   published: true
@@ -38,6 +40,7 @@
   project-list:
   - project-name: PRINT ADS (Series of 3) for Forbes Magazine and Esquire Magazine
   - project-name: STB PAVILLION at The Travel Madness Expo 2016
+  project-video-link:
 
 - id: 23
   published: true
@@ -51,6 +54,7 @@
   project-duration: ''
   project-list:
   - project-name: DATA CENTER LAUNCH
+  project-video-link:
 
 - id: 22
   published: true
@@ -64,10 +68,10 @@
   project-duration: ''
   project-list:
   - project-name: PHILIPS ìGIVING YOU THE POWER TO LIVE HEALTHYî 2016 BRAND CAMPAIGN
-  - project-name: 'PHILIPS SALES RALLY 2016: Domestic Appliances, Personal Care, Mother
-      and Child Care'
+  - project-name: 'PHILIPS SALES RALLY 2016: Domestic Appliances, Personal Care, Mother and Child Care'
   - project-name: PHILIPS LED ìMALIWANAGAN!î 2015 BRAND CAMPAIGN
   - project-name: PHILIPS LED ìMAY MAGAGAWA KAî 2015 BRAND CAMPAIGN, LAUNCH AND ACTIVATION
+  project-video-link:
 
 - id: 21
   published: true
@@ -81,6 +85,7 @@
   project-duration: ''
   project-list:
   - project-name: PNB SMART SALARY LOAN LAUNCH EVENT
+  project-video-link:
 
 - id: 20
   published: true
@@ -94,6 +99,7 @@
   project-duration: ''
   project-list:
   - project-name: 30TH ANNIVERSARY EVENT
+  project-video-link:
 
 - id: 19
   published: true
@@ -107,6 +113,7 @@
   project-duration: ''
   project-list:
   - project-name: 50TH ANNIVERSARY EVENT
+  project-video-link:
 
 - id: 18
   published: true
@@ -122,6 +129,7 @@
   project-list:
   - project-name: 50TH, 49TH AND 48TH ANNIVERSARY EVENT
   - project-name: 30TH ANNUAL AWARDS NIGHT
+  project-video-link:
 
 - id: 17
   published: true
@@ -135,6 +143,7 @@
   project-duration: ''
   project-list:
   - project-name: "#COLORUPSUMMER BRAND CAMPAIGN: Key Visuals and Social Media Management"
+  project-video-link:
 
 - id: 18
   published: true
@@ -154,6 +163,7 @@
   - project-name: GEN3 STORE OPENING at Ayala Center Cebu and Greenbelt
   - project-name: GLOBE PLATINUM GOURMAND
   - project-name: GLOBE REWARDS RED CARPET SALE
+  project-video-link:
 
 - id: 15
   published: true
@@ -167,6 +177,7 @@
   project-duration: ''
   project-list:
   - project-name: SOCIAL MEDIA MANAGEMENT
+  project-video-link:
 
 - id: 14
   published: true
@@ -182,6 +193,7 @@
   - project-name: SUMMER ON THE STREET 2016
   - project-name: BGC PASSIONFEST 2015
   - project-name: BGC HOLIDAY 2015
+  project-video-link:
 
 - id: 13
   published: true
@@ -198,6 +210,7 @@
   project-list:
   - project-name: C-JOY GROUNDBREAKING CEREMONY
   - project-name: C-JOY GRAND OPENING EVENT
+  project-video-link:
 
 - id: 12
   published: true
@@ -211,6 +224,7 @@
   project-duration: ''
   project-list:
   - project-name: 'BUSINESS UNINTERRUPTED: THE 1ST BUSINESS CONTINUITY SUMMIT'
+  project-video-link:
 
 - id: 11
   published: true
@@ -228,6 +242,7 @@
   - project-name: OFFICE 365 ACTIVATION
   - project-name: 'LAUNCH EVENTS: WINDOWS SERVER 2016, SQL SERVER 2016'
   - project-name: BIG TOP CLOUD FESTIVAL
+  project-video-link:
 
 - id: 10
   published: true
@@ -245,6 +260,7 @@
   - project-name: "LOVE YOUR BEAUTY BRAND CAMPAIGN: Key Visuals and Social Media
       Management"
   - project-name: "#LOVEYOURBEAUTY DAY at SM Makati and SM Mall of Asia"
+  project-video-link:
 
 - id: 9
   published: true
@@ -258,34 +274,23 @@
   project-duration: ''
   project-list:
   - project-name: 'COMICCON ASIA 2018'
+  project-video-link:
 
 - id: 8
-
   published: true
-
   logo-type: horizontal-logo
-
   client: PayMaya
-
   project-title: PAYMAYA BOOTH ACTIVATIONS
-
   cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537321134/PROJECTS/PayMaya_BOOTH_ACTIVATION.jpg
-
   client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840278/CLIENT-LOGO/Paymaya-logo.png
-
   project-gallery:
-
   - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537259468/PROJECT-MODAL/PayMaya_Event_Gallery.jpg
-
   project-duration: ''
-
   project-list:
-
   - project-name: PAYMAYA BOOTH ACTIVATIONS 2018
-
   - project-name: "“BEYOND THE SELFIE” MEDIA LAUNCH 2017"
-
   - project-name: "“NOW NATION” MEDIA LAUNCH 2016"
+  project-video-link:
 
 - id: 7
   published: true
@@ -303,8 +308,8 @@
   - project-name: BAYER DISTRIBUTORS SUMMIT
   - project-name: BAYER DEALERS SUMMIT
   - project-name: NOMINEE 20th ANNIVERSARY EVENT
-  - project-name: 'BRAND CAMPAIGNS (Key Visuals, Launch Events and Activations): Nativo,
-      Biologicals, Arize HaBilis Plus'
+  - project-name: 'BRAND CAMPAIGNS (Key Visuals, Launch Events and Activations): Nativo, Biologicals, Arize HaBilis Plus'
+  project-video-link:
 
 - id: 6
   published: true
@@ -320,6 +325,7 @@
   project-list:
   - project-name: 'PROVIMI DIGITAL NUTRITION LAUNCH'
   - project-name: 'PROVIMI PHILIPPINES SOCIAL MEDIA MANAGEMENT'
+  project-video-link:
 
 - id: 5
   published: true
@@ -334,6 +340,7 @@
   project-duration: ''
   project-list:
   - project-name: 'BPI-PHILAM ANNUAL AWARDS 2018'
+  project-video-link:
 
 - id: 4
   published: true
@@ -348,6 +355,7 @@
   project-list:
   - project-name: 'ACCENTURE TOP ACT 2018'
   - project-name: 'ACCENTURE AMBASSADOR SEARCH'
+  project-video-link:
 
 - id: 3
   published: true
@@ -362,6 +370,7 @@
   project-list:
   - project-name: 'GOOGLE CLOUD WORKSHOP'
   - project-name: 'GOOGLE CLOUD BOOTH NICT'
+  project-video-link:
 
 - id: 2
   published: true
@@ -376,6 +385,7 @@
   project-duration: ''
   project-list:
   - project-name: 'ERICSSON PHILIPPINES 30TH ANNIVERSARY'
+  project-video-link:
 
 - id: 1
   published: true
@@ -394,3 +404,4 @@
   - project-name: PHILAM CHINESE NEW YEAR CELEBRATION, NATIONAL MUSUEM EVENT, AND TOWNHALL 2018
   - project-name: 'PHILAM #LIVEBETTER EXPO AND MEDIA LAUNCH'
   - project-name: PHILAM 70TH ANNIVERSARY
+  project-video-link: P1pwbnzbe7g
