@@ -59,6 +59,22 @@ $(document).ready(function () {
 $(window).on("load", function(){
     $('.loader').fadeOut();
     $('#bootstrap-touch-slider').bsTouchSlider();
+    var swiper = new Swiper('#swiper-cover', {
+        slidesPerView: 1,
+        loop: true,
+        autoplay: {
+            delay: 5500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
 
     var swiper1 = new Swiper('#swiper-container1', {
         slidesPerView: 4,
