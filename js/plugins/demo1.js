@@ -1,13 +1,3 @@
-/**
- * demo1.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- *
- * Copyright 2018, Codrops
- * http://www.codrops.com
- */
 {
     // the settings for each one of the slides uncover instances.
     const uncoverOpts = [
@@ -46,23 +36,27 @@
             slicesOrigin:  {show: 'bottom', hide: 'bottom'}
         },
         {
+            // total number of slices.
+            slicesTotal: 4,
+            // slices color.
+            slicesColor: '#111',
+            // 'vertical' || 'horizontal'.
+            orientation: 'vertical',
+            // 'bottom' || 'top' for vertical orientation and 'right' || 'left' for horizontal orientation.
+            slicesOrigin: {show: 'top', hide: 'bottom'}
+        },
+        {
+            slicesTotal: 7,
+            slicesColor: '#111',
+            orientation: 'horizontal',
+            slicesOrigin:  {show: 'right', hide: 'right'}
+        },
+        {
             slicesTotal: 9,
             slicesColor: '#111',
             orientation: 'vertical',
             slicesOrigin:  {show: 'bottom', hide: 'bottom'}
         },
-        {
-            slicesTotal: 5,
-            slicesColor: '#111',
-            orientation: 'horizontal',
-            slicesOrigin:  {show: 'left', hide: 'left'}
-        },
-        {
-            slicesTotal: 6,
-            slicesColor: '#111',
-            orientation: 'vertical',
-            slicesOrigin:  {show: 'bottom', hide: 'bottom'}
-        }
     ];
 
     class Slideshow {
@@ -118,81 +112,73 @@
 
     const pagination = document.querySelector('.carousel-indicators');
     const triggers = Array.from(pagination.querySelectorAll('.pagination-item'));
-//     triggers.forEach((trigger,pos) => {
-//         if ( pos === 0 ) {
-//     trigger.classList.add('active');
-// }
-//     trigger.addEventListener('click', () => {
-//         if ( slideshow.isAnimating ) return;
-//     slideshow.navigate(pos);
-//     pagination.querySelector('.active').classList.remove('active');
-//     trigger.classList.add('active');
-// })
-//
-// });
+    triggers.forEach((trigger,pos) => {
+    if ( pos === 0 ) {
+        trigger.classList.add('active');
+    }
+    trigger.addEventListener('click', () => {
+        if ( slideshow.isAnimating ) return;
+    slideshow.navigate(pos);
+    pagination.querySelector('.active').classList.remove('active');
+    trigger.classList.add('active');
+})
+});
 
-
-
-
-    // document.addEventListener('keydown', (ev) => {
-    //     if ( slideshow.isAnimating ) return;
-    //     const keyCode = ev.keyCode || ev.which;
-    //     let newpos;
-    //     if ( keyCode === 37 ) {
-    //         newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
-    //         slideshow.navigate(newpos);
-    //     }
-    //     else if ( keyCode === 39 ) {
-    //         newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
-    //         slideshow.navigate(newpos);
-    //     }
-    //     else return;
-    //     pagination.querySelector('.active').classList.remove('active');
-    //     triggers[newpos].classList.add('active');
-    // });
+    document.addEventListener('keydown', (ev) => {
+        if ( slideshow.isAnimating ) return;
+        const keyCode = ev.keyCode || ev.which;
+        let newpos;
+        if ( keyCode === 37 ) {
+            newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
+            slideshow.navigate(newpos);
+        }
+        else if ( keyCode === 39 ) {
+            newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
+            slideshow.navigate(newpos);
+        }
+        else return;
+        pagination.querySelector('.active').classList.remove('active');
+        triggers[newpos].classList.add('active');
+    });
 
     var bootstrapSlider = $('#bootstrap-touch-slider');
-    bootstrapSlider.bind('slide.bs.carousel', function (event) {
+    var paginationItem = $(".carousel-indicators .pagination-item");
+
+    bootstrapSlider.on('slid.bs.carousel', function (event) {
+        $(this).find(".carousel-inner .item.active").removeClass("active");
         if ( slideshow.isAnimating ) return;
-        let newBpos;
+        let newpos;
         var active = $(event.target).find('.carousel-inner > .item.active');
         var from = active.index();
         var next = $(event.relatedTarget);
         var to = next.index();
         var direction = event.direction;
-        console.log(direction);
         if(direction == "left"){
-            console.log("left trigger!!!");
-            newBpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
-            slideshow.navigate(newBpos);
+            // console.log("left trigger!!!");
+            newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
+            slideshow.navigate(newpos);
         }
         else if(direction == "right"){
-            console.log("right trigger!!!");
-            newBpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
-            slideshow.navigate(newBpos);
+            // console.log("right trigger!!!");
+            newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
+            slideshow.navigate(newpos);
         }
-        else return;
-        pagination.querySelector('.active').classList.remove('active');
-        triggers[newBpos].classList.add('active');
+
 
         //on carousel Swipe
         var bootstrapInnerCarousel = $( "#bootstrap-touch-slider .carousel-inner" );
-        bootstrapInnerCarousel.swipe( {
-            swipeLeft: function ( event, direction, distance, duration, fingerCount ) {
-                newBpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
-                slideshow.navigate(newBpos);
-                pagination.querySelector('.active').classList.remove('active');
-                triggers[newBpos].classList.add('active');
-            },
-            swipeRight: function ( ) {
-                newBpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
-                slideshow.navigate(newBpos);
-                pagination.querySelector('.active').classList.remove('active');
-                triggers[newBpos].classList.add('active');
+        bootstrapInnerCarousel.swipe({
+            swipeLeft: function () {
+                newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
+                slideshow.navigate(newpos);
 
             },
+            swipeRight: function ( ) {
+                newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
+                slideshow.navigate(newpos);
+            },
             threshold: 0
-        } );
+        });
 
     });
 });

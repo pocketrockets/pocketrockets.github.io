@@ -1,11 +1,11 @@
 <div class="container-fluid no-gutter">
 
-    <div id="bootstrap-touch-slider" class="carousel bs-slider control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
+    <div id="bootstrap-touch-slider" class="carousel bs-slider control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="4000" >
 
         <!-- Indicators -->
         <ol class="carousel-indicators">
             {% for sliderIndicator in site.data.homeSlider %}
-            <li {% if forloop.first %} class="active pagination-item"{% else %} class="pagination-item" {% endif %}></li>
+            <li  data-slide-to="{{ forloop.index0 }}"{% if forloop.first %} class="active pagination-item"{% else %} class="pagination-item" {% endif %}></li>
             {% endfor %}
         </ol>
 
@@ -13,7 +13,7 @@
         <div class="carousel-inner" role="listbox">
 
             {% for slider in site.data.homeSlider %}
-            <div {% if slider.id == 1 %} class="item active" {% else %} class="item" {% endif %}>
+            <div {% if forloop.first %} class="item active" {% else %} class="item" {% endif %}>
 
                 <!-- Slide Background -->
                 <div class="slide-image" style="background-image: url('{{ slider.bg-image }}'); "></div>
@@ -23,7 +23,7 @@
                     <h1 data-animation="animated fadeIn" class="slide-header">{{ slider.title }}</h1>
                     {% endif %}
                     {% if slider.logo != null %}
-                    <img data-animation="animated fadeIn" class="slide-image" src="{{ slider.logo }}"/>
+                    <img data-animation="animated fadeIn" class="slide-image-animation" src="{{ slider.logo }}"/>
                     {% endif %}
                     {% if slider.description != null %}
                     <p data-animation="animated fadeIn" class="slide-description">{{ slider.description }}</p>
