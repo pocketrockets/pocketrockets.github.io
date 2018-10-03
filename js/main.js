@@ -58,14 +58,11 @@ $(document).ready(function () {
 
 $(window).on("load", function(){
     $('.loader').fadeOut();
-    $('#bootstrap-touch-slider').bsTouchSlider();
-    var swiper = new Swiper('#swiper-cover', {
+    // $('#bootstrap-touch-slider').bsTouchSlider();
+    var swiper = new Swiper('#cover-swiper', {
         slidesPerView: 1,
+        effect: 'fade',
         loop: true,
-        autoplay: {
-            delay: 5500,
-            disableOnInteraction: false,
-        },
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
@@ -75,6 +72,22 @@ $(window).on("load", function(){
             prevEl: '.swiper-button-prev',
         },
     });
+    // var swiper = new Swiper('#swiper-cover', {
+    //     slidesPerView: 1,
+    //     loop: true,
+    //     autoplay: {
+    //         delay: 5500,
+    //         disableOnInteraction: false,
+    //     },
+    //     pagination: {
+    //         el: '.swiper-pagination',
+    //         clickable: true,
+    //     },
+    //     navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev',
+    //     },
+    // });
 
     var swiper1 = new Swiper('#swiper-container1', {
         slidesPerView: 4,
@@ -82,7 +95,7 @@ $(window).on("load", function(){
         spaceBetween: 1,
         // Disable preloading of all images
         preloadImages: false,
-        lazyLoading: true,
+        lazy: true,
         loop: true,
         autoplay: 4000,
         grabCursor: true,
@@ -110,7 +123,7 @@ $(window).on("load", function(){
         paginationClickable: false,
         spaceBetween: 10,
         preloadImages: false,
-        lazyLoading: true,
+        lazy: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         watchSlidesVisibility: true,
