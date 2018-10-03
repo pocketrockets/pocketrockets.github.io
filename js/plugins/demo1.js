@@ -163,8 +163,6 @@
             newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
             slideshow.navigate(newpos);
         }
-
-
         //on carousel Swipe
         var bootstrapInnerCarousel = $( "#bootstrap-touch-slider .carousel-inner" );
         bootstrapInnerCarousel.swipe({
