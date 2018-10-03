@@ -3,7 +3,7 @@
     <div id="bootstrap-touch-slider" class="carousel fade bs-slider control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="4000" >
 
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators hidden">
             {% for sliderIndicator in site.data.homeSlider %}
             <li  data-slide-to="{{ forloop.index0 }}"{% if forloop.first %} class="active pagination-item"{% else %} class="pagination-item" {% endif %}></li>
             {% endfor %}
@@ -20,13 +20,13 @@
                 <!-- Slide Text Layer -->
                 <div class="slide-text slide_style_center">
                     {% if slider.title != null %}
-                    <h1 data-animation="animated {{ slider.effect }}" class="slide-header">{{ slider.title }}</h1>
+                    <h1 data-animation="animated fadeIn" class="slide-header">{{ slider.title }}</h1>
                     {% endif %}
                     {% if slider.logo != null %}
-                    <img data-animation="animated {{ slider.effect }}" class="slide-image-animation" src="{{ slider.logo }}"/>
+                    <img data-animation="animated fadeIn" class="slide-image-animation" src="{{ slider.logo }}"/>
                     {% endif %}
                     {% if slider.description != null %}
-                    <p data-animation="animated {{ slider.effect }}" class="slide-description">{{ slider.description }}</p>
+                    <p data-animation="animated fadeIn" class="slide-description">{{ slider.description }}</p>
                     {% endif %}
                 </div>
 

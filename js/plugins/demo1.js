@@ -104,10 +104,6 @@
         }
     }
 
-    // Preload all the images in the page..
-    imagesLoaded(document.querySelectorAll('.slide-image'), {background: true}, () => {
-        document.body.classList.remove('loading');
-
     const slideshow = new Slideshow(document.querySelector('.carousel-inner'));
 
     const pagination = document.querySelector('.carousel-indicators');
@@ -163,6 +159,8 @@
             newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
             slideshow.navigate(newpos);
         }
+
+
         //on carousel Swipe
         var bootstrapInnerCarousel = $( "#bootstrap-touch-slider .carousel-inner" );
         bootstrapInnerCarousel.swipe({
@@ -179,5 +177,5 @@
         });
 
     });
-});
+
 }
