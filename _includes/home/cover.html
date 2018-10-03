@@ -1,41 +1,38 @@
 <div class="container-fluid no-gutter">
-    <div class="container-fluid no-gutter">
-        <div id="bootstrap-touch-slider" class="carousel bs-slider fade control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="3000" >
 
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                {% for sliderIndicator in site.data.homeSlider %}
-                <li data-target="#bootstrap-touch-slider" data-slide-to="{{ forloop.index }}"{% if forloop.first %} class="active pagination-item"{% else %} class="pagination-item" {% endif %}></li>
-                {% endfor %}
-            </ol>
+    <div id="bootstrap-touch-slider" class="carousel bs-slider control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
 
-            <!-- Wrapper For Slides -->
-            <div class="carousel-inner" role="listbox">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            {% for sliderIndicator in site.data.homeSlider %}
+            <li {% if forloop.first %} class="active pagination-item"{% else %} class="pagination-item" {% endif %}></li>
+            {% endfor %}
+        </ol>
 
-                {% for slider in site.data.homeSlider %}
-                <div {% if slider.id == 1 %} class="item active" {% else %} class="item" {% endif %}>
+        <!-- Wrapper For Slides -->
+        <div class="carousel-inner" role="listbox">
 
-                    <!-- Slide Background -->
-                    <!--<img src="{{ slider.bg-image }}" class="slide-image"/>-->
-                    <div class="slide-image" style="background-image: url('{{ slider.bg-image }}'); "></div>
-                    <!-- Slide Text Layer -->
-                    <div class="slide-text slide_style_center">
-                        {% if slider.title != null %}
-                        <h1 data-animation="animated {{ slider.effect }}" class="slide-header">{{ slider.title }}</h1>
-                        {% endif %}
-                        {% if slider.logo != null %}
-                        <img data-animation="animated {{ slider.effect }}" class="slide-image" src="{{ slider.logo }}"/>
-                        {% endif %}
-                        {% if slider.description != null %}
-                        <p data-animation="animated {{ slider.effect }}" class="slide-description">{{ slider.description }}</p>
-                        {% endif %}
-                    </div>
+            {% for slider in site.data.homeSlider %}
+            <div {% if slider.id == 1 %} class="item active" {% else %} class="item" {% endif %}>
 
+                <!-- Slide Background -->
+                <div class="slide-image" style="background-image: url('{{ slider.bg-image }}'); "></div>
+                <!-- Slide Text Layer -->
+                <div class="slide-text slide_style_center">
+                    {% if slider.title != null %}
+                    <h1 data-animation="animated fadeIn" class="slide-header">{{ slider.title }}</h1>
+                    {% endif %}
+                    {% if slider.logo != null %}
+                    <img data-animation="animated fadeIn" class="slide-image" src="{{ slider.logo }}"/>
+                    {% endif %}
+                    {% if slider.description != null %}
+                    <p data-animation="animated fadeIn" class="slide-description">{{ slider.description }}</p>
+                    {% endif %}
                 </div>
-                {% endfor %}
-                <!-- End of Slide -->
-            </div><!-- End of Wrapper For Slides -->
-        </div> <!-- End  bootstrap-touch-slider Slider -->
-    </div>
 
+            </div>
+            {% endfor %}
+            <!-- End of Slide -->
+        </div><!-- End of Wrapper For Slides -->
+    </div> <!-- End  bootstrap-touch-slider Slider -->
 </div>
