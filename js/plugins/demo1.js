@@ -108,17 +108,6 @@
 
     const pagination = document.querySelector('.carousel-indicators');
     const triggers = Array.from(pagination.querySelectorAll('.pagination-item'));
-    triggers.forEach((trigger,pos) => {
-    if ( pos === 0 ) {
-        trigger.classList.add('active');
-    }
-    trigger.addEventListener('click', () => {
-        if ( slideshow.isAnimating ) return;
-    slideshow.navigate(pos);
-    pagination.querySelector('.active').classList.remove('active');
-    trigger.classList.add('active');
-})
-});
 
     document.addEventListener('keydown', (ev) => {
         if ( slideshow.isAnimating ) return;
@@ -137,32 +126,14 @@
         triggers[newpos].classList.add('active');
     });
 
+
+
     var bootstrapSlider = $('#bootstrap-touch-slider');
     var paginationItem = $(".carousel-indicators .pagination-item");
 
-    bootstrapSlider.on('slid.bs.carousel', function (event) {
-        $(this).find(".carousel-inner .item.active").removeClass("active");
-        if ( slideshow.isAnimating ) return;
-        let newpos;
-        var active = $(event.target).find('.carousel-inner > .item.active');
-        var from = active.index();
-        var next = $(event.relatedTarget);
-        var to = next.index();
-        var direction = event.direction;
-        if(direction == "left"){
-            // console.log("left trigger!!!");
-            newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
-            slideshow.navigate(newpos);
-        }
-        else if(direction == "right"){
-            // console.log("right trigger!!!");
-            newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
-            slideshow.navigate(newpos);
-        }
-
-
-        //on carousel Swipe
+    bootstrapSlider.on("swipe", function(event) {
         var bootstrapInnerCarousel = $( "#bootstrap-touch-slider .carousel-inner" );
+        if ( slideshow.isAnimating ) return;
         bootstrapInnerCarousel.swipe({
             swipeLeft: function () {
                 newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
@@ -172,9 +143,40 @@
             swipeRight: function ( ) {
                 newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
                 slideshow.navigate(newpos);
-            },
-            threshold: 0
+            }
         });
+    });
+
+    bootstrapSlider.on('slid.bs.carousel', function (event) {
+        var active = $(event.target).find('.carousel-inner > .item.active');
+        var from = active.index();
+        var next = $(event.relatedTarget);
+        var to = next.index();
+        var direction = event.direction;
+
+        $(this).find(".carousel-inner .item.active").removeClass("active");
+
+        if ( slideshow.isAnimating ) return;
+        let newpos;
+
+        if(direction == "left"){
+            // console.log("left trigger!!!");
+            newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
+            slideshow.navigate(newpos);
+
+        }
+        else if(direction == "right"){
+            // console.log("right trigger!!!");
+            newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
+            slideshow.navigate(newpos);
+
+        }
+        else return;
+        pagination.querySelector('.active').classList.remove('active');
+        triggers[newpos].classList.add('active');
+
+
+
 
     });
 
