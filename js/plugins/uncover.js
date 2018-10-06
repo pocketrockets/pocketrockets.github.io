@@ -16,7 +16,7 @@
                 // initially covered.
                 covered: true,
                 // total number of slices.
-                slicesTotal: 10,
+                slicesTotal: 3,
                 // slices color.
                 slicesColor: '#fff',
                 // 'vertical' || 'horizontal'.

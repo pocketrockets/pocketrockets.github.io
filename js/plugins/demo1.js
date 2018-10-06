@@ -1,3 +1,13 @@
+/**
+ * demo1.js
+ * http://www.codrops.com
+ *
+ * Licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ * Copyright 2018, Codrops
+ * http://www.codrops.com
+ */
 {
     // the settings for each one of the slides uncover instances.
     const uncoverOpts = [
@@ -77,7 +87,7 @@
                     duration: 800,
                     delay: 350,
                     easing: 'easeOutCubic',
-                    scale: [1.3,1]
+                    scale: [1.8,1]
                 }
             }).then(() => this.isAnimating = false);
         }
@@ -97,87 +107,107 @@
                     duration: 800,
                     delay: 350,
                     easing: 'easeOutCubic',
-                    scale: [1.3,1]
+                    scale: [1.8,1]
                 }
             }).then(() => this.isAnimating = false);
         });
         }
     }
+    imagesLoaded(document.querySelectorAll('.slide__img'), {background: true}, () => {
 
-    const slideshow = new Slideshow(document.querySelector('.carousel-inner'));
+        console.log("Preloading image done!");
+        const slideshow = new Slideshow(document.querySelector('.carousel-inner'));
 
-    const pagination = document.querySelector('.carousel-indicators');
-    const triggers = Array.from(pagination.querySelectorAll('.pagination-item'));
+        const pagination = document.querySelector('.carousel-indicators');
+        const triggers = Array.from(pagination.querySelectorAll('.pagination-item'));
 
-    document.addEventListener('keydown', (ev) => {
-        if ( slideshow.isAnimating ) return;
-        const keyCode = ev.keyCode || ev.which;
-        let newpos;
-        if ( keyCode === 37 ) {
-            newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
-            slideshow.navigate(newpos);
+    triggers.forEach((trigger,pos) => {
+        if ( pos === 0 ) {
+            trigger.classList.add('active');
         }
-        else if ( keyCode === 39 ) {
-            newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
-            slideshow.navigate(newpos);
-        }
-        else return;
-        pagination.querySelector('.active').classList.remove('active');
-        triggers[newpos].classList.add('active');
+        trigger.addEventListener('click', () => {
+            if ( slideshow.isAnimating ) return;
+            slideshow.navigate(pos);
+            pagination.querySelector('.active').classList.remove('active');
+            trigger.classList.add('active');
+        })
     });
 
-
-
-    var bootstrapSlider = $('#bootstrap-touch-slider');
-    var paginationItem = $(".carousel-indicators .pagination-item");
-
-    bootstrapSlider.on("swipe", function(event) {
-        var bootstrapInnerCarousel = $( "#bootstrap-touch-slider .carousel-inner" );
-        if ( slideshow.isAnimating ) return;
-        bootstrapInnerCarousel.swipe({
-            swipeLeft: function () {
-                newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
-                slideshow.navigate(newpos);
-
-            },
-            swipeRight: function ( ) {
+        document.addEventListener('keydown', (ev) => {
+            if ( slideshow.isAnimating ) return;
+            const keyCode = ev.keyCode || ev.which;
+            let newpos;
+            if ( keyCode === 37 ) {
                 newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
                 slideshow.navigate(newpos);
             }
+            else if ( keyCode === 39 ) {
+                newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
+                slideshow.navigate(newpos);
+            }
+            else return;
+            pagination.querySelector('.active').classList.remove('active');
+            triggers[newpos].classList.add('active');
         });
+
+
+
+        var bootstrapSlider = $('#bootstrap-touch-slider');
+        var paginationItem = $(".carousel-indicators .pagination-item");
+
+        bootstrapSlider.on("swipe", function(event) {
+            let newpos;
+            var bootstrapInnerCarousel = $( "#bootstrap-touch-slider .carousel-inner" );
+            if ( slideshow.isAnimating ) return;
+            bootstrapInnerCarousel.swipe({
+                swipeLeft: function () {
+                    newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
+                    slideshow.navigate(newpos);
+                    pagination.querySelector('.active').classList.remove('active');
+                    triggers[newpos].classList.add('active');
+
+                },
+                swipeRight: function ( ) {
+                    newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
+                    slideshow.navigate(newpos);
+                    pagination.querySelector('.active').classList.remove('active');
+                    triggers[newpos].classList.add('active');
+                }
+            });
+        });
+
+
+
+        bootstrapSlider.on('slid.bs.carousel', function (event) {
+            if ( slideshow.isAnimating ) return;
+            $(this).find(".carousel-inner .item.active").removeClass("active");
+            let newpos;
+            var active = $(event.target).find('.carousel-inner > .item.active');
+            var from = active.index();
+            var next = $(event.relatedTarget);
+            var to = next.index();
+
+            var direction = event.direction;
+            // var currentSlide = $(".carousel-inner .item.active").addClass("active");
+            if(direction == "left"){
+                newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
+                slideshow.navigate(newpos);
+                pagination.querySelector('.active').classList.remove('active');
+                triggers[newpos].classList.add('active');
+
+
+            }
+            else if(direction == "right"){
+                // console.log("right trigger!!!");
+                newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
+                slideshow.navigate(newpos);
+                pagination.querySelector('.active').classList.remove('active');
+                triggers[newpos].classList.add('active');
+
+            }
+        });
+
     });
 
-    bootstrapSlider.on('slid.bs.carousel', function (event) {
-        var active = $(event.target).find('.carousel-inner > .item.active');
-        var from = active.index();
-        var next = $(event.relatedTarget);
-        var to = next.index();
-        var direction = event.direction;
-
-        $(this).find(".carousel-inner .item.active").removeClass("active");
-
-        if ( slideshow.isAnimating ) return;
-        let newpos;
-
-        if(direction == "left"){
-            // console.log("left trigger!!!");
-            newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
-            slideshow.navigate(newpos);
-
-        }
-        else if(direction == "right"){
-            // console.log("right trigger!!!");
-            newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
-            slideshow.navigate(newpos);
-
-        }
-        else return;
-        pagination.querySelector('.active').classList.remove('active');
-        triggers[newpos].classList.add('active');
-
-
-
-
-    });
 
 }
