@@ -19,7 +19,9 @@ $(document).ready(function () {
 
         if(modalVideo != ''){
             $(this).parents().parents().find(".modal.fade .modal-content .modal-body .modal-gallery-list").html(modalGallery);
-            $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithVideo .modal-video-container .modal-video").attr({ src: 'https://www.youtube.com/embed/' + modalVideo + '?autoplay=0&rel=0&showinfo=0' });
+            $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithVideo .modal-video-container .modal-video").attr({ src: 'https://www.youtube.com/embed/' + modalVideo + '?autoplay=0&rel=0&showinfo=0&enablejsapi=1' });
+            // $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithVideo .modal-video-container .modal-video").attr({ src: 'https://www.youtube.com/embed/' + modalVideo });
+
             $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithVideo").css("display","block");
             $(this).parents().parents().find(".modal.fade .modal-content .modal-body #modalWithoutVideo").css("display","none");
         }
@@ -30,9 +32,14 @@ $(document).ready(function () {
         }
 
     });
-    //Disable modal video on close
+
     $(".modal").on('hidden.bs.modal', function (e) {
         $(this).find(".modal-content .modal-body #modalWithVideo .modal-video-container .modal-video").removeAttr('src');
+    });
+    //
+    $("#photo-button").click(function () {
+        $('.modal-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+
     });
 
     swiperItemContainer.on("mouseover",function () {
@@ -58,7 +65,9 @@ $(document).ready(function () {
 
 $(window).on("load", function(){
     $('.loader').fadeOut();
-    $('#bootstrap-touch-slider').bsTouchSlider();
+    var headerCarousel =$('#bootstrap-touch-slider');
+    headerCarousel.bsTouchSlider();
+
 
     var swiper1 = new Swiper('#swiper-container1', {
         slidesPerView: 4,
