@@ -1,4 +1,4 @@
-//Font face section
+@import "plugins"
 @font-face
   font-family: 'Gotham-Black'
   src: url('/fonts/gotham/Gotham-Black.ttf')
@@ -73,7 +73,7 @@ body
     .loader-text
       font-size: 16px
       text-align: center
-      font-family: "Gotham-Book"
+      font-family: "Gotham-Book", sans-serif
 
 .no-gutter
   padding-left: 0
@@ -97,7 +97,7 @@ nav
     .navbar-right
       .navbar-list
         .navbar-link
-          font-family: "Gotham-Bold"
+          font-family: "Gotham-Bold", sans-serif
           text-transform: uppercase
           color: #3b3b3b
           padding: 50px 30px 30px
@@ -115,10 +115,6 @@ nav
   background-position: top center
   background-repeat: no-repeat
 
-//.carousel-inner>.item
-//  -webkit-transition: -webkit-transform 1.2s ease-in-out !important
-//  -o-transition: -o-transform 1.2s ease-in-out !important
-//  transition: transform 1.2s ease-in-out !important
 
 #cover
   overflow: hidden
@@ -133,17 +129,6 @@ nav
         height: inherit
         .item
           height: inherit
-          //-webkit-transition: opacity ease-in-out 500s
-          //-moz-transition: opacity ease-in-out 500s
-          //-ms-transition: opacity ease-in-out 500s
-          //-o-transition: opacity ease-in-out 500s
-          //transition: opacity ease-in-out 500s
-          &.active
-            //-webkit-transition: opacity ease-in-out 500ms
-            //-moz-transition: opacity ease-in-out 500ms
-            //-ms-transition: opacity ease-in-out 500ms
-            //-o-transition: opacity ease-in-out 500ms
-            //transition: opacity ease-in-out 500ms
           .slide-image
             height: inherit
             object-fit: cover
@@ -172,7 +157,7 @@ nav
               animation-delay: 2s
               -ms-animation-delay: 2s
               -o-animation-delay: 2s
-              font-family: "Gotham-Medium"
+              font-family: "Gotham-Medium", sans-serif
               margin-top: 0
               margin-bottom: 0
             .slide-image-animation
@@ -185,7 +170,7 @@ nav
               -ms-animation-delay: 2s
               -o-animation-delay: 2s
             .slide-description
-              font-family: "Gotham-Medium"
+              font-family: "Gotham-Medium", sans-serif
               padding: 0
               color: #ffffff
               margin-top: 50px
@@ -210,7 +195,7 @@ nav
       padding-top: 80px
       .header
         margin: 0
-        font-family: "Gotham-Book"
+        font-family: "Gotham-Book", sans-serif
         text-transform: uppercase
         font-size: 44px
         letter-spacing: 4px
@@ -243,7 +228,7 @@ nav
             color: white
             .swiper-client
               display: block
-              font-family: "Gotham-Black"
+              font-family: "Gotham-Black", sans-serif
               text-transform: uppercase
               text-align: right
               letter-spacing: 1px
@@ -253,7 +238,7 @@ nav
               margin-right: 0
             .swiper-project
               display: block
-              font-family: "Gotham-Book"
+              font-family: "Gotham-Book", sans-serif
               text-transform: uppercase
               letter-spacing: 1px
               font-size: 20px
@@ -270,7 +255,7 @@ nav
       padding-bottom: 70px
       .header
         margin: 0
-        font-family: "Gotham-Light"
+        font-family: "Gotham-Light", sans-serif
         font-size: 36px
         letter-spacing: 1px
     .swiper-container
@@ -350,16 +335,16 @@ nav
               margin-right: 10px
               .client-name
                 display: block
-                font-family: "Gotham-Black"
+                font-family: "Gotham-Black", sans-serif
                 font-size: 18px
                 margin-bottom: 5px
               .project-title
-                font-family: "Gotham-Book"
+                font-family: "Gotham-Book", sans-serif
                 display: block
                 font-size: 18px
                 margin-bottom: 20px
               .read-text
-                font-family: "Gotham-Black"
+                font-family: "Gotham-Black", sans-serif
                 display: block
     .modal-content
       padding: 100px 0
@@ -426,7 +411,7 @@ nav
           margin-bottom: 60px
           .project-list
             display: block
-            font-family: "Gotham-Book"
+            font-family: "Gotham-Book", sans-serif
             font-size: 18px
             margin-bottom: 10px
             text-align: center
@@ -475,7 +460,7 @@ nav
           .modal-project-duration
             font-size: 18px
             display: block
-            font-family: "Gotham-Book"
+            font-family: "Gotham-Book", sans-serif
             text-align: center
 
 
@@ -484,7 +469,7 @@ nav
   .left-section
     .header
       font-size: 48px
-      font-family: "Gotham-Book"
+      font-family: "Gotham-Book", sans-serif
       text-transform: uppercase
       padding-top: 120px
       text-align: center
@@ -495,13 +480,13 @@ nav
       text-transform: uppercase
       display: block
       color: #e00076
-      font-family: "Gotham-Bold"
+      font-family: "Gotham-Bold", sans-serif
       margin-bottom: 10px
       padding-top: 80px
     .description
       font-size: 18px
       margin-bottom: 15px
-      font-family: "Gotham-Book"
+      font-family: "Gotham-Book", sans-serif
 
 #tagline
   position: relative
@@ -515,7 +500,7 @@ nav
     margin-bottom: 0
     text-align: center
     color: white
-    font-family: "Gotham-Medium"
+    font-family: "Gotham-Medium", sans-serif
     font-size: 48px
     line-height: 60px
 
@@ -527,7 +512,7 @@ nav
     padding-bottom: 30px
     .header
       font-size: 48px
-      font-family: "Gotham-Book"
+      font-family: "Gotham-Book", sans-serif
       text-transform: uppercase
   .service-list
     padding-top: 60px
@@ -544,17 +529,17 @@ nav
         display: block
         text-align: center
         margin-bottom: 15px
-        font-family: "Gotham-Medium"
+        font-family: "Gotham-Medium", sans-serif
         font-size: 24px
         text-transform: uppercase
       .caption-service
-        font-family: "Gotham-Book"
+        font-family: "Gotham-Book", sans-serif
         display: block
         font-size: 16px
         text-align: center
       .caption-text
         margin-top: 15px
-        font-family: "Gotham-Book"
+        font-family: "Gotham-Book", sans-serif
         display: block
         font-size: 16px
         text-align: center
@@ -568,7 +553,7 @@ nav
     .header
       text-align: center
       font-size: 48px
-      font-family: "Gotham-Book"
+      font-family: "Gotham-Book", sans-serif
       text-transform: uppercase
   .social-media-container
     display: table
@@ -593,7 +578,7 @@ nav
       margin-bottom: 0
       text-align: center
       font-size: 34px
-      font-family: "Gotham-Book"
+      font-family: "Gotham-Book", sans-serif
       text-transform: uppercase
       letter-spacing: 4px
   .content-section
@@ -630,7 +615,7 @@ nav
           display: block
           text-decoration: none
           outline: none
-          font-family: "Gotham-Book"
+          font-family: "Gotham-Book", sans-serif
           color: #3b3b3b
           text-align: center
           font-size: 20px
@@ -641,7 +626,7 @@ nav
   padding: 80px 0 60px
   .left-section
     .contact-detail
-      font-family: "Gotham-Book"
+      font-family: "Gotham-Book", sans-serif
       .header-section
         .header
           margin-top: 20px
@@ -671,7 +656,7 @@ nav
     .form
       .form-item-list
         margin-bottom: 20px
-        font-family: "Gotham-Book"
+        font-family: "Gotham-Book", sans-serif
         .form-item
           font-size: 16px
           border-radius: 0
@@ -687,7 +672,7 @@ nav
         #ss-submit
           cursor: pointer
           color: white
-          font-family: "Gotham-Book"
+          font-family: "Gotham-Book", sans-serif
           background-color: #81a100
           width: fit-content
           float: right
@@ -749,7 +734,7 @@ nav
         margin: 20px auto
         color: white
         text-align: center
-        font-family: "Gotham-Book"
+        font-family: "Gotham-Book", sans-serif
 
 
 
@@ -790,7 +775,7 @@ footer
     .section-copyright
       display: block
       font-size: 18px
-      font-family: "Gotham-Book"
+      font-family: "Gotham-Book", sans-serif
       text-align: center
 
 
