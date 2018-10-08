@@ -112,42 +112,51 @@
     var bootstrapSlider = $('#bootstrap-touch-slider');
     var paginationItem = $(".carousel-indicators .pagination-item");
 
-    bootstrapSlider.on('slid.bs.carousel', function (event) {
-        $(this).find(".carousel-inner .item.active").removeClass("active");
-        if ( slideshow.isAnimating ) return;
+    bootstrapSlider.on("swipe", function(event) {
         let newpos;
-        var active = $(event.target).find('.carousel-inner > .item.active');
-        var from = active.index();
-        var next = $(event.relatedTarget);
-        var to = next.index();
-        var direction = event.direction;
-        if(direction == "left"){
-            // console.log("left trigger!!!");
-            newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
-            slideshow.navigate(newpos);
-        }
-        else if(direction == "right"){
-            // console.log("right trigger!!!");
-            newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
-            slideshow.navigate(newpos);
-        }
-
-
-        //on carousel Swipe
         var bootstrapInnerCarousel = $( "#bootstrap-touch-slider .carousel-inner" );
         if ( slideshow.isAnimating ) return;
         bootstrapInnerCarousel.swipe({
             swipeLeft: function () {
                 newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
                 slideshow.navigate(newpos);
+                pagination.querySelector('.active').classList.remove('active');
+                triggers[newpos].classList.add('active');
 
             },
             swipeRight: function ( ) {
                 newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
                 slideshow.navigate(newpos);
-            },
-            threshold: 0
+                pagination.querySelector('.active').classList.remove('active');
+                triggers[newpos].classList.add('active');
+            }
         });
+    });
+
+    bootstrapSlider.on('slid.bs.carousel', function (event) {
+        if ( slideshow.isAnimating ) return;
+        $(this).find(".carousel-inner .item.active").removeClass("active");
+
+        let newpos;
+        var active = $(event.target).find('.carousel-inner > .item.active');
+        var from = active.index();
+        var next = $(event.relatedTarget);
+        var to = next.index();
+        var direction = event.direction;
+
+        if(direction == "left"){
+            newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
+            slideshow.navigate(newpos);
+            pagination.querySelector('.active').classList.remove('active');
+            triggers[newpos].classList.add('active');
+        }
+        else if(direction == "right"){
+            // console.log("right trigger!!!");
+            newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
+            slideshow.navigate(newpos);
+            pagination.querySelector('.active').classList.remove('active');
+            triggers[newpos].classList.add('active');
+        }
 
     });
 
