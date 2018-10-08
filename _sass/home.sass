@@ -461,6 +461,7 @@ nav
                   height: 70px
                   margin: 0 40px
               &.tab-2
+                margin-left: 5px
                 &:after
                   display: inline-block
                   content: ""
@@ -1520,6 +1521,25 @@ footer
     .content-container
       .section-copyright
         font-size: 14px
+
+@media (max-width: 380px)
+  #client
+    #client-container-fluid
+      .modal-content
+        .modal-body
+          .modal-gallery-container
+            .nav-tabs
+              .tab-link
+                &.tab-1
+                  &:after
+                    margin: 0 15px
+                    height: 40px
+                &.tab-2
+                  &:after
+                    height: 40px
+
+                .tab-icon
+                  height: 30px
 
 @media (max-width: 320px)
   footer
