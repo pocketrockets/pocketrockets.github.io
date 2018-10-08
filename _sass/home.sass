@@ -417,7 +417,6 @@ nav
               height: auto
         .modal-list-container
           position: relative
-          margin-bottom: 60px
           .project-list
             display: block
             font-family: "Gotham-Book", sans-serif
@@ -427,25 +426,71 @@ nav
         //No Video
         .modal-gallery-list
           position: relative
+          margin-top: 45px
           margin-bottom: 60px
           .modal-gallery
             background-color: #f4f4f4
             display: block
             min-height: 272px
             margin-bottom: 15px
+        //    With video
         .modal-gallery-container
+          position: relative
           display: none
           .nav-tabs
+            margin: 30px auto 45px
+            position: relative
             display: table
-            margin-left: auto
-            margin-right: auto
+            border: none
+            .tab-link
+              border: none
+              padding: 0
+              margin-right: 0
+              &.active
+                border: none
+              &:hover
+                background-color: transparent
+              &.tab-1
+                &:after
+                  display: inline-block
+                  content: ""
+                  clear: both
+                  border-right: 3px solid #3b3b3b
+                  position: relative
+                  vertical-align: middle
+                  height: 70px
+                  margin: 0 40px
+              &.tab-2
+                &:after
+                  display: inline-block
+                  content: ""
+                  clear: both
+                  position: relative
+                  vertical-align: middle
+                  height: 70px
+              .tab-icon
+                display: inline-block
+                vertical-align: middle
+                height: 50px
+              .tab-text
+                letter-spacing: 2px
+                margin-left: 15px
+                text-transform: uppercase
+                display: inline-block
+                vertical-align: middle
           .tab-content
+            position: relative
             .tab-pane
+              display: block
+              &#tab1
+                position: absolute
+                top: 0
               &#tab2
                 max-width: 750px
                 margin-left: auto
                 margin-right: auto
               .modal-gallery-list
+                margin-top: 0
                 margin-bottom: 60px
                 .modal-gallery
                   background-color: #f4f4f4
@@ -857,8 +902,20 @@ footer
               .swiper-project
                 font-size: 16px
 
+
   #client
     #client-container-fluid
+      .modal-content
+        .modal-body
+          .modal-gallery-list
+            .modal-gallery
+              min-height: 0 !important
+          .modal-gallery-container
+            .tab-content
+              .tab-pane
+                .modal-video-container
+                  .modal-video
+                    min-height: 0 !important
 
       .header-section
         .header
@@ -1005,8 +1062,6 @@ footer
       border: 1px solid #e7e7e7 !important
       display: block !important
       overflow-x: hidden !important
-
-
 
   #project
     #project-container-fluid
@@ -1158,6 +1213,8 @@ footer
           margin-bottom: 15px
           &:before
             display: none
+
+
 
 @media (max-width: 767px)
 
