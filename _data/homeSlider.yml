@@ -1,33 +1,29 @@
 - id: 1
   title: Creative
-  effect: slideInLeft
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1537767549/misc/PHOTO4.jpg"
+  bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969126/header_carousel/1-CREATIVE.jpg
 
 - id: 2
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1509004580/misc/creative-2-1.jpg"
+  bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969106/header_carousel/2.jpg
 
 - id: 3
   title: Strategic
-  effect: slideInLeft
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1506007029/misc/slider2.jpg"
+  bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969103/header_carousel/3_STRATEGIC.jpg
 
 - id: 4
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1537767530/misc/PHOTO3.jpg"
+  bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969124/header_carousel/4.jpg
 
 - id: 5
   title: Snappy
-  effect: slideInLeft
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1537767539/misc/PHOTO2.jpg"
+  bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969087/header_carousel/5_SNAPPY.jpg
 
 - id: 6
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1509004611/misc/snappy-2-1.jpg"
+  bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969080/header_carousel/6.jpg
 
 - id: 7
   title:
-  effect: fadeIn
-  logo: "/img/rocket-logo.png"
-  description: "Pocket Rocket is a full-service advertising <br/> agency in Manila, Philippines. Helping you create <br/> impactful customer experiences."
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1537767541/misc/PHOTO1.jpg"
+  logo: /img/rocket-logo.png
+  description: Pocket Rocket is a full-service advertising <br/> agency in Manila, Philippines. Helping you create <br/> impactful customer experiences.
+  bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969117/header_carousel/7_POCKET-ROCKET-IS.jpg
 
 - id: 8
-  bg-image: "https://res.cloudinary.com/pocketrocket/image/upload/v1509004566/misc/pocket-rocket-is-2-1.jpg"
+  bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969117/header_carousel/8.jpg
