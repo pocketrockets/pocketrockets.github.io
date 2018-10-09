@@ -1,29 +1,37 @@
 - id: 1
   title: Creative
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969126/header_carousel/1-CREATIVE.jpg
+  interval:
 
 - id: 2
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969106/header_carousel/2.jpg
+  interval:
 
 - id: 3
   title: Strategic
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969103/header_carousel/3_STRATEGIC.jpg
+  interval:
 
 - id: 4
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969124/header_carousel/4.jpg
+  interval:
 
 - id: 5
   title: Snappy
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969087/header_carousel/5_SNAPPY.jpg
+  interval:
 
 - id: 6
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969080/header_carousel/6.jpg
+  interval: 3500
 
 - id: 7
   title:
   logo: /img/rocket-logo.png
   description: Pocket Rocket is a full-service advertising <br/> agency in Manila, Philippines. Helping you create <br/> impactful customer experiences.
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969117/header_carousel/7_POCKET-ROCKET-IS.jpg
+  interval:
 
 - id: 8
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969117/header_carousel/8.jpg
+  interval:

@@ -65,8 +65,18 @@ $(document).ready(function () {
 
 $(window).on("load", function(){
     $('.loader').fadeOut();
-    var headerCarousel =$('#bootstrap-touch-slider');
-    headerCarousel.bsTouchSlider();
+
+    var t;
+    var start = $('#bootstrap-touch-slider').find('.carousel-inner  .item.active').attr('data-interval');
+        t = setTimeout("$('#bootstrap-touch-slider').bsTouchSlider({interval: 3500});", start);
+
+    $('#bootstrap-touch-slider').on('slide.bs.carousel', function () {
+        clearTimeout(t);
+        var duration = $(this).find('.carousel-inner .item.active').attr('data-interval');
+        $('#bootstrap-touch-slider').bsTouchSlider('pause');
+        t = setTimeout("$('#bootstrap-touch-slider').bsTouchSlider();", (duration));
+
+    });
 
 
     var swiper1 = new Swiper('#swiper-container1', {
