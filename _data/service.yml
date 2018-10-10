@@ -1,14 +1,14 @@
-- id: 1
-  icon: "https://res.cloudinary.com/pocketrocket/image/upload/v1506343134/misc/store.png"
-  service-name: Below the line
-  services: "Events. Activations."
+- service-name: Below the line
+  id: 1
+  icon: https://res.cloudinary.com/pocketrocket/image/upload/v1506343134/misc/store.png
+  services: Events. Activations.
 
-- id: 2
-  icon: "https://res.cloudinary.com/pocketrocket/image/upload/v1506343134/misc/monitor.png"
-  service-name: Above the line
-  services: "TV. Print. Radio. Out Of Home."
+- service-name: Above the line
+  id: 2
+  icon: https://res.cloudinary.com/pocketrocket/image/upload/v1506343134/misc/monitor.png
+  services: TV. Print. Radio. Out Of Home.
 
-- id: 3
-  icon: "https://res.cloudinary.com/pocketrocket/image/upload/v1506343134/misc/digital.png"
-  service-name: Digital
-  services: "Web. Social Media."
+- service-name: Digital
+  id: 3
+  icon: https://res.cloudinary.com/pocketrocket/image/upload/v1506343134/misc/digital.png
+  services: Web. Social Media.
