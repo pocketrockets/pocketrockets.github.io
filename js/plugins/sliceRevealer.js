@@ -3,7 +3,7 @@
     const uncoverOpts = [
         {
             // total number of slices.
-            slicesTotal: 4,
+            slicesTotal: 6,
             // slices color.
             slicesColor: '#111',
             // 'vertical' || 'horizontal'.
@@ -12,22 +12,10 @@
             slicesOrigin: {show: 'top', hide: 'bottom'}
         },
         {
-            slicesTotal: 7,
+            slicesTotal: 6,
             slicesColor: '#111',
             orientation: 'horizontal',
-            slicesOrigin:  {show: 'right', hide: 'right'}
-        },
-        {
-            slicesTotal: 9,
-            slicesColor: '#111',
-            orientation: 'vertical',
-            slicesOrigin:  {show: 'bottom', hide: 'bottom'}
-        },
-        {
-            slicesTotal: 5,
-            slicesColor: '#111',
-            orientation: 'horizontal',
-            slicesOrigin:  {show: 'left', hide: 'left'}
+            slicesOrigin:  {show: 'left', hide: 'right'}
         },
         {
             slicesTotal: 6,
@@ -36,23 +24,35 @@
             slicesOrigin:  {show: 'bottom', hide: 'bottom'}
         },
         {
+            slicesTotal: 6,
+            slicesColor: '#111',
+            orientation: 'horizontal',
+            slicesOrigin:  {show: 'right', hide: 'left'}
+        },
+        {
+            slicesTotal: 6,
+            slicesColor: '#111',
+            orientation: 'vertical',
+            slicesOrigin:  {show: 'bottom', hide: 'top'}
+        },
+        {
             // total number of slices.
-            slicesTotal: 4,
+            slicesTotal: 6,
             // slices color.
             slicesColor: '#111',
             // 'vertical' || 'horizontal'.
-            orientation: 'vertical',
+            orientation: 'horizontal',
             // 'bottom' || 'top' for vertical orientation and 'right' || 'left' for horizontal orientation.
-            slicesOrigin: {show: 'top', hide: 'bottom'}
+            slicesOrigin: {show: 'left', hide: 'right'}
         },
         {
-            slicesTotal: 7,
+            slicesTotal: 6,
             slicesColor: '#111',
             orientation: 'horizontal',
             slicesOrigin:  {show: 'right', hide: 'right'}
         },
         {
-            slicesTotal: 9,
+            slicesTotal: 6,
             slicesColor: '#111',
             orientation: 'vertical',
             slicesOrigin:  {show: 'bottom', hide: 'bottom'}
