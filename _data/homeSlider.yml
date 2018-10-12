@@ -2,28 +2,62 @@
   title: Creative
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969126/header_carousel/1-CREATIVE.jpg
   interval:
+  sliceTotal: 6
+  slicesColor: '#111'
+  orientation: vertical
+  show: top
+  hide: bottom
 
 - id: 2
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969106/header_carousel/2.jpg
   interval:
+  sliderSetting:
+  sliceTotal: 6
+  slicesColor: '#111'
+  orientation: horizontal
+  show: left
+  hide: right
 
 - id: 3
   title: Strategic
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969103/header_carousel/3_STRATEGIC.jpg
   interval:
+  sliderSetting:
+  sliceTotal: 6
+  slicesColor: '#111'
+  orientation: vertical
+  show: bottom
+  hide: bottom
 
 - id: 4
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969124/header_carousel/4.jpg
   interval:
+  sliceTotal: 6
+  slicesColor: '#111'
+  orientation: horizontal
+  show: left
+  hide: left
 
 - id: 5
   title: Snappy
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969087/header_carousel/5_SNAPPY.jpg
   interval:
+  sliderSetting:
+  sliceTotal: 6
+  slicesColor: '#111'
+  orientation: vertical
+  show: bottom
+  hide: bottom
 
 - id: 6
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969080/header_carousel/6.jpg
   interval: 3500
+  sliderSetting:
+  sliceTotal: 6
+  slicesColor: '#111'
+  orientation: horizontal
+  show: left
+  hide: right
 
 - id: 7
   title:
@@ -31,7 +65,18 @@
   description: Pocket Rocket is a full-service advertising <br/> agency in Manila, Philippines. Helping you create <br/> impactful customer experiences.
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969117/header_carousel/7_POCKET-ROCKET-IS.jpg
   interval:
+  sliceTotal: 6
+  slicesColor: '#111'
+  orientation: horizontal
+  show: right
+  hide: right
 
 - id: 8
   bg-image: https://res.cloudinary.com/pocketrocket/image/upload/v1538969117/header_carousel/8.jpg
   interval:
+  sliderSetting:
+  sliceTotal: 6
+  slicesColor: '#111'
+  orientation: vertical
+  show: bottom
+  hide: bottom
