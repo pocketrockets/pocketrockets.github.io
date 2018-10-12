@@ -1,64 +1,22 @@
+---
+---
+{% capture sliderSettings %}
+[
+{% for sliderSetting in site.data.homeSlider %}
 {
-    // the settings for each one of the slides uncover instances.
-    const uncoverOpts = [
-        {
-            // total number of slices.
-            slicesTotal: 6,
-            // slices color.
-            slicesColor: '#111',
-            // 'vertical' || 'horizontal'.
-            orientation: 'vertical',
-            // 'bottom' || 'top' for vertical orientation and 'right' || 'left' for horizontal orientation.
-            slicesOrigin: {show: 'top', hide: 'bottom'}
-        },
-        {
-            slicesTotal: 6,
-            slicesColor: '#111',
-            orientation: 'horizontal',
-            slicesOrigin:  {show: 'left', hide: 'right'}
-        },
-        {
-            slicesTotal: 6,
-            slicesColor: '#111',
-            orientation: 'vertical',
-            slicesOrigin:  {show: 'bottom', hide: 'bottom'}
-        },
-        {
-            slicesTotal: 6,
-            slicesColor: '#111',
-            orientation: 'horizontal',
-            slicesOrigin:  {show: 'right', hide: 'left'}
-        },
-        {
-            slicesTotal: 6,
-            slicesColor: '#111',
-            orientation: 'vertical',
-            slicesOrigin:  {show: 'bottom', hide: 'top'}
-        },
-        {
-            // total number of slices.
-            slicesTotal: 6,
-            // slices color.
-            slicesColor: '#111',
-            // 'vertical' || 'horizontal'.
-            orientation: 'horizontal',
-            // 'bottom' || 'top' for vertical orientation and 'right' || 'left' for horizontal orientation.
-            slicesOrigin: {show: 'left', hide: 'right'}
-        },
-        {
-            slicesTotal: 6,
-            slicesColor: '#111',
-            orientation: 'horizontal',
-            slicesOrigin:  {show: 'right', hide: 'right'}
-        },
-        {
-            slicesTotal: 6,
-            slicesColor: '#111',
-            orientation: 'vertical',
-            slicesOrigin:  {show: 'bottom', hide: 'bottom'}
-        },
-    ];
+    "slicesTotal": "{{ sliderSetting.sliceTotal }}",
+    "slicesColor": "{{ sliderSetting.slicesColor }}",
+    "orientation": "{{ sliderSetting.orientation }}",
+    "show": "{{ sliderSetting.show }}",
+    "hide": "{{ sliderSetting.hide }}"
+} {% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+]
+{% endcapture %}
+var sliderSettings = {{sliderSettings | strip_newlines}}
 
+
+{
     class Slideshow {
         constructor(el) {
             this.DOM = {el: el};
@@ -66,7 +24,7 @@
             this.slidesTotal = this.DOM.slides.length;
             this.current = 0;
             this.uncoverItems = [];
-            this.DOM.slides.forEach((slide,pos) => this.uncoverItems.push(new Uncover(slide.querySelector('.slide-image'), uncoverOpts[pos])));
+            this.DOM.slides.forEach((slide,pos) => this.uncoverItems.push(new Uncover(slide.querySelector('.slide-image'), sliderSettings[pos])));
             this.init();
         }
         init() {
