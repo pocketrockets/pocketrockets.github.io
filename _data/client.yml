@@ -187,7 +187,7 @@
   id: "13"
   published: true
   logo-type: big-logo
-  project-title: C-JOY GRAND OPENING EVENT
+  project-title: CARGILL 70TH ANNIVERSARY
   cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1525661696/PROJECTS/CARGILL_CJOY_GRAND
     OPENING_EVENT.jpg
   client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840216/CLIENT-LOGO/cargill-logo.png
@@ -196,6 +196,7 @@
   - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1525660930/PROJECT-MODAL/cargill_cjoy_grand_opening_corporate_event_pocketrocket_msyj3j.jpg
   project-duration: ''
   project-list:
+  - project-name: CARGILL 70TH ANNIVERSARY
   - project-name: C-JOY GROUNDBREAKING CEREMONY
   - project-name: C-JOY GRAND OPENING EVENT
   project-video-link: 
