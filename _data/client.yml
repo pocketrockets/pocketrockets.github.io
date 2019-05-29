@@ -278,7 +278,7 @@
   project-video-link: 
 - client: Caronia
   id: "8"
-  published: ''
+  published: true
   logo-type: https://res.cloudinary.com/pocketrocket/image/upload/v1559107166/CLIENT-LOGO/Caronia_Logo.jpg
   project-title: MYSTERY CUSTOMER PROMO
   cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559101911/PROJECTS/Caronia_preview.jpg
