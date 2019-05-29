@@ -304,24 +304,10 @@
   - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537329236/PROJECT-MODAL/10_Provimi.jpg
   project-duration: ''
   project-list:
+  - project-name: CARGILL 70th ANNIVERSARY
   - project-name: PROVIMI DIGITAL NUTRITION LAUNCH
   - project-name: PROVIMI PHILIPPINES SOCIAL MEDIA MANAGEMENT
   project-video-link: oCnkuSpFU30
-- client: BPI - Philam
-  id: "5"
-  published: true
-  logo-type: horizontal-logo
-  project-title: BPI-PHILAM 2019 SALES KICKOFF
-  cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322356/PROJECTS/2.jpg
-  client-logo: http://res.cloudinary.com/pocketrocket/image/upload/v1537326063/CLIENT-LOGO/BPI-Philam_Logo.png
-  project-gallery:
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559097221/PROJECT-MODAL/bpi_philam.jpg
-  - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322132/PROJECT-MODAL/2_BPI-Philam.jpg
-  project-duration: ''
-  project-list:
-  - project-name: BPI-PHILAM 2019 SALES KICKOFF
-  - project-name: BPI-PHILAM ANNUAL AWARDS 2018
-  project-video-link: 
 - client: Accenture
   id: "4"
   published: true
@@ -364,6 +350,21 @@
   project-list:
   - project-name: ERICSSON PHILIPPINES 30TH ANNIVERSARY
   project-video-link: lcDtMQvhRwU
+- client: BPI - Philam
+  id: "5"
+  published: true
+  logo-type: horizontal-logo
+  project-title: BPI-PHILAM 2019 SALES KICKOFF
+  cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322356/PROJECTS/2.jpg
+  client-logo: http://res.cloudinary.com/pocketrocket/image/upload/v1537326063/CLIENT-LOGO/BPI-Philam_Logo.png
+  project-gallery:
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559097221/PROJECT-MODAL/bpi_philam.jpg
+  - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322132/PROJECT-MODAL/2_BPI-Philam.jpg
+  project-duration: ''
+  project-list:
+  - project-name: BPI-PHILAM 2019 SALES KICKOFF
+  - project-name: BPI-PHILAM ANNUAL AWARDS 2018
+  project-video-link: 
 - client: Philam Life
   id: "1"
   published: true
