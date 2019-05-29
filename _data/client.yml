@@ -3,12 +3,14 @@
   id: "27"
   published: ''
   logo-type: ''
-  project-title: ''
+  project-title: MYSTERY CUSTOMER PROMO
   cover-image: ''
   client-logo: ''
-  project-gallery: ''
+  project-gallery:
+  - gallery-image: ''
   project-duration: ''
-  project-list: ''
+  project-list:
+  - project-name: CARONIA MYSTERY CUSTOMER PROMO
   project-video-link: ''
 - client: Hong Kong Tourism Board
   id: "26"
