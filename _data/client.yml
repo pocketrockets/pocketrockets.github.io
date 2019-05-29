@@ -1,17 +1,4 @@
 ---
-- client: Caronia
-  id: "27"
-  published: ''
-  logo-type: https://res.cloudinary.com/pocketrocket/image/upload/v1559107166/CLIENT-LOGO/Caronia_Logo.jpg
-  project-title: MYSTERY CUSTOMER PROMO
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559101911/PROJECTS/Caronia_preview.jpg
-  client-logo: ''
-  project-gallery:
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559099631/PROJECT-MODAL/caronia.jpg
-  project-duration: ''
-  project-list:
-  - project-name: CARONIA MYSTERY CUSTOMER PROMO
-  project-video-link: ''
 - client: Hong Kong Tourism Board
   id: "26"
   published: true
@@ -289,6 +276,19 @@
   - project-name: 'BRAND CAMPAIGNS (Key Visuals, Launch Events and Activations): Nativo,
       Biologicals, Arize HaBilis Plus'
   project-video-link: 
+- client: Caronia
+  id: "27"
+  published: ''
+  logo-type: https://res.cloudinary.com/pocketrocket/image/upload/v1559107166/CLIENT-LOGO/Caronia_Logo.jpg
+  project-title: MYSTERY CUSTOMER PROMO
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559101911/PROJECTS/Caronia_preview.jpg
+  client-logo: ''
+  project-gallery:
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559099631/PROJECT-MODAL/caronia.jpg
+  project-duration: ''
+  project-list:
+  - project-name: CARONIA MYSTERY CUSTOMER PROMO
+  project-video-link: ''
 - client: Provimi
   id: "6"
   published: true
@@ -384,7 +384,7 @@
   - project-name: PHILAM 70TH ANNIVERSARY
   project-video-link: 
 - client: BPI - Philam
-  id: "5"
+  id: "1"
   published: true
   logo-type: horizontal-logo
   project-title: BPI-PHILAM 2019 SALES KICKOFF
