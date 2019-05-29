@@ -7,7 +7,7 @@
   cover-image: ''
   client-logo: ''
   project-gallery:
-  - gallery-image: ''
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559099631/PROJECT-MODAL/caronia.jpg
   project-duration: ''
   project-list:
   - project-name: CARONIA MYSTERY CUSTOMER PROMO
