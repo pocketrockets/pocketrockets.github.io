@@ -183,24 +183,6 @@
   - project-name: BGC PASSIONFEST 2015
   - project-name: BGC HOLIDAY 2015
   project-video-link: 
-- client: Cargill
-  id: "13"
-  published: true
-  logo-type: big-logo
-  project-title: CARGILL 70TH ANNIVERSARY
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1525661696/PROJECTS/CARGILL_CJOY_GRAND
-    OPENING_EVENT.jpg
-  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840216/CLIENT-LOGO/cargill-logo.png
-  project-gallery:
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559097649/PROJECT-MODAL/cargill_70.jpg
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838332/PROJECT-MODAL/Cargill-Gallery.jpg
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1525660930/PROJECT-MODAL/cargill_cjoy_grand_opening_corporate_event_pocketrocket_msyj3j.jpg
-  project-duration: ''
-  project-list:
-  - project-name: CARGILL 70TH ANNIVERSARY
-  - project-name: C-JOY GROUNDBREAKING CEREMONY
-  - project-name: C-JOY GRAND OPENING EVENT
-  project-video-link: 
 - client: BCMAP
   id: "12"
   published: true
@@ -323,6 +305,24 @@
   - project-name: ACCENTURE TOP ACT 2018
   - project-name: ACCENTURE AMBASSADOR SEARCH
   project-video-link: 
+- client: Cargill
+  id: "13"
+  published: true
+  logo-type: big-logo
+  project-title: CARGILL 70TH ANNIVERSARY
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1525661696/PROJECTS/CARGILL_CJOY_GRAND
+    OPENING_EVENT.jpg
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840216/CLIENT-LOGO/cargill-logo.png
+  project-gallery:
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559097649/PROJECT-MODAL/cargill_70.jpg
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838332/PROJECT-MODAL/Cargill-Gallery.jpg
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1525660930/PROJECT-MODAL/cargill_cjoy_grand_opening_corporate_event_pocketrocket_msyj3j.jpg
+  project-duration: ''
+  project-list:
+  - project-name: CARGILL 70TH ANNIVERSARY
+  - project-name: C-JOY GROUNDBREAKING CEREMONY
+  - project-name: C-JOY GRAND OPENING EVENT
+  project-video-link: 
 - client: Google Cloud
   id: "3"
   published: true
@@ -351,21 +351,6 @@
   project-list:
   - project-name: ERICSSON PHILIPPINES 30TH ANNIVERSARY
   project-video-link: lcDtMQvhRwU
-- client: BPI - Philam
-  id: "5"
-  published: true
-  logo-type: horizontal-logo
-  project-title: BPI-PHILAM 2019 SALES KICKOFF
-  cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322356/PROJECTS/2.jpg
-  client-logo: http://res.cloudinary.com/pocketrocket/image/upload/v1537326063/CLIENT-LOGO/BPI-Philam_Logo.png
-  project-gallery:
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559097221/PROJECT-MODAL/bpi_philam.jpg
-  - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322132/PROJECT-MODAL/2_BPI-Philam.jpg
-  project-duration: ''
-  project-list:
-  - project-name: BPI-PHILAM 2019 SALES KICKOFF
-  - project-name: BPI-PHILAM ANNUAL AWARDS 2018
-  project-video-link: 
 - client: Philam Life
   id: "1"
   published: true
@@ -385,3 +370,18 @@
   - project-name: 'PHILAM #LIVEBETTER EXPO AND MEDIA LAUNCH'
   - project-name: PHILAM 70TH ANNIVERSARY
   project-video-link: 
+- client: BPI - Philam
+  id: "5"
+  published: true
+  logo-type: horizontal-logo
+  project-title: BPI-PHILAM 2019 SALES KICKOFF
+  cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322356/PROJECTS/2.jpg
+  client-logo: http://res.cloudinary.com/pocketrocket/image/upload/v1537326063/CLIENT-LOGO/BPI-Philam_Logo.png
+  project-gallery:
+  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559097221/PROJECT-MODAL/bpi_philam.jpg
+  - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322132/PROJECT-MODAL/2_BPI-Philam.jpg
+  project-duration: ''
+  project-list:
+  - project-name: BPI-PHILAM 2019 SALES KICKOFF
+  - project-name: BPI-PHILAM ANNUAL AWARDS 2018
+  project-video-link: https://youtu.be/ByZ_Els7ojU
