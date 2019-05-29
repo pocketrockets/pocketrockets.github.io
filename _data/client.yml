@@ -1,6 +1,6 @@
 ---
 - client: Hong Kong Tourism Board
-  id: 26
+  id: "26"
   published: true
   logo-type: horizontal-logo
   project-title: PTAA TRAVEL EXPO 2017
@@ -11,10 +11,9 @@
   project-duration: ''
   project-list:
   - project-name: SHOWCASE BOOTH at The PTAA Travel Tour Expo 2017
-  project-video-link:
-
+  project-video-link: 
 - client: Singapore Airlines
-  id: 25
+  id: "25"
   published: true
   logo-type: big-logo
   project-title: 2016 SHOWCASE & TRAVEL FAIR
@@ -25,10 +24,9 @@
   project-duration: ''
   project-list:
   - project-name: 2016 SHOWCASE & TRAVEL FAIR
-  project-video-link:
-
+  project-video-link: 
 - client: Singapore Tourism Board
-  id: 24
+  id: "24"
   published: true
   logo-type: horizontal-logo
   project-title: TRAVEL MADNESS EXPO 2016
@@ -40,10 +38,9 @@
   project-list:
   - project-name: PRINT ADS (Series of 3) for Forbes Magazine and Esquire Magazine
   - project-name: STB PAVILLION at The Travel Madness Expo 2016
-  project-video-link:
-
+  project-video-link: 
 - client: Cisco
-  id: 23
+  id: "23"
   published: true
   logo-type: big-logo
   project-title: DATA CENTER LAUNCH
@@ -54,10 +51,9 @@
   project-duration: ''
   project-list:
   - project-name: DATA CENTER LAUNCH
-  project-video-link:
-
+  project-video-link: 
 - client: Philips
-  id: 22
+  id: "22"
   published: true
   logo-type: big-logo
   project-title: GIVING YOU THE POWER TO LIVE HEALTHY BRAND CAMPAIGN
@@ -68,13 +64,13 @@
   project-duration: ''
   project-list:
   - project-name: PHILIPS ìGIVING YOU THE POWER TO LIVE HEALTHYî 2016 BRAND CAMPAIGN
-  - project-name: 'PHILIPS SALES RALLY 2016: Domestic Appliances, Personal Care, Mother and Child Care'
+  - project-name: 'PHILIPS SALES RALLY 2016: Domestic Appliances, Personal Care, Mother
+      and Child Care'
   - project-name: PHILIPS LED ìMALIWANAGAN!î 2015 BRAND CAMPAIGN
   - project-name: PHILIPS LED ìMAY MAGAGAWA KAî 2015 BRAND CAMPAIGN, LAUNCH AND ACTIVATION
-  project-video-link:
-
+  project-video-link: 
 - client: Lendr
-  id: 21
+  id: "21"
   published: true
   logo-type: horizontal-logo
   project-title: PNB SMART SALARY LOAN LAUNCH EVENT
@@ -85,10 +81,9 @@
   project-duration: ''
   project-list:
   - project-name: PNB SMART SALARY LOAN LAUNCH EVENT
-  project-video-link:
-
+  project-video-link: 
 - client: Silver Finance Inc.
-  id: 20
+  id: "20"
   published: true
   logo-type: horizontal-logo
   project-title: 30TH ANNIVERSARY EVENT
@@ -99,10 +94,9 @@
   project-duration: ''
   project-list:
   - project-name: 30TH ANNIVERSARY EVENT
-  project-video-link:
-
+  project-video-link: 
 - client: UP Scintilla Juris Fraternity
-  id: 19
+  id: "19"
   published: true
   logo-type: big-logo
   project-title: 50TH ANNIVERSARY EVENT
@@ -113,10 +107,9 @@
   project-duration: ''
   project-list:
   - project-name: 50TH ANNIVERSARY EVENT
-  project-video-link:
-
+  project-video-link: 
 - client: The Medical City
-  id: 18
+  id: "18"
   published: true
   logo-type: horizontal-logo
   project-title: 50TH ANNIVERSARY EVENT
@@ -129,10 +122,9 @@
   project-list:
   - project-name: 50TH, 49TH AND 48TH ANNIVERSARY EVENT
   - project-name: 30TH ANNUAL AWARDS NIGHT
-  project-video-link:
-
+  project-video-link: 
 - client: Sassa
-  id: 17
+  id: "17"
   published: true
   logo-type: big-logo
   project-title: "#COLORUPSUMMER BRAND CAMPAIGN"
@@ -143,10 +135,9 @@
   project-duration: ''
   project-list:
   - project-name: "#COLORUPSUMMER BRAND CAMPAIGN: Key Visuals and Social Media Management"
-  project-video-link:
-
+  project-video-link: 
 - client: Globe
-  id: 16
+  id: "16"
   published: true
   logo-type: horizontal-logo
   project-title: GLOBE INDEPENDENT FILM FESTIVAL
@@ -163,10 +154,9 @@
   - project-name: GEN3 STORE OPENING at Ayala Center Cebu and Greenbelt
   - project-name: GLOBE PLATINUM GOURMAND
   - project-name: GLOBE REWARDS RED CARPET SALE
-  project-video-link:
-
+  project-video-link: 
 - client: The Divine Tribe
-  id: 15
+  id: "15"
   published: true
   logo-type: horizontal-logo
   project-title: SOCIAL MEDIA MANAGEMENT
@@ -177,10 +167,9 @@
   project-duration: ''
   project-list:
   - project-name: SOCIAL MEDIA MANAGEMENT
-  project-video-link:
-
+  project-video-link: 
 - client: BGC
-  id: 14
+  id: "14"
   published: true
   logo-type: big-logo
   project-title: SUMMER ON THE STREET 2016
@@ -193,10 +182,9 @@
   - project-name: SUMMER ON THE STREET 2016
   - project-name: BGC PASSIONFEST 2015
   - project-name: BGC HOLIDAY 2015
-  project-video-link:
-
+  project-video-link: 
 - client: Cargill
-  id: 13
+  id: "13"
   published: true
   logo-type: big-logo
   project-title: C-JOY GRAND OPENING EVENT
@@ -210,13 +198,12 @@
   project-list:
   - project-name: C-JOY GROUNDBREAKING CEREMONY
   - project-name: C-JOY GRAND OPENING EVENT
-  project-video-link:
-
+  project-video-link: 
 - client: BCMAP
-  id: 12
+  id: "12"
   published: true
   logo-type: horizontal-logo
-  project-title: "BUSINESS UNINTERRUPTED: THE 1ST BUSINESS CONTINUITY SUMMIT"
+  project-title: 'BUSINESS UNINTERRUPTED: THE 1ST BUSINESS CONTINUITY SUMMIT'
   cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537322357/PROJECTS/6.jpg
   client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1537347043/CLIENT-LOGO/Bcmap_logo_500x.png
   project-gallery:
@@ -224,10 +211,9 @@
   project-duration: ''
   project-list:
   - project-name: 'BUSINESS UNINTERRUPTED: THE 1ST BUSINESS CONTINUITY SUMMIT'
-  project-video-link:
-
+  project-video-link: 
 - client: Microsoft
-  id: 11
+  id: "11"
   published: true
   logo-type: horizontal-logo
   project-title: MICROSOFT CIO SUMMIT PUBLIC SECTOR
@@ -242,10 +228,9 @@
   - project-name: OFFICE 365 ACTIVATION
   - project-name: 'LAUNCH EVENTS: WINDOWS SERVER 2016, SQL SERVER 2016'
   - project-name: BIG TOP CLOUD FESTIVAL
-  project-video-link:
-
+  project-video-link: 
 - client: FS Features & Shades
-  id: 10
+  id: "10"
   published: true
   logo-type: horizontal-logo
   project-title: FS FILIPIÑANA KEY VISUALS
@@ -256,28 +241,25 @@
   - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1505838329/PROJECT-MODAL/FS-Gallery.jpg
   project-duration: ''
   project-list:
-  - project-name: "FILIPIÑANA KEY VISUALS"
-  - project-name: "LOVE YOUR BEAUTY BRAND CAMPAIGN: Key Visuals and Social Media
-      Management"
+  - project-name: FILIPIÑANA KEY VISUALS
+  - project-name: 'LOVE YOUR BEAUTY BRAND CAMPAIGN: Key Visuals and Social Media Management'
   - project-name: "#LOVEYOURBEAUTY DAY at SM Makati and SM Mall of Asia"
-  project-video-link:
-
+  project-video-link: 
 - client: Dell
-  id: 9
+  id: "9"
   published: true
   logo-type: big-logo
-  project-title: "COMICCON ASIA 2018"
+  project-title: COMICCON ASIA 2018
   cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537343931/PROJECTS/8_Dell.jpg
   client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1537344514/CLIENT-LOGO/Dell_Logo.png
   project-gallery:
   - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537348050/PROJECT-MODAL/11_Dell.jpg
   project-duration: ''
   project-list:
-  - project-name: 'COMICCON ASIA 2018'
-  project-video-link:
-
+  - project-name: COMICCON ASIA 2018
+  project-video-link: 
 - client: PayMaya
-  id: 8
+  id: "8"
   published: true
   logo-type: horizontal-logo
   project-title: PAYMAYA BOOTH ACTIVATIONS
@@ -290,10 +272,9 @@
   - project-name: PAYMAYA BOOTH ACTIVATIONS 2018
   - project-name: "“BEYOND THE SELFIE” MEDIA LAUNCH 2017"
   - project-name: "“NOW NATION” MEDIA LAUNCH 2016"
-  project-video-link:
-
+  project-video-link: 
 - client: Bayer
-  id: 7
+  id: "7"
   published: true
   logo-type: big-logo
   project-title: BAYER AGRIHEROES DISTRIBUTORS AND DEALERS SUMMIT
@@ -308,14 +289,14 @@
   - project-name: BAYER DISTRIBUTORS SUMMIT
   - project-name: BAYER DEALERS SUMMIT
   - project-name: NOMINEE 20th ANNIVERSARY EVENT
-  - project-name: 'BRAND CAMPAIGNS (Key Visuals, Launch Events and Activations): Nativo, Biologicals, Arize HaBilis Plus'
-  project-video-link:
-
+  - project-name: 'BRAND CAMPAIGNS (Key Visuals, Launch Events and Activations): Nativo,
+      Biologicals, Arize HaBilis Plus'
+  project-video-link: 
 - client: Provimi
-  id: 6
+  id: "6"
   published: true
   logo-type: horizontal-logo
-  project-title: "PROVIMI DIGITAL NUTRITION LAUNCH"
+  project-title: PROVIMI DIGITAL NUTRITION LAUNCH
   cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537331065/PROJECTS/7_Provimi.jpg
   client-logo: http://res.cloudinary.com/pocketrocket/image/upload/v1537330815/CLIENT-LOGO/Provimi_Logo.png
   project-gallery:
@@ -323,15 +304,14 @@
   - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537329236/PROJECT-MODAL/10_Provimi.jpg
   project-duration: ''
   project-list:
-  - project-name: 'PROVIMI DIGITAL NUTRITION LAUNCH'
-  - project-name: 'PROVIMI PHILIPPINES SOCIAL MEDIA MANAGEMENT'
+  - project-name: PROVIMI DIGITAL NUTRITION LAUNCH
+  - project-name: PROVIMI PHILIPPINES SOCIAL MEDIA MANAGEMENT
   project-video-link: oCnkuSpFU30
-
 - client: BPI - Philam
-  id: 5
+  id: "5"
   published: true
   logo-type: horizontal-logo
-  project-title: "BPI-PHILAM ANNUAL AWARDS 2018"
+  project-title: BPI-PHILAM ANNUAL AWARDS 2018
   cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322356/PROJECTS/2.jpg
   client-logo: http://res.cloudinary.com/pocketrocket/image/upload/v1537326063/CLIENT-LOGO/BPI-Philam_Logo.png
   project-gallery:
@@ -339,44 +319,42 @@
   - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322130/PROJECT-MODAL/3_BPI-Philam.jpg
   project-duration: ''
   project-list:
-  - project-name: 'BPI-PHILAM ANNUAL AWARDS 2018'
-  project-video-link:
-
+  - project-name: BPI-PHILAM 2019 SALES KICKOFF
+  - project-name: BPI-PHILAM ANNUAL AWARDS 2018
+  project-video-link: 
 - client: Accenture
-  id: 4
+  id: "4"
   published: true
   logo-type: horizontal-logo
-  project-title: "ACCENTURE TOP ACT 2018"
+  project-title: ACCENTURE TOP ACT 2018
   cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537330740/PROJECTS/5.jpg
   client-logo: http://res.cloudinary.com/pocketrocket/image/upload/v1537326063/CLIENT-LOGO/Accenture_Logo.png
   project-gallery:
   - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322133/PROJECT-MODAL/7_Accenture.jpg
   project-duration: ''
   project-list:
-  - project-name: 'ACCENTURE TOP ACT 2018'
-  - project-name: 'ACCENTURE AMBASSADOR SEARCH'
-  project-video-link:
-
+  - project-name: ACCENTURE TOP ACT 2018
+  - project-name: ACCENTURE AMBASSADOR SEARCH
+  project-video-link: 
 - client: Google Cloud
-  id: 3
+  id: "3"
   published: true
   logo-type: horizontal-logo
-  project-title: "GOOGLE CLOUD WORKSHOP"
+  project-title: GOOGLE CLOUD WORKSHOP
   cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322358/PROJECTS/3.jpg
   client-logo: http://res.cloudinary.com/pocketrocket/image/upload/v1537326064/CLIENT-LOGO/Google_CLoud_Logo.png
   project-gallery:
   - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322129/PROJECT-MODAL/4_Google_Cloud.jpg
   project-duration: ''
   project-list:
-  - project-name: 'GOOGLE CLOUD WORKSHOP'
-  - project-name: 'GOOGLE CLOUD BOOTH NICT'
-  project-video-link:
-
+  - project-name: GOOGLE CLOUD WORKSHOP
+  - project-name: GOOGLE CLOUD BOOTH NICT
+  project-video-link: 
 - client: Ericsson
-  id: 2
+  id: "2"
   published: true
   logo-type: big-logo
-  project-title: "ERICSSON PHILIPPINES 30TH ANNIVERSARY"
+  project-title: ERICSSON PHILIPPINES 30TH ANNIVERSARY
   cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322357/PROJECTS/4.jpg
   client-logo: http://res.cloudinary.com/pocketrocket/image/upload/v1537326063/CLIENT-LOGO/Ericsson_Logo.png
   project-gallery:
@@ -384,14 +362,13 @@
   - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322131/PROJECT-MODAL/6_Ericsson.jpg
   project-duration: ''
   project-list:
-  - project-name: 'ERICSSON PHILIPPINES 30TH ANNIVERSARY'
+  - project-name: ERICSSON PHILIPPINES 30TH ANNIVERSARY
   project-video-link: lcDtMQvhRwU
-
 - client: Philam Life
-  id: 1
+  id: "1"
   published: true
   logo-type: horizontal-logo
-  project-title: "PHILAM MID-YEAR SALES RALLY 2018"
+  project-title: PHILAM MID-YEAR SALES RALLY 2018
   cover-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537330075/PROJECTS/1_Philam.jpg
   client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1505840283/CLIENT-LOGO/Philam-logo.png
   project-gallery:
@@ -401,7 +378,8 @@
   project-duration: ''
   project-list:
   - project-name: PHILAM MID-YEAR SALES RALLY, AND CS LEGACY AWARDS 2018
-  - project-name: PHILAM CHINESE NEW YEAR CELEBRATION, NATIONAL MUSUEM EVENT, AND TOWNHALL 2018
+  - project-name: PHILAM CHINESE NEW YEAR CELEBRATION, NATIONAL MUSUEM EVENT, AND
+      TOWNHALL 2018
   - project-name: 'PHILAM #LIVEBETTER EXPO AND MEDIA LAUNCH'
   - project-name: PHILAM 70TH ANNIVERSARY
-  project-video-link:
+  project-video-link: 
