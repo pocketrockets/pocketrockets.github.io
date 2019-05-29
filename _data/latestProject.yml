@@ -1,9 +1,4 @@
 ---
-- client: Dell
-  id: "1"
-  published: true
-  project-title: COMICCON ASIA 2018
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537343931/PROJECTS/8_Dell.jpg
 - client: Bayer
   id: "2"
   published: true
@@ -24,11 +19,6 @@
   published: true
   project-title: ERICSSON PHILIPPINES 30TH ANNIVERSARY EVENT
   cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537322357/PROJECTS/4.jpg
-- client: BPI-Philam
-  id: "6"
-  published: true
-  project-title: 2019 SALES KICKOFF
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559099066/PROJECTS/BPI_PHILAM.jpg
 - client: Google Cloud
   id: "7"
   published: true
@@ -39,3 +29,13 @@
   published: true
   project-title: MID-YEAR SALES RALLY 2018
   cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1537329280/1_Philam_gdwusj.jpg
+- client: Cargill
+  id: "1"
+  published: true
+  project-title: 70TH ANNIVERSARY
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559098836/PROJECTS/cargill_preview.jpg
+- client: BPI-Philam
+  id: "6"
+  published: true
+  project-title: 2019 SALES KICKOFF
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559099066/PROJECTS/BPI_PHILAM.jpg
