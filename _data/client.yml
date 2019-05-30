@@ -282,7 +282,7 @@
   logo-type: https://res.cloudinary.com/pocketrocket/image/upload/v1559199986/CLIENT-LOGO/Caronia_Logo.jpg
   project-title: MYSTERY CUSTOMER PROMO
   cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559101911/PROJECTS/Caronia_preview.jpg
-  client-logo: ''
+  client-logo: https://res.cloudinary.com/pocketrocket/image/upload/v1559199986/CLIENT-LOGO/Caronia_Logo.jpg
   project-gallery:
   - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559099631/PROJECT-MODAL/caronia.jpg
   project-duration: ''
