@@ -386,16 +386,14 @@
   id: "1"
   published: true
   logo-type: horizontal-logo
-  project-title: TEST ITEMS
-  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1562827333/PROJECTS/Test_Cover_Image.jpg
+  project-title: 2019 SALES KICKOFF
+  cover-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559101328/PROJECTS/bpi_philam_preview.jpg
   client-logo: http://res.cloudinary.com/pocketrocket/image/upload/v1537326063/CLIENT-LOGO/BPI-Philam_Logo.png
   project-gallery:
-  - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1562827022/PROJECT-MODAL/Test_Gallery_Image.jpg
   - gallery-image: https://res.cloudinary.com/pocketrocket/image/upload/v1559097221/PROJECT-MODAL/bpi_philam.jpg
   - gallery-image: http://res.cloudinary.com/pocketrocket/image/upload/v1537322132/PROJECT-MODAL/2_BPI-Philam.jpg
   project-duration: ''
   project-list:
-  - project-name: New Test Item
   - project-name: BPI-PHILAM 2019 SALES KICKOFF
   - project-name: BPI-PHILAM ANNUAL AWARDS 2018
   project-video-link: ByZ_Els7ojU
